@@ -10,6 +10,10 @@ import NMUtility
 
 set_printoptions(4)
 
+'''
+Attempt to redesign NM classes so that they are more pythonic.
+'''
+
 
 #Define BRS and TB Models
 class BRSModel(object):

@@ -1,2 +1,2 @@
 # NMProject
-Contains Python files for the Neuron Modeling project.
+Contains files for the Neuron Modeling project.

@@ -1,0 +1,130 @@
+
+>how did we simulate (python, odeint, etc)
+
+
+>explain TB and BRS Models (If including full model def, place in appendix?)
+
+>Table of parameter values (Put them all in one place!!!)(okay, split them across multiple tables)
+>discuss any parameter choices that are different from original TB or BRS
+
+>exp. Yan model
+>Table of param vals for Yan model
+>discussion of conversion from ATP to BzATP
+>explain parameter choices
+    >ATP
+    >BzATP conversion Factor?
+
+>tools and methods used to analyze voltage timeseries (open-source BASS module)
+>tools and methods used to analyze time series statistics (Prism, two-way ANOVA?)
+
+
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+
+\usepackage{graphicx}
+
+
+All code was written in Python 2.7, and simulations were performed using the odeint function from the SciPy Library integrate module. Python and SciPy are free-to-download and use. Python 2.7 can be downloaded from https://www.python.org/downloads/ and SciPy can be found at http://www.scipy.org. Simulations were performed on a Mac Book Pro and an HP Z220 Workstation. Simulations were run with a dt of $____ms$.
+
+-----------------------------------------------------------------------------------
+
+<Models>
+In the years since it was published in 1999, the model developed by Butera et al. (hereafter refered to as the BRS model) has become a canonical model of rhythm-generating
+
+
+The BRS model consists of a somatic compartment .
+
+The BRS Model
+\begin{equation}
+C\frac{dV}{dt} = -I_{NaP}-I_{Na}-I_{K}-I_{L}-I_{tonic-e}-I_{syn-e}+I_{app}
+\label{eq:BRS}
+\end{equation}
+
+\begin{eqnarray}
+I_{Na} &=& \bar{g}_{Na}m^3_{\infty}(V)(1 - n)(V - E_{Na})\\
+I_{K} &=& \bar{g}_{K}n^4(V - E_{K})\\
+I_{NaP} &=& \bar{g}_{NaP}m_{\infty}(V)h(V - E_{Na})
+\end{eqnarray}
+
+where the gating variables, h, m, n, and mp, are described by the equation (upon replacing x with h, m, n, or mp):
+
+\begin{equation}
+\frac{dx}{dt} = \frac{x_{\inf} - x}{\overline{\tau_{x}}}cosh\left( \frac{V - v_{x}}{2s_{x}} \right)
+x_{\inf} = (1 + exp(\frac{V - v_{x}}{s_{x}}))^{-1}
+\end{equation}
+
+and the values for the various constants are given in Table <>.
+
+
+The Toporikova-Butera (TB) model extends the BRS model to include a dendritic compartment
+\begin{equation}
+C\frac{dV_{D}}{dt} = I_{CaN} - I_{ds}
+C\frac{dV_{S}}{dt} = I_{net BRS} - I_{sd}
+I_{ds} = \frac{g_{c}}{1-k}(V_{S} -V_{D})
+I_{sd} =\frac{g_{c}}{k}(V_{D} -V_{S})
+I_{CaN} = g_{CaN}f([Ca_{i}])(V_{D} - V_{Na})
+\end{equation}
+
+The $I_{CaN}$ current is
+
+
+
+
+-----------------------------------------------------------------------------------
+
+<Yan>
+Yan et al. posit that the P2X7 receptor has 4 binding sites, but that it begins to conduct when 3 of those sites are occupied. They also believe that the receptor has two conducting states, sensitized and unsensitized, each of which have their own conductance values (see table), for a total of 8 states. What proportion of the receptors are sensitized depends on the ligand concentration and the length of time a receptor is exposed to the ligand. Receptors can become sensitized only when all four binding sites are filled, or desensitized when all binding sites are empty.
+
+\begin{eqnarray}
+\frac{dC_{1}}{dt} &=& k_{1}C_{1} + L_{1}C_{4} - 3k_{2}AC_{1}\\
+\frac{dC_{2}}{dt} &=& 3k_{2}AC_{1} + 2k_{3}Q_{2} - 3k_{2}AC_{1}\\
+\frac{dC_{3}}{dt} &=& 3k_{2}AC_{4} + 2k_{1}Q_{4} - (k_{1} + 2k_{2}A)C_{1}\\
+\frac{dC_{4}}{dt} &=& k_{1}C_{3} - (L_{1} + 3k_{2}A)C_{4}\\
+
+\frac{dQ_{1}}{dt} &=& \\
+\frac{dQ_{2}}{dt} &=& \\
+\frac{dQ_{3}}{dt} &=& \\
+\frac{dQ_{4}}{dt} &=& .
+\end{eqnarray}
+
+Two currents, one for sensitized receptors and the other for unsensitized receptors, account for the biphasic nature of P2X7, which are expressed as
+\begin{eqnarray}
+I_{12} &=& g_{12}(Q_{1}+Q{2})(V-E_{ATP})
+I_{34} &=& g_{34}(Q_{3}+Q_{4})(V-E_{ATP}).
+\end{eqnarray}
+
+The full current contribution from the P2X7 model is therefore,
+
+\begin{eqnarray}
+I_{P2X7} = I_{12} + I_{34},
+\end{eqnarray}
+
+which we can integrate into the TB or BRS model by adding it to the equation for the somatic membrane voltage, as follows:
+
+\begin{eqnarray}
+C\frac{dV}{dt} = I_{net somatic} - I_{P2X7}.
+\end{eqnarray}
+
+%model schematic
+\includegraphics{Yan_P2X7.jpeg}
+
+
+The Yan model is calibrated to BzATP rather than ATP. Since BzATP is reported to be 10 to 50 times more potent an agonist of P2X7 than ATP [sources], but doesn't appear in nature, we had to mathematically convert from ATP to BzATP to make the model more realistic. We opted to do this using a simple multplicative factor on the initial ATP concentration specified.
+
+Each simulation was run with constant value of [ATP], which is unrealistic due to the rapid hydrolization of ATP, unless we assume that ATP is being produced at the same rate that it hydrolyzes.
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------
+<Analysis>
+Timeseries data was analyzed using functions from the open-source python module BASS, developed by Abby Dobyns (A.E. Dobyns?) for analyzing waveform data (Help?).
+<which functions were used to do what?>
+The statistics extracted were interburst interval, burst duration, etc...
+
+We analyzed the extracted timeseries statistics using the data analysis software Prism, developed by GraphPad, with two-way ANOVA tests (p<0.05) to determine statistical significance.

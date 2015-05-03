@@ -1,0 +1,52 @@
+Note - some of my refs are denoted by author and title. In the final version, I will do the citations properly, but this is easier for now.
+Note - Notes to myself are in <>. When you make comments, PLEASE use a similar (but not the same!) scheme to mark the beginings and ends of your comments (for example /* comment */).
+
+
+Introduction
+I.
+Intrinsically bursting pacemaker cells located in a section of the ventrolateral medulla of the brainstemin, called the preBötzinger Complex (pBC), are believed to be a source of respiratory rhythmogenesis [Smith 1991 (Pre-Bötzinger Complex: A Brainstem Region That May Generate Respiratory Rhythm in Mammals)].
+There are three  phenotypes of action potential spiking behavior exhibited in respiratory pacemaker-like/autorhytmic  intrinsically bursting neurons: quiescence (lack of firing), tonic firing (periodic unclustered firing), and bursting (periods of rapid clustered firing punctuated by periods of quiesence). Pacemaker cells produce tonic spiking or bursting. There is no clear deliniation between tonic spiking and bursting, but a gradient in which pacemakers can exhibit a variety of intermediate behaviors, such as short bursts containing only a few spikes per burst, or a mixture of bursting and spiking (ectopic spikes).
+Autorhythmic bursting cells in the PreB\"{o}tC exhibit spontaneous bursting, i.e. bursting that occurs without synaptic input, in order to produce eupenic breathing. Two types of currents are held responsible for creating bursting in pacemaker cells. Blocking both currents can lead to the cesation of eupnea and bursting[Pena].
+
+II.
+Two currents are known to play a major role in production of pacemaker intrinsic bursting behavior: $I_{NaP}$, a slow-inactivating persistent sodium current, and$I_{CaN}$, a non-specific cation current activated by intracellular calcium [Ramirez (The role of spiking and bursting pacemakers in the neuronal control of breathing)]. It has never been proven that pacemakers posses both types of channels, but it is possible, as blocking one of the currents abolishes intrinsic bursting in some pacemaker cells [(The role of spiking and bursting pacemakers in the neuronal control of breathing)] indicating that neither is wholly responsible for bursting behavior in a single pacemaker.
+
+Purinergic signalling also plays a role in respiratory rhythmogenesis [Lorier/Huxtable??]. Pacemaker neurons in the pBC burst with greater frequency in response to ATP application, indicating a current component from P2Y or P2X receptors [Lorier 2008, Huxtable year?]. P2Y1 in particular is believed to impact bursting behavior, however, it is currently unknown what effect, if any, P2X receptors have on pacemaker neurons in the pBC. Although, [Lorier] found that intrinsic bursting continues despite blocking of P2X channels and therefore could not be directly responsible for intrinsic bursting, they were unable to rule out P2XRs as a contributor to bursting behavior. There are 7 P2XR subtypes each with different behaviors, and it is not clear which appear in neurons. Although P2X2 has been suggested by various sources in the liturature [Neuronal P2X receptors: localisation and functional properties], Deuchars et al. report locating P2X7 in medulla oblongata neurons using RT-PCR. We hope to locate P2X7 in neurons of the preBC (personal conversation) in future experiments. P2X7 is a non-selective cation channel related to inflammation, pain, and cell death. At low levels of ligand concentration, it admits only the typical small cations, but at higher levels it has been shown to admit molecules. While the presence of P2X7 in neurons is widely disbelieved, multiple sources [Lorier?][][] acknowledge that it cannot be ruled out altogether.
+
+Butera and co-investigators developed a Hodkin-Huxley style [H&H, 1952 a,b,c] mathematical model of $I_{NaP}$-dependent pacemaker cells [Butera 1999a,b], which Butera and Toporikova extended to include the $I_{CAN}$ current [Toparkikova 2011,2013]. In these models, $I_{NaP}$ causes voltage dependent frequency modulation, but the inclusion of the  $I_{CAN}$ current reduces the voltage dependence of bursting and leads to greater heterogeneity of the burst and interburst intervals across the voltage range found with normal eupneaic breathing/bursting. The BRS model has become a canonical model of rhythm-generating circuits [Ref].
+
+
+We added an additional, purinergic component to the Toporikova model.
+
+III.
+IV.
+
+To calculate the P2X7 current contribution we use a modified version of the Markov model developed by Yan et al. (2010).
+
+
+VI. What effect could the inclusion of a P2X receptor have on the model?
+In Yan et al. the whole cell current is small, from picoamps to nanoamps.
+-depolarize the cell
+<this needs more setup...do I talk about what happens in the TB model when gnaps changes?>
+
+H: We use the BRS/Toparikova model to test the hypothesis that P2X7 current increase the dynamic range of bursting found in the hybrid respiratory neural rhythm-generating neuron.
+We propose that eL will need to be reduced more for the model with the P2X7 component than without, and that P2X7 will not have a significant effect on burst frequency.
+To test this, we vary the conductance of the persistent sodium current, gnaps, and the leak potential, eL, in the Toporikova-Butera model both with and without the P2X7 component. We then analyze the simulated timeseries to extract statistics and compare burst statistics such as burst duration, interburst interval, burst regularity....(etc).
+
+
+
+
+
+
+
+
+Notes:
+
+Regulation of Cellular Atp Release
+(J. Gregory Fitz)
+"Under basal conditions, ATP is present intracellularly in concentrations of 3–5 mM."
+
+
+Snips (things I've removed but don't want to delete):
+
+Additionally, tonic spiking occurs on both sides of the bursting parameter space. It can happen when a cell is not activated enought to produce bursting, or become so strongly activated that the cell spikes tonically at a rapid rate.

@@ -1,0 +1,127 @@
+Introduction
+
+Intrinsically bursting cells in the preBötzinger Complex (pBC) believed to be (a or the?) source of respiratory rhythmogenesis. There are three classes of pattern in action potentials for pacemaker cells, bursting, quiescence, and tonic spiking (continuous firing). Quiescence indicates a total lack of firing by a neuron and tonic spiking refers to firing of neurons at an approximately constant rate, neither of which are conducive to a breathing pattern capable of supporting life [note to self: check Pena et al. 2004, Del Negro et al. 2005]. Only bursting leads to/produces eupneic breathing behavior.[ref?]
+
+Two channels commonly believed to contribute to bursting behavior of preBotC neurons are $I_{CaN}$ current mediated by the IP3 receptor, and a persistent sodium current [Del Negro 2002, Pena and Aguileta 2007 (read these)]. Inap causes voltage dependent frequency modulation, but the inclusion of the Ican component reduces the voltage dependence and leads to greater heterogeneity of burst and inter burst intervals across the voltage range [Toporikova paper or my/hanmin's 'unpublished results].
+
+Purinergic signalling also plays a role in respiratory rhythmogenesis []. Inspiratory neurons in the preBC burst with greater frequency in response to ATP application, indicating a current component from P2Y or P2X receptors [Lorier 2008]. P2Y1 in particular is believed to impact bursting behavior, however, it is currently unknown what effect, if any, P2XRs have on inspiratory neurons in the PreBC. Although, [] found that intrinsic bursting continues despite blocking of P2X channels and therefore could not be directly responsible for intrinsic bursting, they were unable to rule out P2XRs and a contributor to bursting behavior.
+
+
+
+Several sources [Lorier, 2008, 2007][][] note neural excitation due to ATP in the preBC, which is generally attributed to the P2 purinergic receptors.
+
+According to [], the primary source of this excitation is P2YR, however, P2XR play a role, but perhaps not a pivotal one [Funk paper?].
+
+
+[] has claimed that P2X doesn’t have a significant effect on burst frequency. Several models describe the P2X current for a single channel on the order of pico amps or tens of pico amps*, so we expect P2X to make a small contribution to the whole cell current*, particularly if the number of channels on neurons must be small enough to so frequently escape detection. This should result in a modest effect on the membrane voltage, possibly slightly depolarizing the cell, but should result in little to no change in burst frequency, and therefore have marginal possible effect on breathing rhythm.
+
+
+While the presence of P2X7 in neurons is widely disbelieved, multiple sources [][][] acknowledge that it cannot be ruled out altogether.
+
+Although P2X2 and P2X5 are potential P2XRs from the lit, we hope to locate P2X7 in neurons of the preBC (personal conversation) in future experiments (can I give any reason we think P2X7Rs are in neurons of the preBC? ‘Because my PI said so’ isn’t a very professional reason…).
+
+P2X7R found in neurons in the medulla oblongata using RT-PCR [Deuchars et al. 2001]
+
+
+
+Concerns when developing Computational Simulation->Challenges when developing this model->Since we can't be confident of the accurracy, how is this data useful.
+
+Simulations of biological systems can be a useful alternative to costly and time-consuming ‘wet-lab’ experiments (technical term?). At best, such simulations are only as accurate as the mathematical model describing the system. The complexity of biological systems often prohibits detailed models, leading to the use of approximations such as the Hodgkin-Huxley formalism we use for the underlying neuron model we describe here [H&H, 1952 a,b,c].. An additional concern is the addition of realistic noise, as models are highly deterministic without it. Having said that, simulations can still be helpful in approximating system behaviors and test models of systems for accuracy by comparison with real data. Despite these flaws, computational models can make estimates of behavior, and can be used to test the validity of a mathematical description of a system by comparison of model data with experimental data.
+
+The model is based on the Hodgkin-Huxley formalism, where neuron membranes are described as circuits with ion channels represented by resistors in parallel with a parallel capacitor (borrow image from The Hodgin-Huxley Model.pdf?). The voltage changes in accordance to the function, $\frac{dV}{dt} = \frac{1}{C} \left( \sum\limits_{ion} I_{ion} - I_{ext} \right) $. In [], BRS added a persistent sodium current $I_{NaP}$ and in [], TB added a dendritic calcium current $I_{CaN}$.
+
+
+
+
+
+Challenges to modelling P2X
+    -h
+
+~~difficulties of modelling physiologically-real p2x7
+
+P2X7 response to ATP is minimal, so most experiments use BzATP or $ATP^{4-}$.
+
+As ATP4- is ~1% of total ATP, it is easier to extrapolate the relationship between total ATP and the active ligand $ATP^{4-}$, (either ATP4- is a _____ or magnesium blocks ATP binding by producing allosteric conformal changes in receptor shape.). Other experiments using $ATP^{4-}$ were generally single channel experiments [Riedel], and therefore potentially do not capture the complex, biphasic whole cell current produced by P2X7 channels in [Yan].
+
+-BzATP does not occur naturally, so when attempting to develope a physioloically-real model, we must ask if the difference in concentration-dose response between BzATP and ATP is due to differences in molecular structure, or due to more rapid hydrolysis of ATP. We chose to assume the later, that the agonist-dependent difference in current response of P2X7 is due to different hydrolysis rates.
+
+
+
+
+
+########################################
+Methods:
+
+-explain TB and BRS Models (If including full model def, place in appendix?)
+Table of parameter values (Put them all in one place!!!)
+discuss any parameter choices that are different from original TB or BRS
+
+-exp. Yan model
+Table of param vals for Yan model
+discussion of conversion from ATP to BzATP
+
+-explain parameter choices
+    -ATP
+    -BzATP conversion Factor?
+
+-how did we simulate (python, odeint, etc)
+-tools and methods used to analyze voltage timeseries (open-source BASS module)
+-tools and methods used to analyze time series statistics (Prism, two-way ANOVA?)
+
+
+
+
+In [1], Butera, Rinzel, and Smith define a Hodgkin-Huxley style model for persistent sodium current based bursting.
+
+
+
+We extend the models described in [2] by adding the current produced by the Markov model of P2X7 gating in [Yan et al. paper], to the somatic compartment of the Toporikova-Butera Model.
+
+-reference generating papers for Ican and Inap components (for more information on these currents see [1] and [2])
+
+
+(explain Yan model briefly. biphasic current produced by sensitized and unsensitized receptors.)
+
+
+
+
+previous experiments lead to 0.97 as a value for [IP3] that neither squelches voltage-dependent frequency modulation, while also incorporating the affects of the calcium current described by Toporikova and Butera. For gnap, which can modulate
+(possibly run with only inap or only Ican?)
+
+
+
+We define the model in free-to-use Python 2.7, and solve using odeint, the ordinary differential equation integrator function found in Scipy, an open-source scientific-computing library written in Python* (see index/attached .py file/github repo for code).
+
+
+
+
+
+
+########################################
+Paper Quotes:
+
+Subtype-specific control of P2X receptor channel signaling by ATP and Mg2+
+BY: Mufeng Li, Shai D. Silberberg, and Kenton J. Swartz
+"Although a range of important studies have explored the regulatory effects of Ca2+ and Mg2+ on P2X receptor channels (22–30), the essential question of which forms of ATP serve as agonists remains unresolved. Several previous studies have reported that P2X2, P2X7, and the native P2X receptors in cilia are activated by ATP in solutions containing low concentrations of divalent cations, and that the addition of divalent cations shifts the concentration dependence for activation of the channels to higher ATP concentrations, suggesting that either ATP4− is the most active form of ATP or that divalent cations regulate those subtypes through allosteric mechanisms (27, 30–36)."
+
+
+
+
+47. White, T. D. 1977. Direct detection of depolarisation-induced release of ATP from a synaptosomal preparation. Nature 267: 67–68.
+48. Potter, P. and White, T. D. 1980. Release of adenosine 5􏰂-triphosphate from synaptosomes from different regions of rat brain. Neuroscience 5:1351–1356.
+
+
+
+ATP respiratory control 3 part signaling system.pdf
+G.D. Funk et al.
+
+"Neuronal expression of P2X7 remains controversial (Sim et al., 2004)."(132)
+
+"intense P2X2 receptor subunit staining in motoneurons and throughout the ventrolateral medulla,
+including the preBötC (Gourine et al., 2003; Kanjhan et al., 1999; Lorier et al., 2004, 2007; Thomas et al., 2001; Yao et al., 2000);" (132)
+
+"However, neurons in the preBötC of neonatal rat, including some NK1 receptor immunola- beled neurons, show P2X2 receptor labeling (Lorier et al., 2007). P2X1–6 receptors are also present in the NTS, parabrachial nucleus and the A5 noradrenergic cell group (Yao et al., 2000)."(135)
+
+"Finally, even though the preBötC frequency increase is medi- ated by P2Y1 receptors, P2X receptors are likely to mediate ATP currents in some preBötC respiratory neurons. P2X receptors are expressed in the rostral VLM, in inspiratory and expiratory neu- rones that respond to ATP with a PPADS-sensitive increase in discharge (Gourine et al., 2003), and in NK1 receptor-expressing preBötC neurons (Kanjhan et al., 1999; Lorier et al., 2007; Thomas et al., 2001; Yao et al., 2000). Some of the ATP currents evoked in preBötC neurons also have a P2X current profile (Burnstock, 2007), featuring more rapid onset and subunit specific desensitization kinetics."(136)
+
+

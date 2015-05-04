@@ -1,0 +1,32 @@
+,Settings: 2015-04-29 12:58:41.123000
+Absolute Value,False
+Bandpass Highcut,none
+Bandpass Lowcut,none
+Bandpass Polynomial,none
+Baseline Type,static
+Burst Area,False
+Delta,10
+Exclude Edges,True
+File Type,Morgan
+Generate Graphs,False
+Graph LCpro events,False
+Inter-event interval minimum (seconds),0.4
+Label,Yan_all_long.csv
+Linear Fit,False
+Linear Fit-Rolling R,0.75
+Linear Fit-Rolling Window,1000
+Maximum Burst Duration (s),10
+Milliseconds,True
+Minimum Burst Duration (s),0
+Minimum Peak Number,3
+Output Folder,C:\Users\mfinemorris\Desktop\TB and Yan Exp\Long Runs\Analysis
+Peak Maximum,inf
+Peak Minimum,-inf
+Relative Baseline,0
+Rolling Baseline Window,none
+Sample Rate (s/frame),0.0001
+Savitzky-Golay Polynomial,none
+Savitzky-Golay Window Size,none
+Threshold,-40
+folder,C:\Users\mfinemorris\Desktop\TB and Yan Exp\Long Runs
+plots folder,C:\Users\mfinemorris\Desktop\TB and Yan Exp\Long Runs\Analysis/plots

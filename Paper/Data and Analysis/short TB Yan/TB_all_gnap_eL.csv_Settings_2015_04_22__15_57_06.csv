@@ -1,0 +1,32 @@
+,Settings: 2015-04-22 15:57:06.747031
+Absolute Value,False
+Bandpass Highcut,none
+Bandpass Lowcut,none
+Bandpass Polynomial,none
+Baseline Type,static
+Burst Area,False
+Delta,10
+Exclude Edges,True
+File Type,Morgan
+Generate Graphs,False
+Graph LCpro events,False
+Inter-event interval minimum (seconds),0.4
+Label,TB_all_gnap_eL.csv
+Linear Fit,False
+Linear Fit-Rolling R,0.75
+Linear Fit-Rolling Window,1000
+Maximum Burst Duration (s),10
+Milliseconds,True
+Minimum Burst Duration (s),0
+Minimum Peak Number,3
+Output Folder,/Users/morganfine-morris/Documents/IPython Notebooks/Analysis/
+Peak Maximum,inf
+Peak Minimum,-inf
+Relative Baseline,0
+Rolling Baseline Window,none
+Sample Rate (s/frame),0.0001
+Savitzky-Golay Polynomial,none
+Savitzky-Golay Window Size,none
+Threshold,-40
+folder,/Users/morganfine-morris/Documents/IPython Notebooks/
+plots folder,/Users/morganfine-morris/Documents/IPython Notebooks/Analysis//plots

@@ -1,0 +1,61 @@
+Parameter,,,,
+Table Analyzed,Intraburst Freq inv,,,
+,,,,
+Two-way ANOVA,,,,
+,,,,
+Source of Variation,% of total variation,P value,,
+  Interaction,3.66,< 0.0001,,
+  Model,4.19,< 0.0001,,
+  Parameters,87.76,< 0.0001,,
+,,,,
+Source of Variation,P value summary,Significant?,,
+  Interaction,***,Yes,,
+  Model,***,Yes,,
+  Parameters,***,Yes,,
+,,,,
+Source of Variation,Df,Sum-of-squares,Mean square,F
+  Interaction,14,64910,4637,147.4
+  Model,1,74320,74320,2362
+  Parameters,14,1558000,111300,3537
+  Residual,2480,78030,31.46,
+,,,,
+Number of missing values,2320,,,
+,,,,
+Bonferroni posttests,,,,
+,,,,
+TB vs Yan,,,,
+Parameters,TB,Yan,Difference,95% CI of diff.
+  eL=-55.0 gnaps=1.8,57.08,37.74,-19.33,-21.92 to -16.74
+  eL=-55.0 gnaps=2.4,31.51,26.72,-4.796,-7.385 to -2.206
+  eL=-55.0 gnaps=3.0,26.90,26.01,-0.8845,-3.474 to 1.705
+  eL=-55.0 gnaps=3.6,26.75,26.90,0.1546,-2.435 to 2.744
+  eL=-55.0 gnaps=4.2,27.66,28.35,0.6895,-1.900 to 3.279
+  eL=-60.0 gnaps=1.8,74.66,74.54,-0.1195,-2.709 to 2.470
+  eL=-60.0 gnaps=2.4,78.03,58.91,-19.12,-21.71 to -16.53
+  eL=-60.0 gnaps=3.0,58.91,37.26,-21.65,-24.24 to -19.06
+  eL=-60.0 gnaps=3.6,42.76,30.44,-12.32,-14.91 to -9.732
+  eL=-60.0 gnaps=4.2,55.65,28.91,-26.74,-28.99 to -24.50
+  eL=-65.0 gnaps=1.8,76.47,74.72,-1.751,-4.340 to 0.8389
+  eL=-65.0 gnaps=2.4,90.60,85.15,-5.456,-8.046 to -2.867
+  eL=-65.0 gnaps=3.0,97.89,91.92,-5.970,-8.559 to -3.380
+  eL=-65.0 gnaps=3.6,99.97,83.34,-16.63,-19.22 to -14.04
+  eL=-65.0 gnaps=4.2,100.9,70.30,-30.61,-33.20 to -28.02
+,,,,
+,,,,
+,,,,
+Parameters,Difference,t,P value,Summary
+  eL=-55.0 gnaps=1.8,-19.33,21.94,P<0.001,***
+  eL=-55.0 gnaps=2.4,-4.796,5.441,P<0.001,***
+  eL=-55.0 gnaps=3.0,-0.8845,1.003,P > 0.05,ns
+  eL=-55.0 gnaps=3.6,0.1546,0.1754,P > 0.05,ns
+  eL=-55.0 gnaps=4.2,0.6895,0.7823,P > 0.05,ns
+  eL=-60.0 gnaps=1.8,-0.1195,0.1356,P > 0.05,ns
+  eL=-60.0 gnaps=2.4,-19.12,21.69,P<0.001,***
+  eL=-60.0 gnaps=3.0,-21.65,24.56,P<0.001,***
+  eL=-60.0 gnaps=3.6,-12.32,13.98,P<0.001,***
+  eL=-60.0 gnaps=4.2,-26.74,35.00,P<0.001,***
+  eL=-65.0 gnaps=1.8,-1.751,1.986,P > 0.05,ns
+  eL=-65.0 gnaps=2.4,-5.456,6.191,P<0.001,***
+  eL=-65.0 gnaps=3.0,-5.970,6.773,P<0.001,***
+  eL=-65.0 gnaps=3.6,-16.63,18.87,P<0.001,***
+  eL=-65.0 gnaps=4.2,-30.61,34.72,P<0.001,***

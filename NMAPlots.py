@@ -5,6 +5,9 @@ import os, sys
 from matplotlib import pyplot as plt
 
 
+#heat plots
+from heatmap import *
+
 #raster plot
 def raster_plot(peak_sets_temp_x, variable, x_min = 10000, x_max=20000, output_path=''):
     

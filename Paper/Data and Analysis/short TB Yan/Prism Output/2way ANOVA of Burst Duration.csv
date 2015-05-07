@@ -1,0 +1,969 @@
+Parameter,,,,
+Table Analyzed,Burst Duration,,,
+,,,,
+Two-way ANOVA,,,,
+,,,,
+Source of Variation,% of total variation,P value,,
+  Interaction,4.64,< 0.0001,,
+  Parameters,90.53,< 0.0001,,
+  Model,4.24,< 0.0001,,
+,,,,
+Source of Variation,P value summary,Significant?,,
+  Interaction,***,Yes,,
+  Parameters,***,Yes,,
+  Model,***,Yes,,
+,,,,
+Source of Variation,Df,Sum-of-squares,Mean square,F
+  Interaction,14,75.81,5.415,1381
+  Parameters,14,1479,105.6,26940
+  Model,1,69.23,69.23,17660
+  Residual,2480,9.725,0.003921,
+,,,,
+Number of missing values,2320,,,
+,,,,
+Bonferroni posttests,,,,
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.5960,1.371,0.7753,0.7391 to 0.8115
+  Yan,1.012,1.848,0.8364,0.8002 to 0.8726
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.7753,78.79,P<0.001,***
+  Yan,0.8364,85.00,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.5960,1.970,1.374,1.337 to 1.410
+  Yan,1.012,2.332,1.320,1.284 to 1.357
+,,,,
+Model,Difference,t,P value,Summary
+  TB,1.374,139.6,P<0.001,***
+  Yan,1.320,134.2,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.5960,2.313,1.717,1.681 to 1.753
+  Yan,1.012,2.670,1.658,1.622 to 1.694
+,,,,
+Model,Difference,t,P value,Summary
+  TB,1.717,174.5,P<0.001,***
+  Yan,1.658,168.5,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.5960,2.567,1.971,1.935 to 2.007
+  Yan,1.012,2.888,1.876,1.840 to 1.912
+,,,,
+Model,Difference,t,P value,Summary
+  TB,1.971,200.3,P<0.001,***
+  Yan,1.876,190.6,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,0.5960,0.3859,-0.2100,-0.2462 to -0.1738
+  Yan,1.012,0.3877,-0.6242,-0.6604 to -0.5880
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.2100,21.34,P<0.001,***
+  Yan,-0.6242,63.44,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.5960,0.4720,-0.1239,-0.1602 to -0.08773
+  Yan,1.012,0.6454,-0.3665,-0.4027 to -0.3303
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.1239,12.60,P<0.001,***
+  Yan,-0.3665,37.24,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.5960,0.8476,0.2516,0.2154 to 0.2878
+  Yan,1.012,1.269,0.2569,0.2206 to 0.2931
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.2516,25.57,P<0.001,***
+  Yan,0.2569,26.10,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.5960,1.356,0.7605,0.7242 to 0.7967
+  Yan,1.012,1.776,0.7644,0.7282 to 0.8006
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.7605,77.28,P<0.001,***
+  Yan,0.7644,77.68,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.5960,0.5957,-0.0002306,-0.03162 to 0.03116
+  Yan,1.012,2.089,1.077,1.041 to 1.113
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.0002306,0.02703,P > 0.05,ns
+  Yan,1.077,109.4,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,0.5960,0.3226,-0.2734,-0.3096 to -0.2372
+  Yan,1.012,0.3442,-0.6677,-0.7039 to -0.6314
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.2734,27.78,P<0.001,***
+  Yan,-0.6677,67.85,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.5960,0.3720,-0.2239,-0.2602 to -0.1877
+  Yan,1.012,0.3965,-0.6154,-0.6516 to -0.5792
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.2239,22.76,P<0.001,***
+  Yan,-0.6154,62.54,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.5960,0.4263,-0.1697,-0.2059 to -0.1335
+  Yan,1.012,0.4546,-0.5573,-0.5936 to -0.5211
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.1697,17.24,P<0.001,***
+  Yan,-0.5573,56.64,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.5960,0.5028,-0.09317,-0.1294 to -0.05696
+  Yan,1.012,0.6621,-0.3498,-0.3860 to -0.3136
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.09317,9.469,P<0.001,***
+  Yan,-0.3498,35.55,P<0.001,***
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.5960,0.6209,0.02490,-0.01131 to 0.06112
+  Yan,1.012,0.9662,-0.04568,-0.08190 to -0.009471
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.02490,2.531,P < 0.05,*
+  Yan,-0.04568,4.643,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-55.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-55.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,1.371,1.970,0.5984,0.5622 to 0.6346
+  Yan,1.848,2.332,0.4840,0.4478 to 0.5202
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.5984,60.82,P<0.001,***
+  Yan,0.4840,49.19,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-55.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-55.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,1.371,2.313,0.9414,0.9052 to 0.9777
+  Yan,1.848,2.670,0.8216,0.7854 to 0.8578
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.9414,95.68,P<0.001,***
+  Yan,0.8216,83.49,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-55.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.371,2.567,1.196,1.160 to 1.232
+  Yan,1.848,2.888,1.039,1.003 to 1.076
+,,,,
+Model,Difference,t,P value,Summary
+  TB,1.196,121.5,P<0.001,***
+  Yan,1.039,105.6,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,1.371,0.3859,-0.9853,-1.021 to -0.9491
+  Yan,1.848,0.3877,-1.461,-1.497 to -1.424
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.9853,100.1,P<0.001,***
+  Yan,-1.461,148.4,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,1.371,0.4720,-0.8992,-0.9354 to -0.8630
+  Yan,1.848,0.6454,-1.203,-1.239 to -1.167
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.8992,91.38,P<0.001,***
+  Yan,-1.203,122.2,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,1.371,0.8476,-0.5237,-0.5599 to -0.4874
+  Yan,1.848,1.269,-0.5795,-0.6157 to -0.5433
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.5237,53.22,P<0.001,***
+  Yan,-0.5795,58.90,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,1.371,1.356,-0.01482,-0.05103 to 0.02140
+  Yan,1.848,1.776,-0.07197,-0.1082 to -0.03576
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.01482,1.506,P > 0.05,ns
+  Yan,-0.07197,7.314,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.371,0.5957,-0.7755,-0.8069 to -0.7441
+  Yan,1.848,2.089,0.2405,0.2043 to 0.2767
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.7755,90.91,P<0.001,***
+  Yan,0.2405,24.44,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,1.371,0.3226,-1.049,-1.085 to -1.012
+  Yan,1.848,0.3442,-1.504,-1.540 to -1.468
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.049,106.6,P<0.001,***
+  Yan,-1.504,152.9,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,1.371,0.3720,-0.9992,-1.035 to -0.9630
+  Yan,1.848,0.3965,-1.452,-1.488 to -1.416
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.9992,101.5,P<0.001,***
+  Yan,-1.452,147.5,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,1.371,0.4263,-0.9449,-0.9812 to -0.9087
+  Yan,1.848,0.4546,-1.394,-1.430 to -1.358
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.9449,96.03,P<0.001,***
+  Yan,-1.394,141.6,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,1.371,0.5028,-0.8684,-0.9047 to -0.8322
+  Yan,1.848,0.6621,-1.186,-1.222 to -1.150
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.8684,88.26,P<0.001,***
+  Yan,-1.186,120.6,P<0.001,***
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.371,0.6209,-0.7504,-0.7866 to -0.7142
+  Yan,1.848,0.9662,-0.8821,-0.9183 to -0.8458
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.7504,76.26,P<0.001,***
+  Yan,-0.8821,89.64,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-55.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-55.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,1.970,2.313,0.3430,0.3068 to 0.3792
+  Yan,2.332,2.670,0.3376,0.3014 to 0.3738
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.3430,34.86,P<0.001,***
+  Yan,0.3376,34.31,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-55.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.970,2.567,0.5974,0.5612 to 0.6336
+  Yan,2.332,2.888,0.5554,0.5191 to 0.5916
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.5974,60.71,P<0.001,***
+  Yan,0.5554,56.44,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,1.970,0.3859,-1.584,-1.620 to -1.548
+  Yan,2.332,0.3877,-1.945,-1.981 to -1.908
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.584,160.9,P<0.001,***
+  Yan,-1.945,197.6,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,1.970,0.4720,-1.498,-1.534 to -1.461
+  Yan,2.332,0.6454,-1.687,-1.723 to -1.651
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.498,152.2,P<0.001,***
+  Yan,-1.687,171.4,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,1.970,0.8476,-1.122,-1.158 to -1.086
+  Yan,2.332,1.269,-1.064,-1.100 to -1.027
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.122,114.0,P<0.001,***
+  Yan,-1.064,108.1,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,1.970,1.356,-0.6132,-0.6495 to -0.5770
+  Yan,2.332,1.776,-0.5560,-0.5922 to -0.5197
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.6132,62.32,P<0.001,***
+  Yan,-0.5560,56.50,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.970,0.5957,-1.374,-1.405 to -1.343
+  Yan,2.332,2.089,-0.2435,-0.2797 to -0.2073
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.374,161.1,P<0.001,***
+  Yan,-0.2435,24.74,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,1.970,0.3226,-1.647,-1.683 to -1.611
+  Yan,2.332,0.3442,-1.988,-2.024 to -1.952
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.647,167.4,P<0.001,***
+  Yan,-1.988,202.0,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,1.970,0.3720,-1.598,-1.634 to -1.561
+  Yan,2.332,0.3965,-1.936,-1.972 to -1.900
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.598,162.4,P<0.001,***
+  Yan,-1.936,196.7,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,1.970,0.4263,-1.543,-1.580 to -1.507
+  Yan,2.332,0.4546,-1.878,-1.914 to -1.841
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.543,156.8,P<0.001,***
+  Yan,-1.878,190.8,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,1.970,0.5028,-1.467,-1.503 to -1.431
+  Yan,2.332,0.6621,-1.670,-1.706 to -1.634
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.467,149.1,P<0.001,***
+  Yan,-1.670,169.7,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.970,0.6209,-1.349,-1.385 to -1.313
+  Yan,2.332,0.9662,-1.366,-1.402 to -1.330
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.349,137.1,P<0.001,***
+  Yan,-1.366,138.8,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-55.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,2.313,2.567,0.2544,0.2182 to 0.2906
+  Yan,2.670,2.888,0.2178,0.1816 to 0.2540
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.2544,25.85,P<0.001,***
+  Yan,0.2178,22.13,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,2.313,0.3859,-1.927,-1.963 to -1.891
+  Yan,2.670,0.3877,-2.282,-2.318 to -2.246
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.927,195.8,P<0.001,***
+  Yan,-2.282,231.9,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,2.313,0.4720,-1.841,-1.877 to -1.804
+  Yan,2.670,0.6454,-2.024,-2.061 to -1.988
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.841,187.1,P<0.001,***
+  Yan,-2.024,205.7,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,2.313,0.8476,-1.465,-1.501 to -1.429
+  Yan,2.670,1.269,-1.401,-1.437 to -1.365
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.465,148.9,P<0.001,***
+  Yan,-1.401,142.4,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,2.313,1.356,-0.9563,-0.9925 to -0.9201
+  Yan,2.670,1.776,-0.8935,-0.9297 to -0.8573
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.9563,97.18,P<0.001,***
+  Yan,-0.8935,90.81,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,2.313,0.5957,-1.717,-1.748 to -1.686
+  Yan,2.670,2.089,-0.5811,-0.6173 to -0.5448
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.717,201.3,P<0.001,***
+  Yan,-0.5811,59.05,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,2.313,0.3226,-1.990,-2.026 to -1.954
+  Yan,2.670,0.3442,-2.326,-2.362 to -2.289
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.990,202.2,P<0.001,***
+  Yan,-2.326,236.3,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,2.313,0.3720,-1.941,-1.977 to -1.904
+  Yan,2.670,0.3965,-2.273,-2.310 to -2.237
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.941,197.2,P<0.001,***
+  Yan,-2.273,231.0,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,2.313,0.4263,-1.886,-1.923 to -1.850
+  Yan,2.670,0.4546,-2.215,-2.251 to -2.179
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.886,191.7,P<0.001,***
+  Yan,-2.215,225.1,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,2.313,0.5028,-1.810,-1.846 to -1.774
+  Yan,2.670,0.6621,-2.008,-2.044 to -1.972
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.810,183.9,P<0.001,***
+  Yan,-2.008,204.0,P<0.001,***
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,2.313,0.6209,-1.692,-1.728 to -1.656
+  Yan,2.670,0.9662,-1.704,-1.740 to -1.667
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.692,171.9,P<0.001,***
+  Yan,-1.704,173.1,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,2.567,0.3859,-2.181,-2.217 to -2.145
+  Yan,2.888,0.3877,-2.500,-2.536 to -2.464
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-2.181,221.7,P<0.001,***
+  Yan,-2.500,254.1,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,2.567,0.4720,-2.095,-2.131 to -2.059
+  Yan,2.888,0.6454,-2.242,-2.278 to -2.206
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-2.095,212.9,P<0.001,***
+  Yan,-2.242,227.9,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,2.567,0.8476,-1.719,-1.756 to -1.683
+  Yan,2.888,1.269,-1.619,-1.655 to -1.583
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.719,174.7,P<0.001,***
+  Yan,-1.619,164.5,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,2.567,1.356,-1.211,-1.247 to -1.174
+  Yan,2.888,1.776,-1.111,-1.148 to -1.075
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.211,123.0,P<0.001,***
+  Yan,-1.111,112.9,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,2.567,0.5957,-1.971,-2.003 to -1.940
+  Yan,2.888,2.089,-0.7988,-0.8350 to -0.7626
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.971,231.1,P<0.001,***
+  Yan,-0.7988,81.18,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,2.567,0.3226,-2.244,-2.281 to -2.208
+  Yan,2.888,0.3442,-2.543,-2.580 to -2.507
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-2.244,228.1,P<0.001,***
+  Yan,-2.543,258.5,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,2.567,0.3720,-2.195,-2.231 to -2.159
+  Yan,2.888,0.3965,-2.491,-2.527 to -2.455
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-2.195,223.1,P<0.001,***
+  Yan,-2.491,253.2,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,2.567,0.4263,-2.141,-2.177 to -2.105
+  Yan,2.888,0.4546,-2.433,-2.469 to -2.397
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-2.141,217.6,P<0.001,***
+  Yan,-2.433,247.3,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,2.567,0.5028,-2.064,-2.100 to -2.028
+  Yan,2.888,0.6621,-2.226,-2.262 to -2.189
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-2.064,209.8,P<0.001,***
+  Yan,-2.226,226.2,P<0.001,***
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,2.567,0.6209,-1.946,-1.982 to -1.910
+  Yan,2.888,0.9662,-1.921,-1.958 to -1.885
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.946,197.8,P<0.001,***
+  Yan,-1.921,195.3,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=2.4,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.3859,0.4720,0.08607,0.04986 to 0.1223
+  Yan,0.3877,0.6454,0.2578,0.2215 to 0.2940
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.08607,8.747,P<0.001,***
+  Yan,0.2578,26.19,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=3.0,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.3859,0.8476,0.4616,0.4254 to 0.4978
+  Yan,0.3877,1.269,0.8811,0.8449 to 0.9173
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.4616,46.91,P<0.001,***
+  Yan,0.8811,89.54,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.3859,1.356,0.9705,0.9343 to 1.007
+  Yan,0.3877,1.776,1.389,1.352 to 1.425
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.9705,98.63,P<0.001,***
+  Yan,1.389,141.1,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.3859,0.5957,0.2098,0.1784 to 0.2412
+  Yan,0.3877,2.089,1.701,1.665 to 1.737
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.2098,24.59,P<0.001,***
+  Yan,1.701,172.9,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,0.3859,0.3226,-0.06335,-0.09957 to -0.02714
+  Yan,0.3877,0.3442,-0.04344,-0.07965 to -0.007225
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.06335,6.439,P<0.001,***
+  Yan,-0.04344,4.414,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.3859,0.3720,-0.01393,-0.05014 to 0.02228
+  Yan,0.3877,0.3965,0.008858,-0.02735 to 0.04507
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.01393,1.416,P > 0.05,ns
+  Yan,0.008858,0.9002,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.3859,0.4263,0.04034,0.004125 to 0.07655
+  Yan,0.3877,0.4546,0.06688,0.03066 to 0.1031
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.04034,4.099,P<0.001,***
+  Yan,0.06688,6.796,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.3859,0.5028,0.1168,0.08063 to 0.1531
+  Yan,0.3877,0.6621,0.2744,0.2382 to 0.3106
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1168,11.87,P<0.001,***
+  Yan,0.2744,27.89,P<0.001,***
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.3859,0.6209,0.2349,0.1987 to 0.2711
+  Yan,0.3877,0.9662,0.5785,0.5423 to 0.6148
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.2349,23.87,P<0.001,***
+  Yan,0.5785,58.80,P<0.001,***
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-60.0 gnaps=3.0,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.4720,0.8476,0.3756,0.3393 to 0.4118
+  Yan,0.6454,1.269,0.6233,0.5871 to 0.6595
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.3756,38.17,P<0.001,***
+  Yan,0.6233,63.35,P<0.001,***
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.4720,1.356,0.8844,0.8482 to 0.9206
+  Yan,0.6454,1.776,1.131,1.095 to 1.167
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.8844,89.88,P<0.001,***
+  Yan,1.131,114.9,P<0.001,***
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.4720,0.5957,0.1237,0.09232 to 0.1551
+  Yan,0.6454,2.089,1.443,1.407 to 1.480
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1237,14.50,P<0.001,***
+  Yan,1.443,146.7,P<0.001,***
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,0.4720,0.3226,-0.1494,-0.1856 to -0.1132
+  Yan,0.6454,0.3442,-0.3012,-0.3374 to -0.2650
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.1494,15.19,P<0.001,***
+  Yan,-0.3012,30.61,P<0.001,***
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.4720,0.3720,-0.1000,-0.1362 to -0.06379
+  Yan,0.6454,0.3965,-0.2489,-0.2851 to -0.2127
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.1000,10.16,P<0.001,***
+  Yan,-0.2489,25.29,P<0.001,***
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.4720,0.4263,-0.04573,-0.08195 to -0.009521
+  Yan,0.6454,0.4546,-0.1909,-0.2271 to -0.1547
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.04573,4.648,P<0.001,***
+  Yan,-0.1909,19.40,P<0.001,***
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.4720,0.5028,0.03077,-0.005442 to 0.06698
+  Yan,0.6454,0.6621,0.01663,-0.01958 to 0.05285
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.03077,3.127,P<0.01,**
+  Yan,0.01663,1.690,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.4720,0.6209,0.1488,0.1126 to 0.1851
+  Yan,0.6454,0.9662,0.3208,0.2846 to 0.3570
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1488,15.13,P<0.001,***
+  Yan,0.3208,32.60,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-60.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=3.0,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.8476,1.356,0.5088,0.4726 to 0.5451
+  Yan,1.269,1.776,0.5075,0.4713 to 0.5438
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.5088,51.71,P<0.001,***
+  Yan,0.5075,51.58,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=3.0,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.8476,0.5957,-0.2518,-0.2832 to -0.2205
+  Yan,1.269,2.089,0.8200,0.7838 to 0.8562
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.2518,29.52,P<0.001,***
+  Yan,0.8200,83.34,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,0.8476,0.3226,-0.5250,-0.5612 to -0.4888
+  Yan,1.269,0.3442,-0.9245,-0.9607 to -0.8883
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.5250,53.35,P<0.001,***
+  Yan,-0.9245,93.96,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.8476,0.3720,-0.4756,-0.5118 to -0.4393
+  Yan,1.269,0.3965,-0.8722,-0.9084 to -0.8360
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.4756,48.33,P<0.001,***
+  Yan,-0.8722,88.64,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.8476,0.4263,-0.4213,-0.4575 to -0.3851
+  Yan,1.269,0.4546,-0.8142,-0.8504 to -0.7780
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.4213,42.81,P<0.001,***
+  Yan,-0.8142,82.75,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.8476,0.5028,-0.3448,-0.3810 to -0.3086
+  Yan,1.269,0.6621,-0.6067,-0.6429 to -0.5705
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.3448,35.04,P<0.001,***
+  Yan,-0.6067,61.66,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.8476,0.6209,-0.2267,-0.2629 to -0.1905
+  Yan,1.269,0.9662,-0.3025,-0.3388 to -0.2663
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.2267,23.04,P<0.001,***
+  Yan,-0.3025,30.75,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-60.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=3.6,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.356,0.5957,-0.7607,-0.7921 to -0.7293
+  Yan,1.776,2.089,0.3125,0.2763 to 0.3487
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.7607,89.17,P<0.001,***
+  Yan,0.3125,31.76,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,1.356,0.3226,-1.034,-1.070 to -0.9976
+  Yan,1.776,0.3442,-1.432,-1.468 to -1.396
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-1.034,105.1,P<0.001,***
+  Yan,-1.432,145.5,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,1.356,0.3720,-0.9844,-1.021 to -0.9482
+  Yan,1.776,0.3965,-1.380,-1.416 to -1.344
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.9844,100.0,P<0.001,***
+  Yan,-1.380,140.2,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,1.356,0.4263,-0.9301,-0.9663 to -0.8939
+  Yan,1.776,0.4546,-1.322,-1.358 to -1.286
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.9301,94.53,P<0.001,***
+  Yan,-1.322,134.3,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,1.356,0.5028,-0.8536,-0.8898 to -0.8174
+  Yan,1.776,0.6621,-1.114,-1.150 to -1.078
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.8536,86.75,P<0.001,***
+  Yan,-1.114,113.2,P<0.001,***
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,1.356,0.6209,-0.7356,-0.7718 to -0.6993
+  Yan,1.776,0.9662,-0.8101,-0.8463 to -0.7739
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.7356,74.75,P<0.001,***
+  Yan,-0.8101,82.33,P<0.001,***
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=1.8,,,,
+Model,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  TB,0.5957,0.3226,-0.2731,-0.3045 to -0.2417
+  Yan,2.089,0.3442,-1.745,-1.781 to -1.708
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.2731,32.02,P<0.001,***
+  Yan,-1.745,177.3,P<0.001,***
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.5957,0.3720,-0.2237,-0.2551 to -0.1923
+  Yan,2.089,0.3965,-1.692,-1.728 to -1.656
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.2237,26.23,P<0.001,***
+  Yan,-1.692,172.0,P<0.001,***
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.5957,0.4263,-0.1694,-0.2008 to -0.1381
+  Yan,2.089,0.4546,-1.634,-1.670 to -1.598
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.1694,19.86,P<0.001,***
+  Yan,-1.634,166.1,P<0.001,***
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.5957,0.5028,-0.09294,-0.1243 to -0.06155
+  Yan,2.089,0.6621,-1.427,-1.463 to -1.391
+,,,,
+Model,Difference,t,P value,Summary
+  TB,-0.09294,10.90,P<0.001,***
+  Yan,-1.427,145.0,P<0.001,***
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.5957,0.6209,0.02513,-0.006259 to 0.05653
+  Yan,2.089,0.9662,-1.123,-1.159 to -1.086
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.02513,2.946,P<0.01,**
+  Yan,-1.123,114.1,P<0.001,***
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=2.4,,,,
+Model,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  TB,0.3226,0.3720,0.04942,0.01321 to 0.08563
+  Yan,0.3442,0.3965,0.05230,0.01608 to 0.08851
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.04942,5.023,P<0.001,***
+  Yan,0.05230,5.315,P<0.001,***
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.3226,0.4263,0.1037,0.06748 to 0.1399
+  Yan,0.3442,0.4546,0.1103,0.07410 to 0.1465
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1037,10.54,P<0.001,***
+  Yan,0.1103,11.21,P<0.001,***
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.3226,0.5028,0.1802,0.1440 to 0.2164
+  Yan,0.3442,0.6621,0.3178,0.2816 to 0.3540
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1802,18.31,P<0.001,***
+  Yan,0.3178,32.30,P<0.001,***
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.3226,0.6209,0.2983,0.2621 to 0.3345
+  Yan,0.3442,0.9662,0.6220,0.5858 to 0.6582
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.2983,30.31,P<0.001,***
+  Yan,0.6220,63.21,P<0.001,***
+,,,,
+eL=-65.0 gnaps=2.4 vs eL=-65.0 gnaps=3.0,,,,
+Model,eL=-65.0 gnaps=2.4,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  TB,0.3720,0.4263,0.05427,0.01806 to 0.09048
+  Yan,0.3965,0.4546,0.05802,0.02181 to 0.09423
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.05427,5.515,P<0.001,***
+  Yan,0.05802,5.896,P<0.001,***
+,,,,
+eL=-65.0 gnaps=2.4 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-65.0 gnaps=2.4,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.3720,0.5028,0.1308,0.09456 to 0.1670
+  Yan,0.3965,0.6621,0.2655,0.2293 to 0.3017
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1308,13.29,P<0.001,***
+  Yan,0.2655,26.98,P<0.001,***
+,,,,
+eL=-65.0 gnaps=2.4 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-65.0 gnaps=2.4,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.3720,0.6209,0.2489,0.2126 to 0.2851
+  Yan,0.3965,0.9662,0.5697,0.5335 to 0.6059
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.2489,25.29,P<0.001,***
+  Yan,0.5697,57.90,P<0.001,***
+,,,,
+eL=-65.0 gnaps=3.0 vs eL=-65.0 gnaps=3.6,,,,
+Model,eL=-65.0 gnaps=3.0,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  TB,0.4263,0.5028,0.07650,0.04029 to 0.1127
+  Yan,0.4546,0.6621,0.2075,0.1713 to 0.2437
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.07650,7.775,P<0.001,***
+  Yan,0.2075,21.09,P<0.001,***
+,,,,
+eL=-65.0 gnaps=3.0 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-65.0 gnaps=3.0,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.4263,0.6209,0.1946,0.1584 to 0.2308
+  Yan,0.4546,0.9662,0.5117,0.4755 to 0.5479
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1946,19.77,P<0.001,***
+  Yan,0.5117,52.00,P<0.001,***
+,,,,
+eL=-65.0 gnaps=3.6 vs eL=-65.0 gnaps=4.2,,,,
+Model,eL=-65.0 gnaps=3.6,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  TB,0.5028,0.6209,0.1181,0.08187 to 0.1543
+  Yan,0.6621,0.9662,0.3042,0.2679 to 0.3404
+,,,,
+Model,Difference,t,P value,Summary
+  TB,0.1181,12.00,P<0.001,***
+  Yan,0.3042,30.91,P<0.001,***

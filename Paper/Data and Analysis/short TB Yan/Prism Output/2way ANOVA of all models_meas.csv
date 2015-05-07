@@ -1,0 +1,2649 @@
+Parameter,,,,
+Table Analyzed,all models/meas,,,
+,,,,
+Two-way ANOVA,,,,
+,,,,
+Source of Variation,% of total variation,P value,,
+  Interaction,19.12,< 0.0001,,
+  Parameters,2.47,< 0.0001,,
+  model/measure,77.35,< 0.0001,,
+,,,,
+Source of Variation,P value summary,Significant?,,
+  Interaction,***,Yes,,
+  Parameters,***,Yes,,
+  model/measure,***,Yes,,
+,,,,
+Source of Variation,Df,Sum-of-squares,Mean square,F
+  Interaction,126,1893000,15020,1780
+  Parameters,14,245000,17500,2073
+  model/measure,9,7659000,851000,100800
+  Residual,12340,104200,8.442,
+,,,,
+Number of missing values,11660,,,
+,,,,
+Bonferroni posttests,,,,
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,1.371,0.7753,-1.082 to 2.633
+  Burst Duration: Yan,1.012,1.848,0.8364,-1.021 to 2.694
+  Interburst Interval: TB,3.134,2.360,-0.7741,-2.643 to 1.095
+  Interburst Interval: Yan,2.716,1.877,-0.8390,-2.708 to 1.030
+  Intraburst Frequency: TB,57.08,31.51,-25.57,-27.42 to -23.71
+  Intraburst Frequency: Yan,37.74,26.72,-11.03,-12.89 to -9.171
+  Peaks per Burst: TB,34.01,43.22,9.210,7.352 to 11.07
+  Peaks per Burst: Yan,38.12,49.31,11.19,9.328 to 13.04
+  Total Cycle Time: TB,3.730,3.731,0.001186,-1.868 to 1.870
+  Total Cycle Time: Yan,3.728,3.725,-0.002661,-1.872 to 1.866
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.7753,1.698,P > 0.05,ns
+  Burst Duration: Yan,0.8364,1.832,P > 0.05,ns
+  Interburst Interval: TB,-0.7741,1.685,P > 0.05,ns
+  Interburst Interval: Yan,-0.8390,1.826,P > 0.05,ns
+  Intraburst Frequency: TB,-25.57,56.00,P<0.001,***
+  Intraburst Frequency: Yan,-11.03,24.15,P<0.001,***
+  Peaks per Burst: TB,9.210,20.17,P<0.001,***
+  Peaks per Burst: Yan,11.19,24.50,P<0.001,***
+  Total Cycle Time: TB,0.001186,0.002581,P > 0.05,ns
+  Total Cycle Time: Yan,-0.002661,0.005792,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,1.970,1.374,-0.4838 to 3.231
+  Burst Duration: Yan,1.012,2.332,1.320,-0.5372 to 3.178
+  Interburst Interval: TB,3.134,1.754,-1.380,-3.249 to 0.4895
+  Interburst Interval: Yan,2.716,1.387,-1.329,-3.198 to 0.5405
+  Intraburst Frequency: TB,57.08,26.90,-30.18,-32.04 to -28.32
+  Intraburst Frequency: Yan,37.74,26.01,-11.73,-13.59 to -9.873
+  Peaks per Burst: TB,34.01,52.84,18.83,16.97 to 20.68
+  Peaks per Burst: Yan,38.12,60.42,22.30,20.44 to 24.15
+  Total Cycle Time: TB,3.730,3.724,-0.005466,-1.875 to 1.864
+  Total Cycle Time: Yan,3.728,3.719,-0.008344,-1.877 to 1.861
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,1.374,3.009,P < 0.05,*
+  Burst Duration: Yan,1.320,2.892,P < 0.05,*
+  Interburst Interval: TB,-1.380,3.003,P < 0.05,*
+  Interburst Interval: Yan,-1.329,2.892,P < 0.05,*
+  Intraburst Frequency: TB,-30.18,66.10,P<0.001,***
+  Intraburst Frequency: Yan,-11.73,25.69,P<0.001,***
+  Peaks per Burst: TB,18.83,41.24,P<0.001,***
+  Peaks per Burst: Yan,22.30,48.83,P<0.001,***
+  Total Cycle Time: TB,-0.005466,0.01190,P > 0.05,ns
+  Total Cycle Time: Yan,-0.008344,0.01816,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,2.313,1.717,-0.1408 to 3.574
+  Burst Duration: Yan,1.012,2.670,1.658,-0.1996 to 3.515
+  Interburst Interval: TB,3.134,1.407,-1.727,-3.596 to 0.1424
+  Interburst Interval: Yan,2.716,1.046,-1.670,-3.539 to 0.1993
+  Intraburst Frequency: TB,57.08,26.75,-30.33,-32.19 to -28.47
+  Intraburst Frequency: Yan,37.74,26.90,-10.84,-12.70 to -8.985
+  Peaks per Burst: TB,34.01,61.54,27.53,25.67 to 29.39
+  Peaks per Burst: Yan,38.12,71.41,33.28,31.43 to 35.14
+  Total Cycle Time: TB,3.730,3.720,-0.01004,-1.879 to 1.859
+  Total Cycle Time: Yan,3.728,3.716,-0.01199,-1.881 to 1.857
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,1.717,3.760,P<0.01,**
+  Burst Duration: Yan,1.658,3.631,P<0.01,**
+  Interburst Interval: TB,-1.727,3.759,P<0.01,**
+  Interburst Interval: Yan,-1.670,3.635,P<0.01,**
+  Intraburst Frequency: TB,-30.33,66.43,P<0.001,***
+  Intraburst Frequency: Yan,-10.84,23.75,P<0.001,***
+  Peaks per Burst: TB,27.53,60.30,P<0.001,***
+  Peaks per Burst: Yan,33.28,72.90,P<0.001,***
+  Total Cycle Time: TB,-0.01004,0.02184,P > 0.05,ns
+  Total Cycle Time: Yan,-0.01199,0.02609,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-55.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,2.567,1.971,0.1136 to 3.829
+  Burst Duration: Yan,1.012,2.888,1.876,0.01819 to 3.733
+  Interburst Interval: TB,3.134,1.150,-1.984,-3.853 to -0.1150
+  Interburst Interval: Yan,2.716,0.8258,-1.890,-3.759 to -0.02089
+  Intraburst Frequency: TB,57.08,27.66,-29.42,-31.27 to -27.56
+  Intraburst Frequency: Yan,37.74,28.35,-9.392,-11.25 to -7.535
+  Peaks per Burst: TB,34.01,70.52,36.51,34.65 to 38.36
+  Peaks per Burst: Yan,38.12,81.27,43.15,41.29 to 45.01
+  Total Cycle Time: TB,3.730,3.717,-0.01309,-1.882 to 1.856
+  Total Cycle Time: Yan,3.728,3.713,-0.01450,-1.884 to 1.855
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,1.971,4.317,P<0.001,***
+  Burst Duration: Yan,1.876,4.108,P<0.001,***
+  Interburst Interval: TB,-1.984,4.319,P<0.001,***
+  Interburst Interval: Yan,-1.890,4.114,P<0.001,***
+  Intraburst Frequency: TB,-29.42,64.43,P<0.001,***
+  Intraburst Frequency: Yan,-9.392,20.57,P<0.001,***
+  Peaks per Burst: TB,36.51,79.96,P<0.001,***
+  Peaks per Burst: Yan,43.15,94.51,P<0.001,***
+  Total Cycle Time: TB,-0.01309,0.02849,P > 0.05,ns
+  Total Cycle Time: Yan,-0.01450,0.03156,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.3859,-0.2100,-2.068 to 1.648
+  Burst Duration: Yan,1.012,0.3877,-0.6242,-2.482 to 1.233
+  Interburst Interval: TB,3.134,3.343,0.2091,-1.660 to 2.078
+  Interburst Interval: Yan,2.716,3.341,0.6252,-1.244 to 2.494
+  Intraburst Frequency: TB,57.08,74.66,17.58,15.72 to 19.44
+  Intraburst Frequency: Yan,37.74,74.54,36.80,34.94 to 38.65
+  Peaks per Burst: TB,34.01,28.83,-5.185,-7.043 to -3.328
+  Peaks per Burst: Yan,38.12,28.90,-9.222,-11.08 to -7.365
+  Total Cycle Time: TB,3.730,3.729,-0.0009041,-1.870 to 1.868
+  Total Cycle Time: Yan,3.728,3.729,0.0008860,-1.868 to 1.870
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.2100,0.4600,P > 0.05,ns
+  Burst Duration: Yan,-0.6242,1.367,P > 0.05,ns
+  Interburst Interval: TB,0.2091,0.4552,P > 0.05,ns
+  Interburst Interval: Yan,0.6252,1.361,P > 0.05,ns
+  Intraburst Frequency: TB,17.58,38.51,P<0.001,***
+  Intraburst Frequency: Yan,36.80,80.59,P<0.001,***
+  Peaks per Burst: TB,-5.185,11.36,P<0.001,***
+  Peaks per Burst: Yan,-9.222,20.20,P<0.001,***
+  Total Cycle Time: TB,-0.0009041,0.001968,P > 0.05,ns
+  Total Cycle Time: Yan,0.0008860,0.001928,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.4720,-0.1239,-1.981 to 1.734
+  Burst Duration: Yan,1.012,0.6454,-0.3665,-2.224 to 1.491
+  Interburst Interval: TB,3.134,3.256,0.1220,-1.747 to 1.991
+  Interburst Interval: Yan,2.716,3.080,0.3644,-1.505 to 2.234
+  Intraburst Frequency: TB,57.08,78.03,20.95,19.09 to 22.81
+  Intraburst Frequency: Yan,37.74,58.91,21.16,19.31 to 23.02
+  Peaks per Burst: TB,34.01,36.84,2.827,0.9696 to 4.685
+  Peaks per Burst: Yan,38.12,37.95,-0.1728,-2.030 to 1.685
+  Total Cycle Time: TB,3.730,3.728,-0.001922,-1.871 to 1.867
+  Total Cycle Time: Yan,3.728,3.726,-0.002099,-1.871 to 1.867
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.1239,0.2715,P > 0.05,ns
+  Burst Duration: Yan,-0.3665,0.8027,P > 0.05,ns
+  Interburst Interval: TB,0.1220,0.2657,P > 0.05,ns
+  Interburst Interval: Yan,0.3644,0.7933,P > 0.05,ns
+  Intraburst Frequency: TB,20.95,45.89,P<0.001,***
+  Intraburst Frequency: Yan,21.16,46.35,P<0.001,***
+  Peaks per Burst: TB,2.827,6.192,P<0.001,***
+  Peaks per Burst: Yan,-0.1728,0.3786,P > 0.05,ns
+  Total Cycle Time: TB,-0.001922,0.004184,P > 0.05,ns
+  Total Cycle Time: Yan,-0.002099,0.004569,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.8476,0.2516,-1.606 to 2.109
+  Burst Duration: Yan,1.012,1.269,0.2569,-1.601 to 2.114
+  Interburst Interval: TB,3.134,2.876,-0.2575,-2.127 to 1.612
+  Interburst Interval: Yan,2.716,2.451,-0.2649,-2.134 to 1.604
+  Intraburst Frequency: TB,57.08,58.91,1.836,-0.02192 to 3.693
+  Intraburst Frequency: Yan,37.74,37.26,-0.4813,-2.339 to 1.376
+  Peaks per Burst: TB,34.01,49.81,15.80,13.94 to 17.66
+  Peaks per Burst: Yan,38.12,46.99,8.864,7.007 to 10.72
+  Total Cycle Time: TB,3.730,3.724,-0.005997,-1.875 to 1.863
+  Total Cycle Time: Yan,3.728,3.720,-0.008185,-1.877 to 1.861
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.2516,0.5511,P > 0.05,ns
+  Burst Duration: Yan,0.2569,0.5626,P > 0.05,ns
+  Interburst Interval: TB,-0.2575,0.5606,P > 0.05,ns
+  Interburst Interval: Yan,-0.2649,0.5766,P > 0.05,ns
+  Intraburst Frequency: TB,1.836,4.020,P<0.001,***
+  Intraburst Frequency: Yan,-0.4813,1.054,P > 0.05,ns
+  Peaks per Burst: TB,15.80,34.61,P<0.001,***
+  Peaks per Burst: Yan,8.864,19.41,P<0.001,***
+  Total Cycle Time: TB,-0.005997,0.01305,P > 0.05,ns
+  Total Cycle Time: Yan,-0.008185,0.01782,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,1.356,0.7605,-1.097 to 2.618
+  Burst Duration: Yan,1.012,1.776,0.7644,-1.093 to 2.622
+  Interburst Interval: TB,3.134,2.367,-0.7667,-2.636 to 1.102
+  Interburst Interval: Yan,2.716,1.944,-0.7719,-2.641 to 1.097
+  Intraburst Frequency: TB,57.08,42.76,-14.31,-16.17 to -12.46
+  Intraburst Frequency: Yan,37.74,30.44,-7.301,-9.158 to -5.443
+  Peaks per Burst: TB,34.01,57.93,23.91,22.06 to 25.77
+  Peaks per Burst: Yan,38.12,53.85,15.73,13.87 to 17.59
+  Total Cycle Time: TB,3.730,3.723,-0.006304,-1.875 to 1.863
+  Total Cycle Time: Yan,3.728,3.720,-0.007839,-1.877 to 1.861
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.7605,1.666,P > 0.05,ns
+  Burst Duration: Yan,0.7644,1.674,P > 0.05,ns
+  Interburst Interval: TB,-0.7667,1.669,P > 0.05,ns
+  Interburst Interval: Yan,-0.7719,1.680,P > 0.05,ns
+  Intraburst Frequency: TB,-14.31,31.35,P<0.001,***
+  Intraburst Frequency: Yan,-7.301,15.99,P<0.001,***
+  Peaks per Burst: TB,23.91,52.38,P<0.001,***
+  Peaks per Burst: Yan,15.73,34.45,P<0.001,***
+  Total Cycle Time: TB,-0.006304,0.01372,P > 0.05,ns
+  Total Cycle Time: Yan,-0.007839,0.01706,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.5957,-0.0002306,-1.611 to 1.610
+  Burst Duration: Yan,1.012,2.089,1.077,-0.7806 to 2.934
+  Interburst Interval: TB,3.134,1.274,-1.860,-3.478 to -0.2409
+  Interburst Interval: Yan,2.716,1.632,-1.083,-2.953 to 0.7856
+  Intraburst Frequency: TB,57.08,55.65,-1.428,-3.038 to 0.1826
+  Intraburst Frequency: Yan,37.74,28.91,-8.835,-10.69 to -6.977
+  Peaks per Burst: TB,34.01,32.20,-1.814,-3.424 to -0.2032
+  Peaks per Burst: Yan,38.12,60.23,22.11,20.25 to 23.97
+  Total Cycle Time: TB,3.730,1.870,-1.859,-3.478 to -0.2408
+  Total Cycle Time: Yan,3.728,3.721,-0.006755,-1.876 to 1.862
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.0002306,0.0005825,P > 0.05,ns
+  Burst Duration: Yan,1.077,2.359,P > 0.05,ns
+  Interburst Interval: TB,-1.860,4.674,P<0.001,***
+  Interburst Interval: Yan,-1.083,2.358,P > 0.05,ns
+  Intraburst Frequency: TB,-1.428,3.607,P<0.01,**
+  Intraburst Frequency: Yan,-8.835,19.35,P<0.001,***
+  Peaks per Burst: TB,-1.814,4.582,P<0.001,***
+  Peaks per Burst: Yan,22.11,48.43,P<0.001,***
+  Total Cycle Time: TB,-1.859,4.674,P<0.001,***
+  Total Cycle Time: Yan,-0.006755,0.01470,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.3226,-0.2734,-2.131 to 1.584
+  Burst Duration: Yan,1.012,0.3442,-0.6677,-2.525 to 1.190
+  Interburst Interval: TB,3.134,3.406,0.2724,-1.597 to 2.142
+  Interburst Interval: Yan,2.716,3.384,0.6687,-1.200 to 2.538
+  Intraburst Frequency: TB,57.08,76.47,19.39,17.54 to 21.25
+  Intraburst Frequency: Yan,37.74,74.72,36.98,35.12 to 38.83
+  Peaks per Burst: TB,34.01,24.73,-9.284,-11.14 to -7.426
+  Peaks per Burst: Yan,38.12,25.77,-12.36,-14.22 to -10.50
+  Total Cycle Time: TB,3.730,3.729,-0.0009911,-1.870 to 1.868
+  Total Cycle Time: Yan,3.728,3.729,0.0009749,-1.868 to 1.870
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.2734,0.5987,P > 0.05,ns
+  Burst Duration: Yan,-0.6677,1.462,P > 0.05,ns
+  Interburst Interval: TB,0.2724,0.5930,P > 0.05,ns
+  Interburst Interval: Yan,0.6687,1.456,P > 0.05,ns
+  Intraburst Frequency: TB,19.39,42.48,P<0.001,***
+  Intraburst Frequency: Yan,36.98,80.99,P<0.001,***
+  Peaks per Burst: TB,-9.284,20.33,P<0.001,***
+  Peaks per Burst: Yan,-12.36,27.07,P<0.001,***
+  Total Cycle Time: TB,-0.0009911,0.002157,P > 0.05,ns
+  Total Cycle Time: Yan,0.0009749,0.002122,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.3720,-0.2239,-2.081 to 1.634
+  Burst Duration: Yan,1.012,0.3965,-0.6154,-2.473 to 1.242
+  Interburst Interval: TB,3.134,3.357,0.2231,-1.646 to 2.092
+  Interburst Interval: Yan,2.716,3.332,0.6164,-1.253 to 2.486
+  Intraburst Frequency: TB,57.08,90.60,33.52,31.67 to 35.38
+  Intraburst Frequency: Yan,37.74,85.15,47.40,45.54 to 49.26
+  Peaks per Burst: TB,34.01,33.74,-0.2716,-2.129 to 1.586
+  Peaks per Burst: Yan,38.12,33.79,-4.333,-6.191 to -2.476
+  Total Cycle Time: TB,3.730,3.729,-0.0009110,-1.870 to 1.868
+  Total Cycle Time: Yan,3.728,3.729,0.0009708,-1.868 to 1.870
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.2239,0.4905,P > 0.05,ns
+  Burst Duration: Yan,-0.6154,1.348,P > 0.05,ns
+  Interburst Interval: TB,0.2231,0.4855,P > 0.05,ns
+  Interburst Interval: Yan,0.6164,1.342,P > 0.05,ns
+  Intraburst Frequency: TB,33.52,73.43,P<0.001,***
+  Intraburst Frequency: Yan,47.40,103.8,P<0.001,***
+  Peaks per Burst: TB,-0.2716,0.5949,P > 0.05,ns
+  Peaks per Burst: Yan,-4.333,9.491,P<0.001,***
+  Total Cycle Time: TB,-0.0009110,0.001983,P > 0.05,ns
+  Total Cycle Time: Yan,0.0009708,0.002113,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.4263,-0.1697,-2.027 to 1.688
+  Burst Duration: Yan,1.012,0.4546,-0.5573,-2.415 to 1.300
+  Interburst Interval: TB,3.134,3.302,0.1687,-1.700 to 2.038
+  Interburst Interval: Yan,2.716,3.274,0.5578,-1.311 to 2.427
+  Intraburst Frequency: TB,57.08,97.89,40.81,38.95 to 42.67
+  Intraburst Frequency: Yan,37.74,91.92,54.17,52.32 to 56.03
+  Peaks per Burst: TB,34.01,41.75,7.741,5.883 to 9.598
+  Peaks per Burst: Yan,38.12,41.80,3.679,1.821 to 5.537
+  Total Cycle Time: TB,3.730,3.729,-0.0009551,-1.870 to 1.868
+  Total Cycle Time: Yan,3.728,3.728,0.0003500,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.1697,0.3716,P > 0.05,ns
+  Burst Duration: Yan,-0.5573,1.221,P > 0.05,ns
+  Interburst Interval: TB,0.1687,0.3673,P > 0.05,ns
+  Interburst Interval: Yan,0.5578,1.214,P > 0.05,ns
+  Intraburst Frequency: TB,40.81,89.39,P<0.001,***
+  Intraburst Frequency: Yan,54.17,118.7,P<0.001,***
+  Peaks per Burst: TB,7.741,16.95,P<0.001,***
+  Peaks per Burst: Yan,3.679,8.058,P<0.001,***
+  Total Cycle Time: TB,-0.0009551,0.002079,P > 0.05,ns
+  Total Cycle Time: Yan,0.0003500,0.0007618,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.5028,-0.09317,-1.951 to 1.764
+  Burst Duration: Yan,1.012,0.6621,-0.3498,-2.207 to 1.508
+  Interburst Interval: TB,3.134,3.226,0.09200,-1.777 to 1.961
+  Interburst Interval: Yan,2.716,3.064,0.3479,-1.521 to 2.217
+  Intraburst Frequency: TB,57.08,99.97,42.90,41.04 to 44.75
+  Intraburst Frequency: Yan,37.74,83.34,45.60,43.74 to 47.46
+  Peaks per Burst: TB,34.01,50.23,16.22,14.36 to 18.08
+  Peaks per Burst: Yan,38.12,55.12,17.00,15.14 to 18.86
+  Total Cycle Time: TB,3.730,3.728,-0.001356,-1.870 to 1.868
+  Total Cycle Time: Yan,3.728,3.725,-0.002250,-1.871 to 1.867
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.09317,0.2041,P > 0.05,ns
+  Burst Duration: Yan,-0.3498,0.7662,P > 0.05,ns
+  Interburst Interval: TB,0.09200,0.2002,P > 0.05,ns
+  Interburst Interval: Yan,0.3479,0.7573,P > 0.05,ns
+  Intraburst Frequency: TB,42.90,93.95,P<0.001,***
+  Intraburst Frequency: Yan,45.60,99.88,P<0.001,***
+  Peaks per Burst: TB,16.22,35.53,P<0.001,***
+  Peaks per Burst: Yan,17.00,37.23,P<0.001,***
+  Total Cycle Time: TB,-0.001356,0.002952,P > 0.05,ns
+  Total Cycle Time: Yan,-0.002250,0.004897,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=1.8 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=1.8,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.5960,0.6209,0.02490,-1.833 to 1.882
+  Burst Duration: Yan,1.012,0.9662,-0.04568,-1.903 to 1.812
+  Interburst Interval: TB,3.134,3.106,-0.02784,-1.897 to 1.841
+  Interburst Interval: Yan,2.716,2.755,0.03943,-1.830 to 1.909
+  Intraburst Frequency: TB,57.08,100.9,43.83,41.97 to 45.69
+  Intraburst Frequency: Yan,37.74,70.30,32.56,30.70 to 34.41
+  Peaks per Burst: TB,34.01,62.67,28.65,26.80 to 30.51
+  Peaks per Burst: Yan,38.12,67.79,29.67,27.81 to 31.52
+  Total Cycle Time: TB,3.730,3.727,-0.002994,-1.872 to 1.866
+  Total Cycle Time: Yan,3.728,3.721,-0.006394,-1.876 to 1.863
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.02490,0.05455,P > 0.05,ns
+  Burst Duration: Yan,-0.04568,0.1001,P > 0.05,ns
+  Interburst Interval: TB,-0.02784,0.06060,P > 0.05,ns
+  Interburst Interval: Yan,0.03943,0.08584,P > 0.05,ns
+  Intraburst Frequency: TB,43.83,95.99,P<0.001,***
+  Intraburst Frequency: Yan,32.56,71.31,P<0.001,***
+  Peaks per Burst: TB,28.65,62.76,P<0.001,***
+  Peaks per Burst: Yan,29.67,64.98,P<0.001,***
+  Total Cycle Time: TB,-0.002994,0.006517,P > 0.05,ns
+  Total Cycle Time: Yan,-0.006394,0.01392,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-55.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-55.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,1.970,0.5984,-1.259 to 2.456
+  Burst Duration: Yan,1.848,2.332,0.4840,-1.374 to 2.342
+  Interburst Interval: TB,2.360,1.754,-0.6055,-2.475 to 1.264
+  Interburst Interval: Yan,1.877,1.387,-0.4896,-2.359 to 1.380
+  Intraburst Frequency: TB,31.51,26.90,-4.614,-6.471 to -2.756
+  Intraburst Frequency: Yan,26.72,26.01,-0.7026,-2.560 to 1.155
+  Peaks per Burst: TB,43.22,52.84,9.617,7.760 to 11.47
+  Peaks per Burst: Yan,49.31,60.42,11.11,9.254 to 12.97
+  Total Cycle Time: TB,3.731,3.724,-0.006652,-1.876 to 1.862
+  Total Cycle Time: Yan,3.725,3.719,-0.005683,-1.875 to 1.863
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.5984,1.311,P > 0.05,ns
+  Burst Duration: Yan,0.4840,1.060,P > 0.05,ns
+  Interburst Interval: TB,-0.6055,1.318,P > 0.05,ns
+  Interburst Interval: Yan,-0.4896,1.066,P > 0.05,ns
+  Intraburst Frequency: TB,-4.614,10.11,P<0.001,***
+  Intraburst Frequency: Yan,-0.7026,1.539,P > 0.05,ns
+  Peaks per Burst: TB,9.617,21.06,P<0.001,***
+  Peaks per Burst: Yan,11.11,24.34,P<0.001,***
+  Total Cycle Time: TB,-0.006652,0.01448,P > 0.05,ns
+  Total Cycle Time: Yan,-0.005683,0.01237,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-55.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-55.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,2.313,0.9414,-0.9161 to 2.799
+  Burst Duration: Yan,1.848,2.670,0.8216,-1.036 to 2.679
+  Interburst Interval: TB,2.360,1.407,-0.9527,-2.822 to 0.9165
+  Interburst Interval: Yan,1.877,1.046,-0.8308,-2.700 to 1.038
+  Intraburst Frequency: TB,31.51,26.75,-4.764,-6.622 to -2.907
+  Intraburst Frequency: Yan,26.72,26.90,0.1858,-1.672 to 2.043
+  Peaks per Burst: TB,43.22,61.54,18.32,16.46 to 20.18
+  Peaks per Burst: Yan,49.31,71.41,22.10,20.24 to 23.96
+  Total Cycle Time: TB,3.731,3.720,-0.01122,-1.880 to 1.858
+  Total Cycle Time: Yan,3.725,3.716,-0.009327,-1.878 to 1.860
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.9414,2.062,P > 0.05,ns
+  Burst Duration: Yan,0.8216,1.799,P > 0.05,ns
+  Interburst Interval: TB,-0.9527,2.074,P > 0.05,ns
+  Interburst Interval: Yan,-0.8308,1.808,P > 0.05,ns
+  Intraburst Frequency: TB,-4.764,10.44,P<0.001,***
+  Intraburst Frequency: Yan,0.1858,0.4069,P > 0.05,ns
+  Peaks per Burst: TB,18.32,40.13,P<0.001,***
+  Peaks per Burst: Yan,22.10,48.40,P<0.001,***
+  Total Cycle Time: TB,-0.01122,0.02442,P > 0.05,ns
+  Total Cycle Time: Yan,-0.009327,0.02030,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-55.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,2.567,1.196,-0.6617 to 3.053
+  Burst Duration: Yan,1.848,2.888,1.039,-0.8182 to 2.897
+  Interburst Interval: TB,2.360,1.150,-1.210,-3.079 to 0.6592
+  Interburst Interval: Yan,1.877,0.8258,-1.051,-2.920 to 0.8181
+  Intraburst Frequency: TB,31.51,27.66,-3.849,-5.707 to -1.992
+  Intraburst Frequency: Yan,26.72,28.35,1.636,-0.2215 to 3.494
+  Peaks per Burst: TB,43.22,70.52,27.30,25.44 to 29.15
+  Peaks per Burst: Yan,49.31,81.27,31.96,30.11 to 33.82
+  Total Cycle Time: TB,3.731,3.717,-0.01427,-1.883 to 1.855
+  Total Cycle Time: Yan,3.725,3.713,-0.01184,-1.881 to 1.857
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,1.196,2.619,P > 0.05,ns
+  Burst Duration: Yan,1.039,2.276,P > 0.05,ns
+  Interburst Interval: TB,-1.210,2.634,P > 0.05,ns
+  Interburst Interval: Yan,-1.051,2.288,P > 0.05,ns
+  Intraburst Frequency: TB,-3.849,8.431,P<0.001,***
+  Intraburst Frequency: Yan,1.636,3.583,P<0.01,**
+  Peaks per Burst: TB,27.30,59.79,P<0.001,***
+  Peaks per Burst: Yan,31.96,70.01,P<0.001,***
+  Total Cycle Time: TB,-0.01427,0.03107,P > 0.05,ns
+  Total Cycle Time: Yan,-0.01184,0.02577,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.3859,-0.9853,-2.843 to 0.8723
+  Burst Duration: Yan,1.848,0.3877,-1.461,-3.318 to 0.3969
+  Interburst Interval: TB,2.360,3.343,0.9832,-0.8859 to 2.852
+  Interburst Interval: Yan,1.877,3.341,1.464,-0.4049 to 3.333
+  Intraburst Frequency: TB,31.51,74.66,43.15,41.29 to 45.01
+  Intraburst Frequency: Yan,26.72,74.54,47.82,45.97 to 49.68
+  Peaks per Burst: TB,43.22,28.83,-14.40,-16.25 to -12.54
+  Peaks per Burst: Yan,49.31,28.90,-20.41,-22.26 to -18.55
+  Total Cycle Time: TB,3.731,3.729,-0.002090,-1.871 to 1.867
+  Total Cycle Time: Yan,3.725,3.729,0.003547,-1.866 to 1.873
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.9853,2.158,P > 0.05,ns
+  Burst Duration: Yan,-1.461,3.199,P < 0.05,*
+  Interburst Interval: TB,0.9832,2.140,P > 0.05,ns
+  Interburst Interval: Yan,1.464,3.187,P < 0.05,*
+  Intraburst Frequency: TB,43.15,94.51,P<0.001,***
+  Intraburst Frequency: Yan,47.82,104.7,P<0.001,***
+  Peaks per Burst: TB,-14.40,31.53,P<0.001,***
+  Peaks per Burst: Yan,-20.41,44.70,P<0.001,***
+  Total Cycle Time: TB,-0.002090,0.004549,P > 0.05,ns
+  Total Cycle Time: Yan,0.003547,0.007721,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.4720,-0.8992,-2.757 to 0.9583
+  Burst Duration: Yan,1.848,0.6454,-1.203,-3.060 to 0.6547
+  Interburst Interval: TB,2.360,3.256,0.8962,-0.9730 to 2.765
+  Interburst Interval: Yan,1.877,3.080,1.203,-0.6656 to 3.073
+  Intraburst Frequency: TB,31.51,78.03,46.52,44.66 to 48.38
+  Intraburst Frequency: Yan,26.72,58.91,32.19,30.33 to 34.05
+  Peaks per Burst: TB,43.22,36.84,-6.383,-8.240 to -4.525
+  Peaks per Burst: Yan,49.31,37.95,-11.36,-13.22 to -9.500
+  Total Cycle Time: TB,3.731,3.728,-0.003108,-1.872 to 1.866
+  Total Cycle Time: Yan,3.725,3.726,0.0005620,-1.869 to 1.870
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.8992,1.970,P > 0.05,ns
+  Burst Duration: Yan,-1.203,2.635,P > 0.05,ns
+  Interburst Interval: TB,0.8962,1.951,P > 0.05,ns
+  Interburst Interval: Yan,1.203,2.620,P > 0.05,ns
+  Intraburst Frequency: TB,46.52,101.9,P<0.001,***
+  Intraburst Frequency: Yan,32.19,70.51,P<0.001,***
+  Peaks per Burst: TB,-6.383,13.98,P<0.001,***
+  Peaks per Burst: Yan,-11.36,24.88,P<0.001,***
+  Total Cycle Time: TB,-0.003108,0.006765,P > 0.05,ns
+  Total Cycle Time: Yan,0.0005620,0.001223,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.8476,-0.5237,-2.381 to 1.334
+  Burst Duration: Yan,1.848,1.269,-0.5795,-2.437 to 1.278
+  Interburst Interval: TB,2.360,2.876,0.5166,-1.353 to 2.386
+  Interburst Interval: Yan,1.877,2.451,0.5741,-1.295 to 2.443
+  Intraburst Frequency: TB,31.51,58.91,27.40,25.54 to 29.26
+  Intraburst Frequency: Yan,26.72,37.26,10.55,8.690 to 12.40
+  Peaks per Burst: TB,43.22,49.81,6.593,4.735 to 8.450
+  Peaks per Burst: Yan,49.31,46.99,-2.321,-4.179 to -0.4634
+  Total Cycle Time: TB,3.731,3.724,-0.007183,-1.876 to 1.862
+  Total Cycle Time: Yan,3.725,3.720,-0.005524,-1.875 to 1.864
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.5237,1.147,P > 0.05,ns
+  Burst Duration: Yan,-0.5795,1.269,P > 0.05,ns
+  Interburst Interval: TB,0.5166,1.124,P > 0.05,ns
+  Interburst Interval: Yan,0.5741,1.250,P > 0.05,ns
+  Intraburst Frequency: TB,27.40,60.02,P<0.001,***
+  Intraburst Frequency: Yan,10.55,23.10,P<0.001,***
+  Peaks per Burst: TB,6.593,14.44,P<0.001,***
+  Peaks per Burst: Yan,-2.321,5.084,P<0.001,***
+  Total Cycle Time: TB,-0.007183,0.01563,P > 0.05,ns
+  Total Cycle Time: Yan,-0.005524,0.01202,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,1.356,-0.01482,-1.872 to 1.843
+  Burst Duration: Yan,1.848,1.776,-0.07197,-1.930 to 1.786
+  Interburst Interval: TB,2.360,2.367,0.007422,-1.862 to 1.877
+  Interburst Interval: Yan,1.877,1.944,0.06711,-1.802 to 1.936
+  Intraburst Frequency: TB,31.51,42.76,11.25,9.396 to 13.11
+  Intraburst Frequency: Yan,26.72,30.44,3.728,1.870 to 5.585
+  Peaks per Burst: TB,43.22,57.93,14.70,12.85 to 16.56
+  Peaks per Burst: Yan,49.31,53.85,4.543,2.686 to 6.401
+  Total Cycle Time: TB,3.731,3.723,-0.007490,-1.877 to 1.862
+  Total Cycle Time: Yan,3.725,3.720,-0.005178,-1.874 to 1.864
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.01482,0.03245,P > 0.05,ns
+  Burst Duration: Yan,-0.07197,0.1576,P > 0.05,ns
+  Interburst Interval: TB,0.007422,0.01616,P > 0.05,ns
+  Interburst Interval: Yan,0.06711,0.1461,P > 0.05,ns
+  Intraburst Frequency: TB,11.25,24.65,P<0.001,***
+  Intraburst Frequency: Yan,3.728,8.165,P<0.001,***
+  Peaks per Burst: TB,14.70,32.20,P<0.001,***
+  Peaks per Burst: Yan,4.543,9.951,P<0.001,***
+  Total Cycle Time: TB,-0.007490,0.01630,P > 0.05,ns
+  Total Cycle Time: Yan,-0.005178,0.01127,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.5957,-0.7755,-2.386 to 0.8348
+  Burst Duration: Yan,1.848,2.089,0.2405,-1.617 to 2.098
+  Interburst Interval: TB,2.360,1.274,-1.085,-2.704 to 0.5332
+  Interburst Interval: Yan,1.877,1.632,-0.2445,-2.114 to 1.625
+  Intraburst Frequency: TB,31.51,55.65,24.14,22.53 to 25.75
+  Intraburst Frequency: Yan,26.72,28.91,2.193,0.3359 to 4.051
+  Peaks per Burst: TB,43.22,32.20,-11.02,-12.63 to -9.413
+  Peaks per Burst: Yan,49.31,60.23,10.93,9.068 to 12.78
+  Total Cycle Time: TB,3.731,1.870,-1.861,-3.479 to -0.2420
+  Total Cycle Time: Yan,3.725,3.721,-0.004094,-1.873 to 1.865
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.7755,1.959,P > 0.05,ns
+  Burst Duration: Yan,0.2405,0.5268,P > 0.05,ns
+  Interburst Interval: TB,-1.085,2.728,P > 0.05,ns
+  Interburst Interval: Yan,-0.2445,0.5322,P > 0.05,ns
+  Intraburst Frequency: TB,24.14,60.99,P<0.001,***
+  Intraburst Frequency: Yan,2.193,4.804,P<0.001,***
+  Peaks per Burst: TB,-11.02,27.85,P<0.001,***
+  Peaks per Burst: Yan,10.93,23.93,P<0.001,***
+  Total Cycle Time: TB,-1.861,4.677,P<0.001,***
+  Total Cycle Time: Yan,-0.004094,0.008912,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.3226,-1.049,-2.906 to 0.8089
+  Burst Duration: Yan,1.848,0.3442,-1.504,-3.362 to 0.3535
+  Interburst Interval: TB,2.360,3.406,1.047,-0.8226 to 2.916
+  Interburst Interval: Yan,1.877,3.384,1.508,-0.3614 to 3.377
+  Intraburst Frequency: TB,31.51,76.47,44.96,43.10 to 46.82
+  Intraburst Frequency: Yan,26.72,74.72,48.01,46.15 to 49.86
+  Peaks per Burst: TB,43.22,24.73,-18.49,-20.35 to -16.64
+  Peaks per Burst: Yan,49.31,25.77,-23.54,-25.40 to -21.69
+  Total Cycle Time: TB,3.731,3.729,-0.002177,-1.871 to 1.867
+  Total Cycle Time: Yan,3.725,3.729,0.003636,-1.865 to 1.873
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.049,2.297,P > 0.05,ns
+  Burst Duration: Yan,-1.504,3.294,P<0.01,**
+  Interburst Interval: TB,1.047,2.278,P > 0.05,ns
+  Interburst Interval: Yan,1.508,3.282,P < 0.05,*
+  Intraburst Frequency: TB,44.96,98.48,P<0.001,***
+  Intraburst Frequency: Yan,48.01,105.1,P<0.001,***
+  Peaks per Burst: TB,-18.49,40.51,P<0.001,***
+  Peaks per Burst: Yan,-23.54,51.57,P<0.001,***
+  Total Cycle Time: TB,-0.002177,0.004739,P > 0.05,ns
+  Total Cycle Time: Yan,0.003636,0.007914,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.3720,-0.9992,-2.857 to 0.8583
+  Burst Duration: Yan,1.848,0.3965,-1.452,-3.309 to 0.4058
+  Interburst Interval: TB,2.360,3.357,0.9972,-0.8719 to 2.866
+  Interburst Interval: Yan,1.877,3.332,1.455,-0.4137 to 3.325
+  Intraburst Frequency: TB,31.51,90.60,59.09,57.23 to 60.95
+  Intraburst Frequency: Yan,26.72,85.15,58.43,56.57 to 60.29
+  Peaks per Burst: TB,43.22,33.74,-9.481,-11.34 to -7.624
+  Peaks per Burst: Yan,49.31,33.79,-15.52,-17.38 to -13.66
+  Total Cycle Time: TB,3.731,3.729,-0.002097,-1.871 to 1.867
+  Total Cycle Time: Yan,3.725,3.729,0.003632,-1.865 to 1.873
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.9992,2.189,P > 0.05,ns
+  Burst Duration: Yan,-1.452,3.180,P < 0.05,*
+  Interburst Interval: TB,0.9972,2.171,P > 0.05,ns
+  Interburst Interval: Yan,1.455,3.168,P < 0.05,*
+  Intraburst Frequency: TB,59.09,129.4,P<0.001,***
+  Intraburst Frequency: Yan,58.43,128.0,P<0.001,***
+  Peaks per Burst: TB,-9.481,20.77,P<0.001,***
+  Peaks per Burst: Yan,-15.52,33.99,P<0.001,***
+  Total Cycle Time: TB,-0.002097,0.004564,P > 0.05,ns
+  Total Cycle Time: Yan,0.003632,0.007905,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.4263,-0.9449,-2.802 to 0.9126
+  Burst Duration: Yan,1.848,0.4546,-1.394,-3.251 to 0.4638
+  Interburst Interval: TB,2.360,3.302,0.9428,-0.9263 to 2.812
+  Interburst Interval: Yan,1.877,3.274,1.397,-0.4723 to 3.266
+  Intraburst Frequency: TB,31.51,97.89,66.38,64.52 to 68.23
+  Intraburst Frequency: Yan,26.72,91.92,65.20,63.35 to 67.06
+  Peaks per Burst: TB,43.22,41.75,-1.469,-3.327 to 0.3884
+  Peaks per Burst: Yan,49.31,41.80,-7.506,-9.364 to -5.649
+  Total Cycle Time: TB,3.731,3.729,-0.002141,-1.871 to 1.867
+  Total Cycle Time: Yan,3.725,3.728,0.003011,-1.866 to 1.872
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.9449,2.070,P > 0.05,ns
+  Burst Duration: Yan,-1.394,3.053,P < 0.05,*
+  Interburst Interval: TB,0.9428,2.052,P > 0.05,ns
+  Interburst Interval: Yan,1.397,3.040,P < 0.05,*
+  Intraburst Frequency: TB,66.38,145.4,P<0.001,***
+  Intraburst Frequency: Yan,65.20,142.8,P<0.001,***
+  Peaks per Burst: TB,-1.469,3.218,P < 0.05,*
+  Peaks per Burst: Yan,-7.506,16.44,P<0.001,***
+  Total Cycle Time: TB,-0.002141,0.004660,P > 0.05,ns
+  Total Cycle Time: Yan,0.003011,0.006554,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.5028,-0.8684,-2.726 to 0.9891
+  Burst Duration: Yan,1.848,0.6621,-1.186,-3.044 to 0.6713
+  Interburst Interval: TB,2.360,3.226,0.8661,-1.003 to 2.735
+  Interburst Interval: Yan,1.877,3.064,1.187,-0.6822 to 3.056
+  Intraburst Frequency: TB,31.51,99.97,68.46,66.61 to 70.32
+  Intraburst Frequency: Yan,26.72,83.34,56.63,54.77 to 58.49
+  Peaks per Burst: TB,43.22,50.23,7.012,5.155 to 8.870
+  Peaks per Burst: Yan,49.31,55.12,5.815,3.957 to 7.672
+  Total Cycle Time: TB,3.731,3.728,-0.002542,-1.872 to 1.867
+  Total Cycle Time: Yan,3.725,3.725,0.0004110,-1.869 to 1.870
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.8684,1.902,P > 0.05,ns
+  Burst Duration: Yan,-1.186,2.598,P > 0.05,ns
+  Interburst Interval: TB,0.8661,1.885,P > 0.05,ns
+  Interburst Interval: Yan,1.187,2.584,P > 0.05,ns
+  Intraburst Frequency: TB,68.46,150.0,P<0.001,***
+  Intraburst Frequency: Yan,56.63,124.0,P<0.001,***
+  Peaks per Burst: TB,7.012,15.36,P<0.001,***
+  Peaks per Burst: Yan,5.815,12.74,P<0.001,***
+  Total Cycle Time: TB,-0.002542,0.005533,P > 0.05,ns
+  Total Cycle Time: Yan,0.0004110,0.0008947,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=2.4 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=2.4,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.371,0.6209,-0.7504,-2.608 to 1.107
+  Burst Duration: Yan,1.848,0.9662,-0.8821,-2.740 to 0.9755
+  Interburst Interval: TB,2.360,3.106,0.7463,-1.123 to 2.615
+  Interburst Interval: Yan,1.877,2.755,0.8785,-0.9907 to 2.748
+  Intraburst Frequency: TB,31.51,100.9,69.39,67.54 to 71.25
+  Intraburst Frequency: Yan,26.72,70.30,43.58,41.73 to 45.44
+  Peaks per Burst: TB,43.22,62.67,19.44,17.59 to 21.30
+  Peaks per Burst: Yan,49.31,67.79,18.48,16.62 to 20.34
+  Total Cycle Time: TB,3.731,3.727,-0.004180,-1.873 to 1.865
+  Total Cycle Time: Yan,3.725,3.721,-0.003733,-1.873 to 1.865
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.7504,1.643,P > 0.05,ns
+  Burst Duration: Yan,-0.8821,1.932,P > 0.05,ns
+  Interburst Interval: TB,0.7463,1.624,P > 0.05,ns
+  Interburst Interval: Yan,0.8785,1.912,P > 0.05,ns
+  Intraburst Frequency: TB,69.39,152.0,P<0.001,***
+  Intraburst Frequency: Yan,43.58,95.46,P<0.001,***
+  Peaks per Burst: TB,19.44,42.59,P<0.001,***
+  Peaks per Burst: Yan,18.48,40.48,P<0.001,***
+  Total Cycle Time: TB,-0.004180,0.009098,P > 0.05,ns
+  Total Cycle Time: Yan,-0.003733,0.008126,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-55.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-55.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,2.313,0.3430,-1.515 to 2.201
+  Burst Duration: Yan,2.332,2.670,0.3376,-1.520 to 2.195
+  Interburst Interval: TB,1.754,1.407,-0.3472,-2.216 to 1.522
+  Interburst Interval: Yan,1.387,1.046,-0.3412,-2.210 to 1.528
+  Intraburst Frequency: TB,26.90,26.75,-0.1506,-2.008 to 1.707
+  Intraburst Frequency: Yan,26.01,26.90,0.8884,-0.9691 to 2.746
+  Peaks per Burst: TB,52.84,61.54,8.704,6.846 to 10.56
+  Peaks per Burst: Yan,60.42,71.41,10.99,9.130 to 12.85
+  Total Cycle Time: TB,3.724,3.720,-0.004569,-1.874 to 1.865
+  Total Cycle Time: Yan,3.719,3.716,-0.003644,-1.873 to 1.865
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.3430,0.7513,P > 0.05,ns
+  Burst Duration: Yan,0.3376,0.7394,P > 0.05,ns
+  Interburst Interval: TB,-0.3472,0.7557,P > 0.05,ns
+  Interburst Interval: Yan,-0.3412,0.7428,P > 0.05,ns
+  Intraburst Frequency: TB,-0.1506,0.3299,P > 0.05,ns
+  Intraburst Frequency: Yan,0.8884,1.946,P > 0.05,ns
+  Peaks per Burst: TB,8.704,19.06,P<0.001,***
+  Peaks per Burst: Yan,10.99,24.07,P<0.001,***
+  Total Cycle Time: TB,-0.004569,0.009945,P > 0.05,ns
+  Total Cycle Time: Yan,-0.003644,0.007932,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-55.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,2.567,0.5974,-1.260 to 2.455
+  Burst Duration: Yan,2.332,2.888,0.5554,-1.302 to 2.413
+  Interburst Interval: TB,1.754,1.150,-0.6045,-2.474 to 1.265
+  Interburst Interval: Yan,1.387,0.8258,-0.5614,-2.430 to 1.308
+  Intraburst Frequency: TB,26.90,27.66,0.7646,-1.093 to 2.622
+  Intraburst Frequency: Yan,26.01,28.35,2.339,0.4811 to 4.196
+  Peaks per Burst: TB,52.84,70.52,17.68,15.82 to 19.54
+  Peaks per Burst: Yan,60.42,81.27,20.85,18.99 to 22.71
+  Total Cycle Time: TB,3.724,3.717,-0.007622,-1.877 to 1.861
+  Total Cycle Time: Yan,3.719,3.713,-0.006155,-1.875 to 1.863
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.5974,1.308,P > 0.05,ns
+  Burst Duration: Yan,0.5554,1.216,P > 0.05,ns
+  Interburst Interval: TB,-0.6045,1.316,P > 0.05,ns
+  Interburst Interval: Yan,-0.5614,1.222,P > 0.05,ns
+  Intraburst Frequency: TB,0.7646,1.675,P > 0.05,ns
+  Intraburst Frequency: Yan,2.339,5.122,P<0.001,***
+  Peaks per Burst: TB,17.68,38.72,P<0.001,***
+  Peaks per Burst: Yan,20.85,45.67,P<0.001,***
+  Total Cycle Time: TB,-0.007622,0.01659,P > 0.05,ns
+  Total Cycle Time: Yan,-0.006155,0.01340,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.3859,-1.584,-3.441 to 0.2738
+  Burst Duration: Yan,2.332,0.3877,-1.945,-3.802 to -0.08705
+  Interburst Interval: TB,1.754,3.343,1.589,-0.2804 to 3.458
+  Interburst Interval: Yan,1.387,3.341,1.954,0.08466 to 3.823
+  Intraburst Frequency: TB,26.90,74.66,47.76,45.90 to 49.62
+  Intraburst Frequency: Yan,26.01,74.54,48.53,46.67 to 50.38
+  Peaks per Burst: TB,52.84,28.83,-24.01,-25.87 to -22.15
+  Peaks per Burst: Yan,60.42,28.90,-31.52,-33.38 to -29.66
+  Total Cycle Time: TB,3.724,3.729,0.004562,-1.865 to 1.874
+  Total Cycle Time: Yan,3.719,3.729,0.009230,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.584,3.469,P<0.01,**
+  Burst Duration: Yan,-1.945,4.259,P<0.001,***
+  Interburst Interval: TB,1.589,3.458,P<0.01,**
+  Interburst Interval: Yan,1.954,4.253,P<0.001,***
+  Intraburst Frequency: TB,47.76,104.6,P<0.001,***
+  Intraburst Frequency: Yan,48.53,106.3,P<0.001,***
+  Peaks per Burst: TB,-24.01,52.59,P<0.001,***
+  Peaks per Burst: Yan,-31.52,69.03,P<0.001,***
+  Total Cycle Time: TB,0.004562,0.009930,P > 0.05,ns
+  Total Cycle Time: Yan,0.009230,0.02009,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.4720,-1.498,-3.355 to 0.3599
+  Burst Duration: Yan,2.332,0.6454,-1.687,-3.544 to 0.1707
+  Interburst Interval: TB,1.754,3.256,1.502,-0.3675 to 3.371
+  Interburst Interval: Yan,1.387,3.080,1.693,-0.1760 to 3.562
+  Intraburst Frequency: TB,26.90,78.03,51.13,49.27 to 52.99
+  Intraburst Frequency: Yan,26.01,58.91,32.89,31.04 to 34.75
+  Peaks per Burst: TB,52.84,36.84,-16.00,-17.86 to -14.14
+  Peaks per Burst: Yan,60.42,37.95,-22.47,-24.33 to -20.61
+  Total Cycle Time: TB,3.724,3.728,0.003544,-1.866 to 1.873
+  Total Cycle Time: Yan,3.719,3.726,0.006245,-1.863 to 1.875
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.498,3.280,P < 0.05,*
+  Burst Duration: Yan,-1.687,3.695,P<0.01,**
+  Interburst Interval: TB,1.502,3.269,P < 0.05,*
+  Interburst Interval: Yan,1.693,3.685,P<0.01,**
+  Intraburst Frequency: TB,51.13,112.0,P<0.001,***
+  Intraburst Frequency: Yan,32.89,72.05,P<0.001,***
+  Peaks per Burst: TB,-16.00,35.04,P<0.001,***
+  Peaks per Burst: Yan,-22.47,49.21,P<0.001,***
+  Total Cycle Time: TB,0.003544,0.007714,P > 0.05,ns
+  Total Cycle Time: Yan,0.006245,0.01359,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.8476,-1.122,-2.980 to 0.7355
+  Burst Duration: Yan,2.332,1.269,-1.064,-2.921 to 0.7940
+  Interburst Interval: TB,1.754,2.876,1.122,-0.7471 to 2.991
+  Interburst Interval: Yan,1.387,2.451,1.064,-0.8054 to 2.933
+  Intraburst Frequency: TB,26.90,58.91,32.02,30.16 to 33.87
+  Intraburst Frequency: Yan,26.01,37.26,11.25,9.392 to 13.11
+  Peaks per Burst: TB,52.84,49.81,-3.025,-4.882 to -1.167
+  Peaks per Burst: Yan,60.42,46.99,-13.43,-15.29 to -11.57
+  Total Cycle Time: TB,3.724,3.724,-0.0005310,-1.870 to 1.869
+  Total Cycle Time: Yan,3.719,3.720,0.0001590,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.122,2.458,P > 0.05,ns
+  Burst Duration: Yan,-1.064,2.329,P > 0.05,ns
+  Interburst Interval: TB,1.122,2.442,P > 0.05,ns
+  Interburst Interval: Yan,1.064,2.315,P > 0.05,ns
+  Intraburst Frequency: TB,32.02,70.12,P<0.001,***
+  Intraburst Frequency: Yan,11.25,24.64,P<0.001,***
+  Peaks per Burst: TB,-3.025,6.625,P<0.001,***
+  Peaks per Burst: Yan,-13.43,29.42,P<0.001,***
+  Total Cycle Time: TB,-0.0005310,0.001156,P > 0.05,ns
+  Total Cycle Time: Yan,0.0001590,0.0003461,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,1.356,-0.6132,-2.471 to 1.244
+  Burst Duration: Yan,2.332,1.776,-0.5560,-2.413 to 1.302
+  Interburst Interval: TB,1.754,2.367,0.6129,-1.256 to 2.482
+  Interburst Interval: Yan,1.387,1.944,0.5567,-1.312 to 2.426
+  Intraburst Frequency: TB,26.90,42.76,15.87,14.01 to 17.72
+  Intraburst Frequency: Yan,26.01,30.44,4.430,2.573 to 6.288
+  Peaks per Burst: TB,52.84,57.93,5.086,3.229 to 6.944
+  Peaks per Burst: Yan,60.42,53.85,-6.568,-8.425 to -4.710
+  Total Cycle Time: TB,3.724,3.723,-0.0008380,-1.870 to 1.868
+  Total Cycle Time: Yan,3.719,3.720,0.0005052,-1.869 to 1.870
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.6132,1.343,P > 0.05,ns
+  Burst Duration: Yan,-0.5560,1.218,P > 0.05,ns
+  Interburst Interval: TB,0.6129,1.334,P > 0.05,ns
+  Interburst Interval: Yan,0.5567,1.212,P > 0.05,ns
+  Intraburst Frequency: TB,15.87,34.75,P<0.001,***
+  Intraburst Frequency: Yan,4.430,9.704,P<0.001,***
+  Peaks per Burst: TB,5.086,11.14,P<0.001,***
+  Peaks per Burst: Yan,-6.568,14.39,P<0.001,***
+  Total Cycle Time: TB,-0.0008380,0.001824,P > 0.05,ns
+  Total Cycle Time: Yan,0.0005052,0.001100,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.5957,-1.374,-2.984 to 0.2364
+  Burst Duration: Yan,2.332,2.089,-0.2435,-2.101 to 1.614
+  Interburst Interval: TB,1.754,1.274,-0.4800,-2.099 to 1.139
+  Interburst Interval: Yan,1.387,1.632,0.2451,-1.624 to 2.114
+  Intraburst Frequency: TB,26.90,55.65,28.75,27.14 to 30.36
+  Intraburst Frequency: Yan,26.01,28.91,2.896,1.039 to 4.754
+  Peaks per Burst: TB,52.84,32.20,-20.64,-22.25 to -19.03
+  Peaks per Burst: Yan,60.42,60.23,-0.1852,-2.043 to 1.672
+  Total Cycle Time: TB,3.724,1.870,-1.854,-3.473 to -0.2353
+  Total Cycle Time: Yan,3.719,3.721,0.001589,-1.868 to 1.871
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.374,3.471,P<0.01,**
+  Burst Duration: Yan,-0.2435,0.5333,P > 0.05,ns
+  Interburst Interval: TB,-0.4800,1.206,P > 0.05,ns
+  Interburst Interval: Yan,0.2451,0.5336,P > 0.05,ns
+  Intraburst Frequency: TB,28.75,72.64,P<0.001,***
+  Intraburst Frequency: Yan,2.896,6.343,P<0.001,***
+  Peaks per Burst: TB,-20.64,52.15,P<0.001,***
+  Peaks per Burst: Yan,-0.1852,0.4056,P > 0.05,ns
+  Total Cycle Time: TB,-1.854,4.660,P<0.001,***
+  Total Cycle Time: Yan,0.001589,0.003459,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.3226,-1.647,-3.505 to 0.2105
+  Burst Duration: Yan,2.332,0.3442,-1.988,-3.846 to -0.1305
+  Interburst Interval: TB,1.754,3.406,1.652,-0.2171 to 3.521
+  Interburst Interval: Yan,1.387,3.384,1.997,0.1282 to 3.866
+  Intraburst Frequency: TB,26.90,76.47,49.57,47.72 to 51.43
+  Intraburst Frequency: Yan,26.01,74.72,48.71,46.85 to 50.57
+  Peaks per Burst: TB,52.84,24.73,-28.11,-29.97 to -26.25
+  Peaks per Burst: Yan,60.42,25.77,-34.65,-36.51 to -32.80
+  Total Cycle Time: TB,3.724,3.729,0.004475,-1.865 to 1.874
+  Total Cycle Time: Yan,3.719,3.729,0.009319,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.647,3.608,P<0.01,**
+  Burst Duration: Yan,-1.988,4.354,P<0.001,***
+  Interburst Interval: TB,1.652,3.596,P<0.01,**
+  Interburst Interval: Yan,1.997,4.348,P<0.001,***
+  Intraburst Frequency: TB,49.57,108.6,P<0.001,***
+  Intraburst Frequency: Yan,48.71,106.7,P<0.001,***
+  Peaks per Burst: TB,-28.11,61.57,P<0.001,***
+  Peaks per Burst: Yan,-34.65,75.90,P<0.001,***
+  Total Cycle Time: TB,0.004475,0.009740,P > 0.05,ns
+  Total Cycle Time: Yan,0.009319,0.02028,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.3720,-1.598,-3.455 to 0.2599
+  Burst Duration: Yan,2.332,0.3965,-1.936,-3.793 to -0.07819
+  Interburst Interval: TB,1.754,3.357,1.603,-0.2665 to 3.472
+  Interburst Interval: Yan,1.387,3.332,1.945,0.07591 to 3.814
+  Intraburst Frequency: TB,26.90,90.60,63.70,61.85 to 65.56
+  Intraburst Frequency: Yan,26.01,85.15,59.13,57.28 to 60.99
+  Peaks per Burst: TB,52.84,33.74,-19.10,-20.96 to -17.24
+  Peaks per Burst: Yan,60.42,33.79,-26.63,-28.49 to -24.77
+  Total Cycle Time: TB,3.724,3.729,0.004555,-1.865 to 1.874
+  Total Cycle Time: Yan,3.719,3.729,0.009315,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.598,3.499,P<0.01,**
+  Burst Duration: Yan,-1.936,4.240,P<0.001,***
+  Interburst Interval: TB,1.603,3.488,P<0.01,**
+  Interburst Interval: Yan,1.945,4.234,P<0.001,***
+  Intraburst Frequency: TB,63.70,139.5,P<0.001,***
+  Intraburst Frequency: Yan,59.13,129.5,P<0.001,***
+  Peaks per Burst: TB,-19.10,41.83,P<0.001,***
+  Peaks per Burst: Yan,-26.63,58.33,P<0.001,***
+  Total Cycle Time: TB,0.004555,0.009915,P > 0.05,ns
+  Total Cycle Time: Yan,0.009315,0.02028,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.4263,-1.543,-3.401 to 0.3142
+  Burst Duration: Yan,2.332,0.4546,-1.878,-3.735 to -0.02017
+  Interburst Interval: TB,1.754,3.302,1.548,-0.3208 to 3.417
+  Interburst Interval: Yan,1.387,3.274,1.886,0.01727 to 3.755
+  Intraburst Frequency: TB,26.90,97.89,70.99,69.13 to 72.85
+  Intraburst Frequency: Yan,26.01,91.92,65.91,64.05 to 67.76
+  Peaks per Burst: TB,52.84,41.75,-11.09,-12.94 to -9.229
+  Peaks per Burst: Yan,60.42,41.80,-18.62,-20.47 to -16.76
+  Total Cycle Time: TB,3.724,3.729,0.004511,-1.865 to 1.874
+  Total Cycle Time: Yan,3.719,3.728,0.008694,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.543,3.380,P<0.01,**
+  Burst Duration: Yan,-1.878,4.113,P<0.001,***
+  Interburst Interval: TB,1.548,3.370,P<0.01,**
+  Interburst Interval: Yan,1.886,4.106,P<0.001,***
+  Intraburst Frequency: TB,70.99,155.5,P<0.001,***
+  Intraburst Frequency: Yan,65.91,144.3,P<0.001,***
+  Peaks per Burst: TB,-11.09,24.28,P<0.001,***
+  Peaks per Burst: Yan,-18.62,40.78,P<0.001,***
+  Total Cycle Time: TB,0.004511,0.009819,P > 0.05,ns
+  Total Cycle Time: Yan,0.008694,0.01892,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.5028,-1.467,-3.324 to 0.3907
+  Burst Duration: Yan,2.332,0.6621,-1.670,-3.528 to 0.1873
+  Interburst Interval: TB,1.754,3.226,1.472,-0.3975 to 3.341
+  Interburst Interval: Yan,1.387,3.064,1.677,-0.1926 to 3.546
+  Intraburst Frequency: TB,26.90,99.97,73.08,71.22 to 74.93
+  Intraburst Frequency: Yan,26.01,83.34,57.33,55.47 to 59.19
+  Peaks per Burst: TB,52.84,50.23,-2.605,-4.462 to -0.7474
+  Peaks per Burst: Yan,60.42,55.12,-5.296,-7.154 to -3.439
+  Total Cycle Time: TB,3.724,3.728,0.004110,-1.865 to 1.873
+  Total Cycle Time: Yan,3.719,3.725,0.006094,-1.863 to 1.875
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.467,3.213,P < 0.05,*
+  Burst Duration: Yan,-1.670,3.658,P<0.01,**
+  Interburst Interval: TB,1.472,3.203,P < 0.05,*
+  Interburst Interval: Yan,1.677,3.649,P<0.01,**
+  Intraburst Frequency: TB,73.08,160.1,P<0.001,***
+  Intraburst Frequency: Yan,57.33,125.6,P<0.001,***
+  Peaks per Burst: TB,-2.605,5.706,P<0.001,***
+  Peaks per Burst: Yan,-5.296,11.60,P<0.001,***
+  Total Cycle Time: TB,0.004110,0.008946,P > 0.05,ns
+  Total Cycle Time: Yan,0.006094,0.01327,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.0 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=3.0,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.970,0.6209,-1.349,-3.206 to 0.5087
+  Burst Duration: Yan,2.332,0.9662,-1.366,-3.224 to 0.4915
+  Interburst Interval: TB,1.754,3.106,1.352,-0.5174 to 3.221
+  Interburst Interval: Yan,1.387,2.755,1.368,-0.5011 to 3.237
+  Intraburst Frequency: TB,26.90,100.9,74.01,72.15 to 75.87
+  Intraburst Frequency: Yan,26.01,70.30,44.29,42.43 to 46.14
+  Peaks per Burst: TB,52.84,62.67,9.827,7.970 to 11.68
+  Peaks per Burst: Yan,60.42,67.79,7.370,5.513 to 9.228
+  Total Cycle Time: TB,3.724,3.727,0.002472,-1.867 to 1.872
+  Total Cycle Time: Yan,3.719,3.721,0.001950,-1.867 to 1.871
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.349,2.954,P < 0.05,*
+  Burst Duration: Yan,-1.366,2.992,P < 0.05,*
+  Interburst Interval: TB,1.352,2.942,P < 0.05,*
+  Interburst Interval: Yan,1.368,2.978,P < 0.05,*
+  Intraburst Frequency: TB,74.01,162.1,P<0.001,***
+  Intraburst Frequency: Yan,44.29,97.00,P<0.001,***
+  Peaks per Burst: TB,9.827,21.52,P<0.001,***
+  Peaks per Burst: Yan,7.370,16.14,P<0.001,***
+  Total Cycle Time: TB,0.002472,0.005381,P > 0.05,ns
+  Total Cycle Time: Yan,0.001950,0.004245,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-55.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-55.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,2.567,0.2544,-1.603 to 2.112
+  Burst Duration: Yan,2.670,2.888,0.2178,-1.640 to 2.075
+  Interburst Interval: TB,1.407,1.150,-0.2573,-2.126 to 1.612
+  Interburst Interval: Yan,1.046,0.8258,-0.2201,-2.089 to 1.649
+  Intraburst Frequency: TB,26.75,27.66,0.9153,-0.9423 to 2.773
+  Intraburst Frequency: Yan,26.90,28.35,1.450,-0.4073 to 3.308
+  Peaks per Burst: TB,61.54,70.52,8.975,7.118 to 10.83
+  Peaks per Burst: Yan,71.41,81.27,9.864,8.007 to 11.72
+  Total Cycle Time: TB,3.720,3.717,-0.003053,-1.872 to 1.866
+  Total Cycle Time: Yan,3.716,3.713,-0.002511,-1.872 to 1.867
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.2544,0.5572,P > 0.05,ns
+  Burst Duration: Yan,0.2178,0.4770,P > 0.05,ns
+  Interburst Interval: TB,-0.2573,0.5601,P > 0.05,ns
+  Interburst Interval: Yan,-0.2201,0.4792,P > 0.05,ns
+  Intraburst Frequency: TB,0.9153,2.005,P > 0.05,ns
+  Intraburst Frequency: Yan,1.450,3.176,P < 0.05,*
+  Peaks per Burst: TB,8.975,19.66,P<0.001,***
+  Peaks per Burst: Yan,9.864,21.61,P<0.001,***
+  Total Cycle Time: TB,-0.003053,0.006645,P > 0.05,ns
+  Total Cycle Time: Yan,-0.002511,0.005465,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.3859,-1.927,-3.784 to -0.06920
+  Burst Duration: Yan,2.670,0.3877,-2.282,-4.140 to -0.4246
+  Interburst Interval: TB,1.407,3.343,1.936,0.06679 to 3.805
+  Interburst Interval: Yan,1.046,3.341,2.295,0.4259 to 4.164
+  Intraburst Frequency: TB,26.75,74.66,47.91,46.05 to 49.77
+  Intraburst Frequency: Yan,26.90,74.54,47.64,45.78 to 49.50
+  Peaks per Burst: TB,61.54,28.83,-32.72,-34.57 to -30.86
+  Peaks per Burst: Yan,71.41,28.90,-42.51,-44.36 to -40.65
+  Total Cycle Time: TB,3.720,3.729,0.009131,-1.860 to 1.878
+  Total Cycle Time: Yan,3.716,3.729,0.01287,-1.856 to 1.882
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.927,4.220,P<0.001,***
+  Burst Duration: Yan,-2.282,4.999,P<0.001,***
+  Interburst Interval: TB,1.936,4.214,P<0.001,***
+  Interburst Interval: Yan,2.295,4.996,P<0.001,***
+  Intraburst Frequency: TB,47.91,104.9,P<0.001,***
+  Intraburst Frequency: Yan,47.64,104.3,P<0.001,***
+  Peaks per Burst: TB,-32.72,71.66,P<0.001,***
+  Peaks per Burst: Yan,-42.51,93.10,P<0.001,***
+  Total Cycle Time: TB,0.009131,0.01988,P > 0.05,ns
+  Total Cycle Time: Yan,0.01287,0.02802,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.4720,-1.841,-3.698 to 0.01687
+  Burst Duration: Yan,2.670,0.6454,-2.024,-3.882 to -0.1669
+  Interburst Interval: TB,1.407,3.256,1.849,-0.02030 to 3.718
+  Interburst Interval: Yan,1.046,3.080,2.034,0.1652 to 3.903
+  Intraburst Frequency: TB,26.75,78.03,51.28,49.42 to 53.14
+  Intraburst Frequency: Yan,26.90,58.91,32.01,30.15 to 33.86
+  Peaks per Burst: TB,61.54,36.84,-24.70,-26.56 to -22.85
+  Peaks per Burst: Yan,71.41,37.95,-33.46,-35.31 to -31.60
+  Total Cycle Time: TB,3.720,3.728,0.008113,-1.861 to 1.877
+  Total Cycle Time: Yan,3.716,3.726,0.009889,-1.859 to 1.879
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.841,4.032,P<0.001,***
+  Burst Duration: Yan,-2.024,4.434,P<0.001,***
+  Interburst Interval: TB,1.849,4.024,P<0.001,***
+  Interburst Interval: Yan,2.034,4.428,P<0.001,***
+  Intraburst Frequency: TB,51.28,112.3,P<0.001,***
+  Intraburst Frequency: Yan,32.01,70.10,P<0.001,***
+  Peaks per Burst: TB,-24.70,54.11,P<0.001,***
+  Peaks per Burst: Yan,-33.46,73.28,P<0.001,***
+  Total Cycle Time: TB,0.008113,0.01766,P > 0.05,ns
+  Total Cycle Time: Yan,0.009889,0.02153,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.8476,-1.465,-3.323 to 0.3924
+  Burst Duration: Yan,2.670,1.269,-1.401,-3.259 to 0.4565
+  Interburst Interval: TB,1.407,2.876,1.469,-0.3999 to 3.338
+  Interburst Interval: Yan,1.046,2.451,1.405,-0.4642 to 3.274
+  Intraburst Frequency: TB,26.75,58.91,32.17,30.31 to 34.02
+  Intraburst Frequency: Yan,26.90,37.26,10.36,8.504 to 12.22
+  Peaks per Burst: TB,61.54,49.81,-11.73,-13.59 to -9.871
+  Peaks per Burst: Yan,71.41,46.99,-24.42,-26.28 to -22.56
+  Total Cycle Time: TB,3.720,3.724,0.004038,-1.865 to 1.873
+  Total Cycle Time: Yan,3.716,3.720,0.003803,-1.865 to 1.873
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.465,3.209,P < 0.05,*
+  Burst Duration: Yan,-1.401,3.069,P < 0.05,*
+  Interburst Interval: TB,1.469,3.198,P < 0.05,*
+  Interburst Interval: Yan,1.405,3.058,P < 0.05,*
+  Intraburst Frequency: TB,32.17,70.45,P<0.001,***
+  Intraburst Frequency: Yan,10.36,22.69,P<0.001,***
+  Peaks per Burst: TB,-11.73,25.69,P<0.001,***
+  Peaks per Burst: Yan,-24.42,53.49,P<0.001,***
+  Total Cycle Time: TB,0.004038,0.008790,P > 0.05,ns
+  Total Cycle Time: Yan,0.003803,0.008278,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,1.356,-0.9563,-2.814 to 0.9013
+  Burst Duration: Yan,2.670,1.776,-0.8935,-2.751 to 0.9640
+  Interburst Interval: TB,1.407,2.367,0.9601,-0.9090 to 2.829
+  Interburst Interval: Yan,1.046,1.944,0.8979,-0.9712 to 2.767
+  Intraburst Frequency: TB,26.75,42.76,16.02,14.16 to 17.88
+  Intraburst Frequency: Yan,26.90,30.44,3.542,1.684 to 5.399
+  Peaks per Burst: TB,61.54,57.93,-3.617,-5.475 to -1.760
+  Peaks per Burst: Yan,71.41,53.85,-17.56,-19.41 to -15.70
+  Total Cycle Time: TB,3.720,3.723,0.003731,-1.865 to 1.873
+  Total Cycle Time: Yan,3.716,3.720,0.004149,-1.865 to 1.873
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.9563,2.094,P > 0.05,ns
+  Burst Duration: Yan,-0.8935,1.957,P > 0.05,ns
+  Interburst Interval: TB,0.9601,2.090,P > 0.05,ns
+  Interburst Interval: Yan,0.8979,1.955,P > 0.05,ns
+  Intraburst Frequency: TB,16.02,35.08,P<0.001,***
+  Intraburst Frequency: Yan,3.542,7.758,P<0.001,***
+  Peaks per Burst: TB,-3.617,7.923,P<0.001,***
+  Peaks per Burst: Yan,-17.56,38.45,P<0.001,***
+  Total Cycle Time: TB,0.003731,0.008121,P > 0.05,ns
+  Total Cycle Time: Yan,0.004149,0.009032,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.5957,-1.717,-3.327 to -0.1066
+  Burst Duration: Yan,2.670,2.089,-0.5811,-2.439 to 1.276
+  Interburst Interval: TB,1.407,1.274,-0.1328,-1.751 to 1.486
+  Interburst Interval: Yan,1.046,1.632,0.5864,-1.283 to 2.455
+  Intraburst Frequency: TB,26.75,55.65,28.90,27.29 to 30.51
+  Intraburst Frequency: Yan,26.90,28.91,2.008,0.1501 to 3.865
+  Peaks per Burst: TB,61.54,32.20,-29.34,-30.95 to -27.73
+  Peaks per Burst: Yan,71.41,60.23,-11.17,-13.03 to -9.315
+  Total Cycle Time: TB,3.720,1.870,-1.849,-3.468 to -0.2307
+  Total Cycle Time: Yan,3.716,3.721,0.005233,-1.864 to 1.874
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.717,4.338,P<0.001,***
+  Burst Duration: Yan,-0.5811,1.273,P > 0.05,ns
+  Interburst Interval: TB,-0.1328,0.3338,P > 0.05,ns
+  Interburst Interval: Yan,0.5864,1.276,P > 0.05,ns
+  Intraburst Frequency: TB,28.90,73.02,P<0.001,***
+  Intraburst Frequency: Yan,2.008,4.397,P<0.001,***
+  Peaks per Burst: TB,-29.34,74.14,P<0.001,***
+  Peaks per Burst: Yan,-11.17,24.47,P<0.001,***
+  Total Cycle Time: TB,-1.849,4.648,P<0.001,***
+  Total Cycle Time: Yan,0.005233,0.01139,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.3226,-1.990,-3.848 to -0.1325
+  Burst Duration: Yan,2.670,0.3442,-2.326,-4.183 to -0.4681
+  Interburst Interval: TB,1.407,3.406,1.999,0.1301 to 3.868
+  Interburst Interval: Yan,1.046,3.384,2.339,0.4694 to 4.208
+  Intraburst Frequency: TB,26.75,76.47,49.72,47.87 to 51.58
+  Intraburst Frequency: Yan,26.90,74.72,47.82,45.96 to 49.68
+  Peaks per Burst: TB,61.54,24.73,-36.81,-38.67 to -34.96
+  Peaks per Burst: Yan,71.41,25.77,-45.64,-47.50 to -43.78
+  Total Cycle Time: TB,3.720,3.729,0.009044,-1.860 to 1.878
+  Total Cycle Time: Yan,3.716,3.729,0.01296,-1.856 to 1.882
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.990,4.359,P<0.001,***
+  Burst Duration: Yan,-2.326,5.094,P<0.001,***
+  Interburst Interval: TB,1.999,4.352,P<0.001,***
+  Interburst Interval: Yan,2.339,5.090,P<0.001,***
+  Intraburst Frequency: TB,49.72,108.9,P<0.001,***
+  Intraburst Frequency: Yan,47.82,104.7,P<0.001,***
+  Peaks per Burst: TB,-36.81,80.63,P<0.001,***
+  Peaks per Burst: Yan,-45.64,99.97,P<0.001,***
+  Total Cycle Time: TB,0.009044,0.01969,P > 0.05,ns
+  Total Cycle Time: Yan,0.01296,0.02822,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.3720,-1.941,-3.798 to -0.08313
+  Burst Duration: Yan,2.670,0.3965,-2.273,-4.131 to -0.4158
+  Interburst Interval: TB,1.407,3.357,1.950,0.08071 to 3.819
+  Interburst Interval: Yan,1.046,3.332,2.286,0.4171 to 4.155
+  Intraburst Frequency: TB,26.75,90.60,63.86,62.00 to 65.71
+  Intraburst Frequency: Yan,26.90,85.15,58.24,56.39 to 60.10
+  Peaks per Burst: TB,61.54,33.74,-27.80,-29.66 to -25.94
+  Peaks per Burst: Yan,71.41,33.79,-37.62,-39.47 to -35.76
+  Total Cycle Time: TB,3.720,3.729,0.009124,-1.860 to 1.878
+  Total Cycle Time: Yan,3.716,3.729,0.01296,-1.856 to 1.882
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.941,4.251,P<0.001,***
+  Burst Duration: Yan,-2.273,4.979,P<0.001,***
+  Interburst Interval: TB,1.950,4.244,P<0.001,***
+  Interburst Interval: Yan,2.286,4.976,P<0.001,***
+  Intraburst Frequency: TB,63.86,139.9,P<0.001,***
+  Intraburst Frequency: Yan,58.24,127.6,P<0.001,***
+  Peaks per Burst: TB,-27.80,60.89,P<0.001,***
+  Peaks per Burst: Yan,-37.62,82.39,P<0.001,***
+  Total Cycle Time: TB,0.009124,0.01986,P > 0.05,ns
+  Total Cycle Time: Yan,0.01296,0.02821,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.4263,-1.886,-3.744 to -0.02886
+  Burst Duration: Yan,2.670,0.4546,-2.215,-4.073 to -0.3578
+  Interburst Interval: TB,1.407,3.302,1.896,0.02639 to 3.765
+  Interburst Interval: Yan,1.046,3.274,2.228,0.3585 to 4.097
+  Intraburst Frequency: TB,26.75,97.89,71.14,69.28 to 73.00
+  Intraburst Frequency: Yan,26.90,91.92,65.02,63.16 to 66.87
+  Peaks per Burst: TB,61.54,41.75,-19.79,-21.65 to -17.93
+  Peaks per Burst: Yan,71.41,41.80,-29.60,-31.46 to -27.75
+  Total Cycle Time: TB,3.720,3.729,0.009080,-1.860 to 1.878
+  Total Cycle Time: Yan,3.716,3.728,0.01234,-1.857 to 1.881
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.886,4.132,P<0.001,***
+  Burst Duration: Yan,-2.215,4.852,P<0.001,***
+  Interburst Interval: TB,1.896,4.126,P<0.001,***
+  Interburst Interval: Yan,2.228,4.849,P<0.001,***
+  Intraburst Frequency: TB,71.14,155.8,P<0.001,***
+  Intraburst Frequency: Yan,65.02,142.4,P<0.001,***
+  Peaks per Burst: TB,-19.79,43.35,P<0.001,***
+  Peaks per Burst: Yan,-29.60,64.84,P<0.001,***
+  Total Cycle Time: TB,0.009080,0.01976,P > 0.05,ns
+  Total Cycle Time: Yan,0.01234,0.02686,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.5028,-1.810,-3.667 to 0.04765
+  Burst Duration: Yan,2.670,0.6621,-2.008,-3.865 to -0.1502
+  Interburst Interval: TB,1.407,3.226,1.819,-0.05036 to 3.688
+  Interburst Interval: Yan,1.046,3.064,2.018,0.1487 to 3.887
+  Intraburst Frequency: TB,26.75,99.97,73.23,71.37 to 75.08
+  Intraburst Frequency: Yan,26.90,83.34,56.44,54.58 to 58.30
+  Peaks per Burst: TB,61.54,50.23,-11.31,-13.17 to -9.451
+  Peaks per Burst: Yan,71.41,55.12,-16.28,-18.14 to -14.43
+  Total Cycle Time: TB,3.720,3.728,0.008679,-1.860 to 1.878
+  Total Cycle Time: Yan,3.716,3.725,0.009738,-1.859 to 1.879
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.810,3.964,P<0.001,***
+  Burst Duration: Yan,-2.008,4.398,P<0.001,***
+  Interburst Interval: TB,1.819,3.959,P<0.001,***
+  Interburst Interval: Yan,2.018,4.392,P<0.001,***
+  Intraburst Frequency: TB,73.23,160.4,P<0.001,***
+  Intraburst Frequency: Yan,56.44,123.6,P<0.001,***
+  Peaks per Burst: TB,-11.31,24.77,P<0.001,***
+  Peaks per Burst: Yan,-16.28,35.67,P<0.001,***
+  Total Cycle Time: TB,0.008679,0.01889,P > 0.05,ns
+  Total Cycle Time: Yan,0.009738,0.02120,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=3.6 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=3.6,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,2.313,0.6209,-1.692,-3.549 to 0.1657
+  Burst Duration: Yan,2.670,0.9662,-1.704,-3.561 to 0.1539
+  Interburst Interval: TB,1.407,3.106,1.699,-0.1702 to 3.568
+  Interburst Interval: Yan,1.046,2.755,1.709,-0.1598 to 3.578
+  Intraburst Frequency: TB,26.75,100.9,74.16,72.30 to 76.02
+  Intraburst Frequency: Yan,26.90,70.30,43.40,41.54 to 45.26
+  Peaks per Burst: TB,61.54,62.67,1.123,-0.7341 to 2.981
+  Peaks per Burst: Yan,71.41,67.79,-3.617,-5.475 to -1.760
+  Total Cycle Time: TB,3.720,3.727,0.007041,-1.862 to 1.876
+  Total Cycle Time: Yan,3.716,3.721,0.005594,-1.864 to 1.875
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.692,3.706,P<0.01,**
+  Burst Duration: Yan,-1.704,3.731,P<0.01,**
+  Interburst Interval: TB,1.699,3.698,P<0.01,**
+  Interburst Interval: Yan,1.709,3.721,P<0.01,**
+  Intraburst Frequency: TB,74.16,162.4,P<0.001,***
+  Intraburst Frequency: Yan,43.40,95.05,P<0.001,***
+  Peaks per Burst: TB,1.123,2.461,P > 0.05,ns
+  Peaks per Burst: Yan,-3.617,7.923,P<0.001,***
+  Total Cycle Time: TB,0.007041,0.01533,P > 0.05,ns
+  Total Cycle Time: Yan,0.005594,0.01218,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.3859,-2.181,-4.039 to -0.3236
+  Burst Duration: Yan,2.888,0.3877,-2.500,-4.357 to -0.6424
+  Interburst Interval: TB,1.150,3.343,2.193,0.3241 to 4.062
+  Interburst Interval: Yan,0.8258,3.341,2.515,0.6460 to 4.384
+  Intraburst Frequency: TB,27.66,74.66,47.00,45.14 to 48.85
+  Intraburst Frequency: Yan,28.35,74.54,46.19,44.33 to 48.05
+  Peaks per Burst: TB,70.52,28.83,-41.69,-43.55 to -39.83
+  Peaks per Burst: Yan,81.27,28.90,-52.37,-54.23 to -50.51
+  Total Cycle Time: TB,3.717,3.729,0.01218,-1.857 to 1.881
+  Total Cycle Time: Yan,3.713,3.729,0.01538,-1.854 to 1.884
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-2.181,4.777,P<0.001,***
+  Burst Duration: Yan,-2.500,5.476,P<0.001,***
+  Interburst Interval: TB,2.193,4.774,P<0.001,***
+  Interburst Interval: Yan,2.515,5.475,P<0.001,***
+  Intraburst Frequency: TB,47.00,102.9,P<0.001,***
+  Intraburst Frequency: Yan,46.19,101.2,P<0.001,***
+  Peaks per Burst: TB,-41.69,91.31,P<0.001,***
+  Peaks per Burst: Yan,-52.37,114.7,P<0.001,***
+  Total Cycle Time: TB,0.01218,0.02652,P > 0.05,ns
+  Total Cycle Time: Yan,0.01538,0.03349,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.4720,-2.095,-3.953 to -0.2375
+  Burst Duration: Yan,2.888,0.6454,-2.242,-4.100 to -0.3847
+  Interburst Interval: TB,1.150,3.256,2.106,0.2370 to 3.975
+  Interburst Interval: Yan,0.8258,3.080,2.254,0.3853 to 4.124
+  Intraburst Frequency: TB,27.66,78.03,50.37,48.51 to 52.22
+  Intraburst Frequency: Yan,28.35,58.91,30.56,28.70 to 32.41
+  Peaks per Burst: TB,70.52,36.84,-33.68,-35.54 to -31.82
+  Peaks per Burst: Yan,81.27,37.95,-43.32,-45.18 to -41.46
+  Total Cycle Time: TB,3.717,3.728,0.01117,-1.858 to 1.880
+  Total Cycle Time: Yan,3.713,3.726,0.01240,-1.857 to 1.882
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-2.095,4.589,P<0.001,***
+  Burst Duration: Yan,-2.242,4.911,P<0.001,***
+  Interburst Interval: TB,2.106,4.584,P<0.001,***
+  Interburst Interval: Yan,2.254,4.907,P<0.001,***
+  Intraburst Frequency: TB,50.37,110.3,P<0.001,***
+  Intraburst Frequency: Yan,30.56,66.93,P<0.001,***
+  Peaks per Burst: TB,-33.68,73.77,P<0.001,***
+  Peaks per Burst: Yan,-43.32,94.88,P<0.001,***
+  Total Cycle Time: TB,0.01117,0.02430,P > 0.05,ns
+  Total Cycle Time: Yan,0.01240,0.02699,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.8476,-1.719,-3.577 to 0.1380
+  Burst Duration: Yan,2.888,1.269,-1.619,-3.476 to 0.2387
+  Interburst Interval: TB,1.150,2.876,1.727,-0.1426 to 3.596
+  Interburst Interval: Yan,0.8258,2.451,1.625,-0.2440 to 3.494
+  Intraburst Frequency: TB,27.66,58.91,31.25,29.39 to 33.11
+  Intraburst Frequency: Yan,28.35,37.26,8.911,7.054 to 10.77
+  Peaks per Burst: TB,70.52,49.81,-20.70,-22.56 to -18.85
+  Peaks per Burst: Yan,81.27,46.99,-34.28,-36.14 to -32.43
+  Total Cycle Time: TB,3.717,3.724,0.007091,-1.862 to 1.876
+  Total Cycle Time: Yan,3.713,3.720,0.006314,-1.863 to 1.875
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.719,3.766,P<0.01,**
+  Burst Duration: Yan,-1.619,3.546,P<0.01,**
+  Interburst Interval: TB,1.727,3.758,P<0.01,**
+  Interburst Interval: Yan,1.625,3.537,P<0.01,**
+  Intraburst Frequency: TB,31.25,68.45,P<0.001,***
+  Intraburst Frequency: Yan,8.911,19.52,P<0.001,***
+  Peaks per Burst: TB,-20.70,45.35,P<0.001,***
+  Peaks per Burst: Yan,-34.28,75.09,P<0.001,***
+  Total Cycle Time: TB,0.007091,0.01544,P > 0.05,ns
+  Total Cycle Time: Yan,0.006314,0.01374,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,1.356,-1.211,-3.068 to 0.6469
+  Burst Duration: Yan,2.888,1.776,-1.111,-2.969 to 0.7462
+  Interburst Interval: TB,1.150,2.367,1.217,-0.6517 to 3.086
+  Interburst Interval: Yan,0.8258,1.944,1.118,-0.7510 to 2.987
+  Intraburst Frequency: TB,27.66,42.76,15.10,13.24 to 16.96
+  Intraburst Frequency: Yan,28.35,30.44,2.092,0.2341 to 3.949
+  Peaks per Burst: TB,70.52,57.93,-12.59,-14.45 to -10.74
+  Peaks per Burst: Yan,81.27,53.85,-27.42,-29.28 to -25.56
+  Total Cycle Time: TB,3.717,3.723,0.006784,-1.862 to 1.876
+  Total Cycle Time: Yan,3.713,3.720,0.006660,-1.862 to 1.876
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.211,2.652,P > 0.05,ns
+  Burst Duration: Yan,-1.111,2.434,P > 0.05,ns
+  Interburst Interval: TB,1.217,2.650,P > 0.05,ns
+  Interburst Interval: Yan,1.118,2.434,P > 0.05,ns
+  Intraburst Frequency: TB,15.10,33.08,P<0.001,***
+  Intraburst Frequency: Yan,2.092,4.581,P<0.001,***
+  Peaks per Burst: TB,-12.59,27.58,P<0.001,***
+  Peaks per Burst: Yan,-27.42,60.06,P<0.001,***
+  Total Cycle Time: TB,0.006784,0.01477,P > 0.05,ns
+  Total Cycle Time: Yan,0.006660,0.01450,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.5957,-1.971,-3.582 to -0.3610
+  Burst Duration: Yan,2.888,2.089,-0.7988,-2.656 to 1.059
+  Interburst Interval: TB,1.150,1.274,0.1245,-1.494 to 1.743
+  Interburst Interval: Yan,0.8258,1.632,0.8065,-1.063 to 2.676
+  Intraburst Frequency: TB,27.66,55.65,27.99,26.38 to 29.60
+  Intraburst Frequency: Yan,28.35,28.91,0.5574,-1.300 to 2.415
+  Peaks per Burst: TB,70.52,32.20,-38.32,-39.93 to -36.71
+  Peaks per Burst: Yan,81.27,60.23,-21.04,-22.89 to -19.18
+  Total Cycle Time: TB,3.717,1.870,-1.846,-3.465 to -0.2277
+  Total Cycle Time: Yan,3.713,3.721,0.007744,-1.861 to 1.877
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.971,4.981,P<0.001,***
+  Burst Duration: Yan,-0.7988,1.750,P > 0.05,ns
+  Interburst Interval: TB,0.1245,0.3129,P > 0.05,ns
+  Interburst Interval: Yan,0.8065,1.756,P > 0.05,ns
+  Intraburst Frequency: TB,27.99,70.71,P<0.001,***
+  Intraburst Frequency: Yan,0.5574,1.221,P > 0.05,ns
+  Peaks per Burst: TB,-38.32,96.81,P<0.001,***
+  Peaks per Burst: Yan,-21.04,46.08,P<0.001,***
+  Total Cycle Time: TB,-1.846,4.641,P<0.001,***
+  Total Cycle Time: Yan,0.007744,0.01686,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.3226,-2.244,-4.102 to -0.3869
+  Burst Duration: Yan,2.888,0.3442,-2.543,-4.401 to -0.6858
+  Interburst Interval: TB,1.150,3.406,2.256,0.3874 to 4.126
+  Interburst Interval: Yan,0.8258,3.384,2.559,0.6896 to 4.428
+  Intraburst Frequency: TB,27.66,76.47,48.81,46.95 to 50.67
+  Intraburst Frequency: Yan,28.35,74.72,46.37,44.51 to 48.23
+  Peaks per Burst: TB,70.52,24.73,-45.79,-47.65 to -43.93
+  Peaks per Burst: Yan,81.27,25.77,-55.51,-57.36 to -53.65
+  Total Cycle Time: TB,3.717,3.729,0.01210,-1.857 to 1.881
+  Total Cycle Time: Yan,3.713,3.729,0.01547,-1.854 to 1.885
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-2.244,4.916,P<0.001,***
+  Burst Duration: Yan,-2.543,5.571,P<0.001,***
+  Interburst Interval: TB,2.256,4.912,P<0.001,***
+  Interburst Interval: Yan,2.559,5.569,P<0.001,***
+  Intraburst Frequency: TB,48.81,106.9,P<0.001,***
+  Intraburst Frequency: Yan,46.37,101.6,P<0.001,***
+  Peaks per Burst: TB,-45.79,100.3,P<0.001,***
+  Peaks per Burst: Yan,-55.51,121.6,P<0.001,***
+  Total Cycle Time: TB,0.01210,0.02633,P > 0.05,ns
+  Total Cycle Time: Yan,0.01547,0.03368,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.3720,-2.195,-4.053 to -0.3375
+  Burst Duration: Yan,2.888,0.3965,-2.491,-4.349 to -0.6336
+  Interburst Interval: TB,1.150,3.357,2.207,0.3380 to 4.076
+  Interburst Interval: Yan,0.8258,3.332,2.506,0.6373 to 4.376
+  Intraburst Frequency: TB,27.66,90.60,62.94,61.08 to 64.80
+  Intraburst Frequency: Yan,28.35,85.15,56.79,54.94 to 58.65
+  Peaks per Burst: TB,70.52,33.74,-36.78,-38.64 to -34.92
+  Peaks per Burst: Yan,81.27,33.79,-47.48,-49.34 to -45.62
+  Total Cycle Time: TB,3.717,3.729,0.01218,-1.857 to 1.881
+  Total Cycle Time: Yan,3.713,3.729,0.01547,-1.854 to 1.885
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-2.195,4.808,P<0.001,***
+  Burst Duration: Yan,-2.491,5.456,P<0.001,***
+  Interburst Interval: TB,2.207,4.804,P<0.001,***
+  Interburst Interval: Yan,2.506,5.456,P<0.001,***
+  Intraburst Frequency: TB,62.94,137.9,P<0.001,***
+  Intraburst Frequency: Yan,56.79,124.4,P<0.001,***
+  Peaks per Burst: TB,-36.78,80.55,P<0.001,***
+  Peaks per Burst: Yan,-47.48,104.0,P<0.001,***
+  Total Cycle Time: TB,0.01218,0.02651,P > 0.05,ns
+  Total Cycle Time: Yan,0.01547,0.03367,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.4263,-2.141,-3.998 to -0.2832
+  Burst Duration: Yan,2.888,0.4546,-2.433,-4.291 to -0.5755
+  Interburst Interval: TB,1.150,3.302,2.153,0.2837 to 4.022
+  Interburst Interval: Yan,0.8258,3.274,2.448,0.5787 to 4.317
+  Intraburst Frequency: TB,27.66,97.89,70.23,68.37 to 72.08
+  Intraburst Frequency: Yan,28.35,91.92,63.57,61.71 to 65.42
+  Peaks per Burst: TB,70.52,41.75,-28.77,-30.62 to -26.91
+  Peaks per Burst: Yan,81.27,41.80,-39.47,-41.33 to -37.61
+  Total Cycle Time: TB,3.717,3.729,0.01213,-1.857 to 1.881
+  Total Cycle Time: Yan,3.713,3.728,0.01485,-1.854 to 1.884
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-2.141,4.689,P<0.001,***
+  Burst Duration: Yan,-2.433,5.329,P<0.001,***
+  Interburst Interval: TB,2.153,4.686,P<0.001,***
+  Interburst Interval: Yan,2.448,5.328,P<0.001,***
+  Intraburst Frequency: TB,70.23,153.8,P<0.001,***
+  Intraburst Frequency: Yan,63.57,139.2,P<0.001,***
+  Peaks per Burst: TB,-28.77,63.00,P<0.001,***
+  Peaks per Burst: Yan,-39.47,86.45,P<0.001,***
+  Total Cycle Time: TB,0.01213,0.02641,P > 0.05,ns
+  Total Cycle Time: Yan,0.01485,0.03232,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.5028,-2.064,-3.922 to -0.2067
+  Burst Duration: Yan,2.888,0.6621,-2.226,-4.083 to -0.3680
+  Interburst Interval: TB,1.150,3.226,2.076,0.2069 to 3.945
+  Interburst Interval: Yan,0.8258,3.064,2.238,0.3688 to 4.107
+  Intraburst Frequency: TB,27.66,99.97,72.31,70.45 to 74.17
+  Intraburst Frequency: Yan,28.35,83.34,54.99,53.13 to 56.85
+  Peaks per Burst: TB,70.52,50.23,-20.28,-22.14 to -18.43
+  Peaks per Burst: Yan,81.27,55.12,-26.15,-28.01 to -24.29
+  Total Cycle Time: TB,3.717,3.728,0.01173,-1.857 to 1.881
+  Total Cycle Time: Yan,3.713,3.725,0.01225,-1.857 to 1.881
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-2.064,4.521,P<0.001,***
+  Burst Duration: Yan,-2.226,4.875,P<0.001,***
+  Interburst Interval: TB,2.076,4.519,P<0.001,***
+  Interburst Interval: Yan,2.238,4.871,P<0.001,***
+  Intraburst Frequency: TB,72.31,158.4,P<0.001,***
+  Intraburst Frequency: Yan,54.99,120.4,P<0.001,***
+  Peaks per Burst: TB,-20.28,44.43,P<0.001,***
+  Peaks per Burst: Yan,-26.15,57.27,P<0.001,***
+  Total Cycle Time: TB,0.01173,0.02554,P > 0.05,ns
+  Total Cycle Time: Yan,0.01225,0.02666,P > 0.05,ns
+,,,,
+eL=-55.0 gnaps=4.2 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-55.0 gnaps=4.2,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,2.567,0.6209,-1.946,-3.804 to -0.08867
+  Burst Duration: Yan,2.888,0.9662,-1.921,-3.779 to -0.06387
+  Interburst Interval: TB,1.150,3.106,1.956,0.08711 to 3.825
+  Interburst Interval: Yan,0.8258,2.755,1.929,0.06033 to 3.799
+  Intraburst Frequency: TB,27.66,100.9,73.24,71.39 to 75.10
+  Intraburst Frequency: Yan,28.35,70.30,41.95,40.09 to 43.81
+  Peaks per Burst: TB,70.52,62.67,-7.852,-9.709 to -5.994
+  Peaks per Burst: Yan,81.27,67.79,-13.48,-15.34 to -11.62
+  Total Cycle Time: TB,3.717,3.727,0.01009,-1.859 to 1.879
+  Total Cycle Time: Yan,3.713,3.721,0.008105,-1.861 to 1.877
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.946,4.263,P<0.001,***
+  Burst Duration: Yan,-1.921,4.208,P<0.001,***
+  Interburst Interval: TB,1.956,4.258,P<0.001,***
+  Interburst Interval: Yan,1.929,4.200,P<0.001,***
+  Intraburst Frequency: TB,73.24,160.4,P<0.001,***
+  Intraburst Frequency: Yan,41.95,91.88,P<0.001,***
+  Peaks per Burst: TB,-7.852,17.20,P<0.001,***
+  Peaks per Burst: Yan,-13.48,29.53,P<0.001,***
+  Total Cycle Time: TB,0.01009,0.02197,P > 0.05,ns
+  Total Cycle Time: Yan,0.008105,0.01764,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=2.4,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.4720,0.08607,-1.771 to 1.944
+  Burst Duration: Yan,0.3877,0.6454,0.2578,-1.600 to 2.115
+  Interburst Interval: TB,3.343,3.256,-0.08709,-1.956 to 1.782
+  Interburst Interval: Yan,3.341,3.080,-0.2607,-2.130 to 1.608
+  Intraburst Frequency: TB,74.66,78.03,3.370,1.512 to 5.227
+  Intraburst Frequency: Yan,74.54,58.91,-15.63,-17.49 to -13.77
+  Peaks per Burst: TB,28.83,36.84,8.012,6.155 to 9.870
+  Peaks per Burst: Yan,28.90,37.95,9.049,7.192 to 10.91
+  Total Cycle Time: TB,3.729,3.728,-0.001018,-1.870 to 1.868
+  Total Cycle Time: Yan,3.729,3.726,-0.002985,-1.872 to 1.866
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.08607,0.1885,P > 0.05,ns
+  Burst Duration: Yan,0.2578,0.5645,P > 0.05,ns
+  Interburst Interval: TB,-0.08709,0.1896,P > 0.05,ns
+  Interburst Interval: Yan,-0.2607,0.5675,P > 0.05,ns
+  Intraburst Frequency: TB,3.370,7.380,P<0.001,***
+  Intraburst Frequency: Yan,-15.63,34.24,P<0.001,***
+  Peaks per Burst: TB,8.012,17.55,P<0.001,***
+  Peaks per Burst: Yan,9.049,19.82,P<0.001,***
+  Total Cycle Time: TB,-0.001018,0.002216,P > 0.05,ns
+  Total Cycle Time: Yan,-0.002985,0.006497,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=3.0,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.8476,0.4616,-1.396 to 2.319
+  Burst Duration: Yan,0.3877,1.269,0.8811,-0.9765 to 2.739
+  Interburst Interval: TB,3.343,2.876,-0.4667,-2.336 to 1.402
+  Interburst Interval: Yan,3.341,2.451,-0.8901,-2.759 to 0.9791
+  Intraburst Frequency: TB,74.66,58.91,-15.75,-17.60 to -13.89
+  Intraburst Frequency: Yan,74.54,37.26,-37.28,-39.13 to -35.42
+  Peaks per Burst: TB,28.83,49.81,20.99,19.13 to 22.85
+  Peaks per Burst: Yan,28.90,46.99,18.09,16.23 to 19.94
+  Total Cycle Time: TB,3.729,3.724,-0.005093,-1.874 to 1.864
+  Total Cycle Time: Yan,3.729,3.720,-0.009071,-1.878 to 1.860
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.4616,1.011,P > 0.05,ns
+  Burst Duration: Yan,0.8811,1.930,P > 0.05,ns
+  Interburst Interval: TB,-0.4667,1.016,P > 0.05,ns
+  Interburst Interval: Yan,-0.8901,1.937,P > 0.05,ns
+  Intraburst Frequency: TB,-15.75,34.49,P<0.001,***
+  Intraburst Frequency: Yan,-37.28,81.65,P<0.001,***
+  Peaks per Burst: TB,20.99,45.97,P<0.001,***
+  Peaks per Burst: Yan,18.09,39.61,P<0.001,***
+  Total Cycle Time: TB,-0.005093,0.01109,P > 0.05,ns
+  Total Cycle Time: Yan,-0.009071,0.01975,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,1.356,0.9705,-0.8871 to 2.828
+  Burst Duration: Yan,0.3877,1.776,1.389,-0.4689 to 3.246
+  Interburst Interval: TB,3.343,2.367,-0.9758,-2.845 to 0.8933
+  Interburst Interval: Yan,3.341,1.944,-1.397,-3.266 to 0.4721
+  Intraburst Frequency: TB,74.66,42.76,-31.89,-33.75 to -30.04
+  Intraburst Frequency: Yan,74.54,30.44,-44.10,-45.95 to -42.24
+  Peaks per Burst: TB,28.83,57.93,29.10,27.24 to 30.96
+  Peaks per Burst: Yan,28.90,53.85,24.95,23.09 to 26.81
+  Total Cycle Time: TB,3.729,3.723,-0.005400,-1.875 to 1.864
+  Total Cycle Time: Yan,3.729,3.720,-0.008725,-1.878 to 1.860
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.9705,2.126,P > 0.05,ns
+  Burst Duration: Yan,1.389,3.041,P < 0.05,*
+  Interburst Interval: TB,-0.9758,2.124,P > 0.05,ns
+  Interburst Interval: Yan,-1.397,3.041,P < 0.05,*
+  Intraburst Frequency: TB,-31.89,69.86,P<0.001,***
+  Intraburst Frequency: Yan,-44.10,96.58,P<0.001,***
+  Peaks per Burst: TB,29.10,63.73,P<0.001,***
+  Peaks per Burst: Yan,24.95,54.65,P<0.001,***
+  Total Cycle Time: TB,-0.005400,0.01175,P > 0.05,ns
+  Total Cycle Time: Yan,-0.008725,0.01899,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.5957,0.2098,-1.401 to 1.820
+  Burst Duration: Yan,0.3877,2.089,1.701,-0.1564 to 3.559
+  Interburst Interval: TB,3.343,1.274,-2.069,-3.687 to -0.4500
+  Interburst Interval: Yan,3.341,1.632,-1.709,-3.578 to 0.1605
+  Intraburst Frequency: TB,74.66,55.65,-19.01,-20.62 to -17.40
+  Intraburst Frequency: Yan,74.54,28.91,-45.63,-47.49 to -43.77
+  Peaks per Burst: TB,28.83,32.20,3.372,1.761 to 4.982
+  Peaks per Burst: Yan,28.90,60.23,31.33,29.48 to 33.19
+  Total Cycle Time: TB,3.729,1.870,-1.859,-3.477 to -0.2399
+  Total Cycle Time: Yan,3.729,3.721,-0.007641,-1.877 to 1.861
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.2098,0.5300,P > 0.05,ns
+  Burst Duration: Yan,1.701,3.726,P<0.01,**
+  Interburst Interval: TB,-2.069,5.200,P<0.001,***
+  Interburst Interval: Yan,-1.709,3.719,P<0.01,**
+  Intraburst Frequency: TB,-19.01,48.03,P<0.001,***
+  Intraburst Frequency: Yan,-45.63,99.94,P<0.001,***
+  Peaks per Burst: TB,3.372,8.518,P<0.001,***
+  Peaks per Burst: Yan,31.33,68.63,P<0.001,***
+  Total Cycle Time: TB,-1.859,4.671,P<0.001,***
+  Total Cycle Time: Yan,-0.007641,0.01663,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.3226,-0.06335,-1.921 to 1.794
+  Burst Duration: Yan,0.3877,0.3442,-0.04344,-1.901 to 1.814
+  Interburst Interval: TB,3.343,3.406,0.06328,-1.806 to 1.932
+  Interburst Interval: Yan,3.341,3.384,0.04354,-1.826 to 1.913
+  Intraburst Frequency: TB,74.66,76.47,1.813,-0.04476 to 3.670
+  Intraburst Frequency: Yan,74.54,74.72,0.1817,-1.676 to 2.039
+  Peaks per Burst: TB,28.83,24.73,-4.099,-5.956 to -2.241
+  Peaks per Burst: Yan,28.90,25.77,-3.136,-4.993 to -1.278
+  Total Cycle Time: TB,3.729,3.729,-0.00008702,-1.869 to 1.869
+  Total Cycle Time: Yan,3.729,3.729,0.00008893,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.06335,0.1388,P > 0.05,ns
+  Burst Duration: Yan,-0.04344,0.09514,P > 0.05,ns
+  Interburst Interval: TB,0.06328,0.1377,P > 0.05,ns
+  Interburst Interval: Yan,0.04354,0.09477,P > 0.05,ns
+  Intraburst Frequency: TB,1.813,3.970,P<0.001,***
+  Intraburst Frequency: Yan,0.1817,0.3979,P > 0.05,ns
+  Peaks per Burst: TB,-4.099,8.977,P<0.001,***
+  Peaks per Burst: Yan,-3.136,6.868,P<0.001,***
+  Total Cycle Time: TB,-0.00008702,0.0001894,P > 0.05,ns
+  Total Cycle Time: Yan,0.00008893,0.0001936,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.3720,-0.01393,-1.871 to 1.844
+  Burst Duration: Yan,0.3877,0.3965,0.008858,-1.849 to 1.866
+  Interburst Interval: TB,3.343,3.357,0.01393,-1.855 to 1.883
+  Interburst Interval: Yan,3.341,3.332,-0.008755,-1.878 to 1.860
+  Intraburst Frequency: TB,74.66,90.60,15.94,14.09 to 17.80
+  Intraburst Frequency: Yan,74.54,85.15,10.61,8.749 to 12.46
+  Peaks per Burst: TB,28.83,33.74,4.914,3.056 to 6.771
+  Peaks per Burst: Yan,28.90,33.79,4.889,3.031 to 6.746
+  Total Cycle Time: TB,3.729,3.729,-0.000006914,-1.869 to 1.869
+  Total Cycle Time: Yan,3.729,3.729,0.00008488,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.01393,0.03051,P > 0.05,ns
+  Burst Duration: Yan,0.008858,0.01940,P > 0.05,ns
+  Interburst Interval: TB,0.01393,0.03031,P > 0.05,ns
+  Interburst Interval: Yan,-0.008755,0.01906,P > 0.05,ns
+  Intraburst Frequency: TB,15.94,34.92,P<0.001,***
+  Intraburst Frequency: Yan,10.61,23.23,P<0.001,***
+  Peaks per Burst: TB,4.914,10.76,P<0.001,***
+  Peaks per Burst: Yan,4.889,10.71,P<0.001,***
+  Total Cycle Time: TB,-0.000006914,0.00001505,P > 0.05,ns
+  Total Cycle Time: Yan,0.00008488,0.0001848,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.4263,0.04034,-1.817 to 1.898
+  Burst Duration: Yan,0.3877,0.4546,0.06688,-1.791 to 1.924
+  Interburst Interval: TB,3.343,3.302,-0.04039,-1.910 to 1.829
+  Interburst Interval: Yan,3.341,3.274,-0.06739,-1.937 to 1.802
+  Intraburst Frequency: TB,74.66,97.89,23.23,21.37 to 25.09
+  Intraburst Frequency: Yan,74.54,91.92,17.38,15.52 to 19.24
+  Peaks per Burst: TB,28.83,41.75,12.93,11.07 to 14.78
+  Peaks per Burst: Yan,28.90,41.80,12.90,11.04 to 14.76
+  Total Cycle Time: TB,3.729,3.729,-0.00005102,-1.869 to 1.869
+  Total Cycle Time: Yan,3.729,3.728,-0.0005360,-1.870 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.04034,0.08835,P > 0.05,ns
+  Burst Duration: Yan,0.06688,0.1465,P > 0.05,ns
+  Interburst Interval: TB,-0.04039,0.08793,P > 0.05,ns
+  Interburst Interval: Yan,-0.06739,0.1467,P > 0.05,ns
+  Intraburst Frequency: TB,23.23,50.88,P<0.001,***
+  Intraburst Frequency: Yan,17.38,38.06,P<0.001,***
+  Peaks per Burst: TB,12.93,28.31,P<0.001,***
+  Peaks per Burst: Yan,12.90,28.26,P<0.001,***
+  Total Cycle Time: TB,-0.00005102,0.0001111,P > 0.05,ns
+  Total Cycle Time: Yan,-0.0005360,0.001167,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.5028,0.1168,-1.741 to 1.974
+  Burst Duration: Yan,0.3877,0.6621,0.2744,-1.583 to 2.132
+  Interburst Interval: TB,3.343,3.226,-0.1171,-1.986 to 1.752
+  Interburst Interval: Yan,3.341,3.064,-0.2772,-2.146 to 1.592
+  Intraburst Frequency: TB,74.66,99.97,25.31,23.46 to 27.17
+  Intraburst Frequency: Yan,74.54,83.34,8.804,6.947 to 10.66
+  Peaks per Burst: TB,28.83,50.23,21.41,19.55 to 23.26
+  Peaks per Burst: Yan,28.90,55.12,26.22,24.36 to 28.08
+  Total Cycle Time: TB,3.729,3.728,-0.0004520,-1.870 to 1.869
+  Total Cycle Time: Yan,3.729,3.725,-0.003136,-1.872 to 1.866
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1168,0.2559,P > 0.05,ns
+  Burst Duration: Yan,0.2744,0.6010,P > 0.05,ns
+  Interburst Interval: TB,-0.1171,0.2550,P > 0.05,ns
+  Interburst Interval: Yan,-0.2772,0.6034,P > 0.05,ns
+  Intraburst Frequency: TB,25.31,55.45,P<0.001,***
+  Intraburst Frequency: Yan,8.804,19.28,P<0.001,***
+  Peaks per Burst: TB,21.41,46.89,P<0.001,***
+  Peaks per Burst: Yan,26.22,57.43,P<0.001,***
+  Total Cycle Time: TB,-0.0004520,0.0009840,P > 0.05,ns
+  Total Cycle Time: Yan,-0.003136,0.006826,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=1.8 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=1.8,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.3859,0.6209,0.2349,-1.623 to 2.092
+  Burst Duration: Yan,0.3877,0.9662,0.5785,-1.279 to 2.436
+  Interburst Interval: TB,3.343,3.106,-0.2370,-2.106 to 1.632
+  Interburst Interval: Yan,3.341,2.755,-0.5857,-2.455 to 1.283
+  Intraburst Frequency: TB,74.66,100.9,26.25,24.39 to 28.10
+  Intraburst Frequency: Yan,74.54,70.30,-4.240,-6.097 to -2.382
+  Peaks per Burst: TB,28.83,62.67,33.84,31.98 to 35.70
+  Peaks per Burst: Yan,28.90,67.79,38.89,37.03 to 40.75
+  Total Cycle Time: TB,3.729,3.727,-0.002090,-1.871 to 1.867
+  Total Cycle Time: Yan,3.729,3.721,-0.007280,-1.876 to 1.862
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.2349,0.5145,P > 0.05,ns
+  Burst Duration: Yan,0.5785,1.267,P > 0.05,ns
+  Interburst Interval: TB,-0.2370,0.5158,P > 0.05,ns
+  Interburst Interval: Yan,-0.5857,1.275,P > 0.05,ns
+  Intraburst Frequency: TB,26.25,57.49,P<0.001,***
+  Intraburst Frequency: Yan,-4.240,9.286,P<0.001,***
+  Peaks per Burst: TB,33.84,74.12,P<0.001,***
+  Peaks per Burst: Yan,38.89,85.18,P<0.001,***
+  Total Cycle Time: TB,-0.002090,0.004549,P > 0.05,ns
+  Total Cycle Time: Yan,-0.007280,0.01585,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-60.0 gnaps=3.0,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-60.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,0.8476,0.3756,-1.482 to 2.233
+  Burst Duration: Yan,0.6454,1.269,0.6233,-1.234 to 2.481
+  Interburst Interval: TB,3.256,2.876,-0.3796,-2.249 to 1.490
+  Interburst Interval: Yan,3.080,2.451,-0.6293,-2.498 to 1.240
+  Intraburst Frequency: TB,78.03,58.91,-19.12,-20.97 to -17.26
+  Intraburst Frequency: Yan,58.91,37.26,-21.65,-23.50 to -19.79
+  Peaks per Burst: TB,36.84,49.81,12.98,11.12 to 14.83
+  Peaks per Burst: Yan,37.95,46.99,9.037,7.180 to 10.89
+  Total Cycle Time: TB,3.728,3.724,-0.004075,-1.873 to 1.865
+  Total Cycle Time: Yan,3.726,3.720,-0.006086,-1.875 to 1.863
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.3756,0.8226,P > 0.05,ns
+  Burst Duration: Yan,0.6233,1.365,P > 0.05,ns
+  Interburst Interval: TB,-0.3796,0.8263,P > 0.05,ns
+  Interburst Interval: Yan,-0.6293,1.370,P > 0.05,ns
+  Intraburst Frequency: TB,-19.12,41.87,P<0.001,***
+  Intraburst Frequency: Yan,-21.65,47.41,P<0.001,***
+  Peaks per Burst: TB,12.98,28.42,P<0.001,***
+  Peaks per Burst: Yan,9.037,19.79,P<0.001,***
+  Total Cycle Time: TB,-0.004075,0.008870,P > 0.05,ns
+  Total Cycle Time: Yan,-0.006086,0.01325,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,1.356,0.8844,-0.9731 to 2.742
+  Burst Duration: Yan,0.6454,1.776,1.131,-0.7267 to 2.988
+  Interburst Interval: TB,3.256,2.367,-0.8887,-2.758 to 0.9804
+  Interburst Interval: Yan,3.080,1.944,-1.136,-3.005 to 0.7328
+  Intraburst Frequency: TB,78.03,42.76,-35.26,-37.12 to -33.41
+  Intraburst Frequency: Yan,58.91,30.44,-28.46,-30.32 to -26.61
+  Peaks per Burst: TB,36.84,57.93,21.09,19.23 to 22.94
+  Peaks per Burst: Yan,37.95,53.85,15.90,14.04 to 17.76
+  Total Cycle Time: TB,3.728,3.723,-0.004382,-1.873 to 1.865
+  Total Cycle Time: Yan,3.726,3.720,-0.005740,-1.875 to 1.863
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.8844,1.937,P > 0.05,ns
+  Burst Duration: Yan,1.131,2.477,P > 0.05,ns
+  Interburst Interval: TB,-0.8887,1.935,P > 0.05,ns
+  Interburst Interval: Yan,-1.136,2.474,P > 0.05,ns
+  Intraburst Frequency: TB,-35.26,77.24,P<0.001,***
+  Intraburst Frequency: Yan,-28.46,62.34,P<0.001,***
+  Peaks per Burst: TB,21.09,46.18,P<0.001,***
+  Peaks per Burst: Yan,15.90,34.83,P<0.001,***
+  Total Cycle Time: TB,-0.004382,0.009538,P > 0.05,ns
+  Total Cycle Time: Yan,-0.005740,0.01249,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,0.5957,0.1237,-1.487 to 1.734
+  Burst Duration: Yan,0.6454,2.089,1.443,-0.4142 to 3.301
+  Interburst Interval: TB,3.256,1.274,-1.982,-3.600 to -0.3629
+  Interburst Interval: Yan,3.080,1.632,-1.448,-3.317 to 0.4212
+  Intraburst Frequency: TB,78.03,55.65,-22.38,-23.99 to -20.77
+  Intraburst Frequency: Yan,58.91,28.91,-30.00,-31.86 to -28.14
+  Peaks per Burst: TB,36.84,32.20,-4.641,-6.251 to -3.030
+  Peaks per Burst: Yan,37.95,60.23,22.28,20.43 to 24.14
+  Total Cycle Time: TB,3.728,1.870,-1.858,-3.476 to -0.2389
+  Total Cycle Time: Yan,3.726,3.721,-0.004656,-1.874 to 1.864
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1237,0.3126,P > 0.05,ns
+  Burst Duration: Yan,1.443,3.161,P < 0.05,*
+  Interburst Interval: TB,-1.982,4.981,P<0.001,***
+  Interburst Interval: Yan,-1.448,3.152,P < 0.05,*
+  Intraburst Frequency: TB,-22.38,56.54,P<0.001,***
+  Intraburst Frequency: Yan,-30.00,65.71,P<0.001,***
+  Peaks per Burst: TB,-4.641,11.72,P<0.001,***
+  Peaks per Burst: Yan,22.28,48.81,P<0.001,***
+  Total Cycle Time: TB,-1.858,4.669,P<0.001,***
+  Total Cycle Time: Yan,-0.004656,0.01013,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,0.3226,-0.1494,-2.007 to 1.708
+  Burst Duration: Yan,0.6454,0.3442,-0.3012,-2.159 to 1.556
+  Interburst Interval: TB,3.256,3.406,0.1504,-1.719 to 2.019
+  Interburst Interval: Yan,3.080,3.384,0.3042,-1.565 to 2.173
+  Intraburst Frequency: TB,78.03,76.47,-1.557,-3.414 to 0.3007
+  Intraburst Frequency: Yan,58.91,74.72,15.81,13.96 to 17.67
+  Peaks per Burst: TB,36.84,24.73,-12.11,-13.97 to -10.25
+  Peaks per Burst: Yan,37.95,25.77,-12.19,-14.04 to -10.33
+  Total Cycle Time: TB,3.728,3.729,0.0009310,-1.868 to 1.870
+  Total Cycle Time: Yan,3.726,3.729,0.003074,-1.866 to 1.872
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.1494,0.3273,P > 0.05,ns
+  Burst Duration: Yan,-0.3012,0.6597,P > 0.05,ns
+  Interburst Interval: TB,0.1504,0.3273,P > 0.05,ns
+  Interburst Interval: Yan,0.3042,0.6622,P > 0.05,ns
+  Intraburst Frequency: TB,-1.557,3.410,P<0.01,**
+  Intraburst Frequency: Yan,15.81,34.64,P<0.001,***
+  Peaks per Burst: TB,-12.11,26.53,P<0.001,***
+  Peaks per Burst: Yan,-12.19,26.69,P<0.001,***
+  Total Cycle Time: TB,0.0009310,0.002027,P > 0.05,ns
+  Total Cycle Time: Yan,0.003074,0.006691,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,0.3720,-0.1000,-1.958 to 1.758
+  Burst Duration: Yan,0.6454,0.3965,-0.2489,-2.106 to 1.609
+  Interburst Interval: TB,3.256,3.357,0.1010,-1.768 to 1.970
+  Interburst Interval: Yan,3.080,3.332,0.2519,-1.617 to 2.121
+  Intraburst Frequency: TB,78.03,90.60,12.57,10.72 to 14.43
+  Intraburst Frequency: Yan,58.91,85.15,26.24,24.38 to 28.10
+  Peaks per Burst: TB,36.84,33.74,-3.099,-4.956 to -1.241
+  Peaks per Burst: Yan,37.95,33.79,-4.161,-6.018 to -2.303
+  Total Cycle Time: TB,3.728,3.729,0.001011,-1.868 to 1.870
+  Total Cycle Time: Yan,3.726,3.729,0.003070,-1.866 to 1.872
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.1000,0.2190,P > 0.05,ns
+  Burst Duration: Yan,-0.2489,0.5451,P > 0.05,ns
+  Interburst Interval: TB,0.1010,0.2199,P > 0.05,ns
+  Interburst Interval: Yan,0.2519,0.5484,P > 0.05,ns
+  Intraburst Frequency: TB,12.57,27.54,P<0.001,***
+  Intraburst Frequency: Yan,26.24,57.47,P<0.001,***
+  Peaks per Burst: TB,-3.099,6.787,P<0.001,***
+  Peaks per Burst: Yan,-4.161,9.113,P<0.001,***
+  Total Cycle Time: TB,0.001011,0.002201,P > 0.05,ns
+  Total Cycle Time: Yan,0.003070,0.006682,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,0.4263,-0.04573,-1.903 to 1.812
+  Burst Duration: Yan,0.6454,0.4546,-0.1909,-2.048 to 1.667
+  Interburst Interval: TB,3.256,3.302,0.04669,-1.822 to 1.916
+  Interburst Interval: Yan,3.080,3.274,0.1933,-1.676 to 2.062
+  Intraburst Frequency: TB,78.03,97.89,19.86,18.00 to 21.72
+  Intraburst Frequency: Yan,58.91,91.92,33.01,31.15 to 34.87
+  Peaks per Burst: TB,36.84,41.75,4.914,3.056 to 6.771
+  Peaks per Burst: Yan,37.95,41.80,3.852,1.994 to 5.709
+  Total Cycle Time: TB,3.728,3.729,0.0009670,-1.868 to 1.870
+  Total Cycle Time: Yan,3.726,3.728,0.002449,-1.867 to 1.872
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.04573,0.1002,P > 0.05,ns
+  Burst Duration: Yan,-0.1909,0.4181,P > 0.05,ns
+  Interburst Interval: TB,0.04669,0.1016,P > 0.05,ns
+  Interburst Interval: Yan,0.1933,0.4208,P > 0.05,ns
+  Intraburst Frequency: TB,19.86,43.50,P<0.001,***
+  Intraburst Frequency: Yan,33.01,72.30,P<0.001,***
+  Peaks per Burst: TB,4.914,10.76,P<0.001,***
+  Peaks per Burst: Yan,3.852,8.437,P<0.001,***
+  Total Cycle Time: TB,0.0009670,0.002105,P > 0.05,ns
+  Total Cycle Time: Yan,0.002449,0.005331,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,0.5028,0.03077,-1.827 to 1.888
+  Burst Duration: Yan,0.6454,0.6621,0.01663,-1.841 to 1.874
+  Interburst Interval: TB,3.256,3.226,-0.03005,-1.899 to 1.839
+  Interburst Interval: Yan,3.080,3.064,-0.01653,-1.886 to 1.853
+  Intraburst Frequency: TB,78.03,99.97,21.95,20.09 to 23.80
+  Intraburst Frequency: Yan,58.91,83.34,24.44,22.58 to 26.29
+  Peaks per Burst: TB,36.84,50.23,13.40,11.54 to 15.25
+  Peaks per Burst: Yan,37.95,55.12,17.17,15.32 to 19.03
+  Total Cycle Time: TB,3.728,3.728,0.0005660,-1.869 to 1.870
+  Total Cycle Time: Yan,3.726,3.725,-0.0001509,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.03077,0.06740,P > 0.05,ns
+  Burst Duration: Yan,0.01663,0.03643,P > 0.05,ns
+  Interburst Interval: TB,-0.03005,0.06542,P > 0.05,ns
+  Interburst Interval: Yan,-0.01653,0.03597,P > 0.05,ns
+  Intraburst Frequency: TB,21.95,48.07,P<0.001,***
+  Intraburst Frequency: Yan,24.44,53.52,P<0.001,***
+  Peaks per Burst: TB,13.40,29.34,P<0.001,***
+  Peaks per Burst: Yan,17.17,37.61,P<0.001,***
+  Total Cycle Time: TB,0.0005660,0.001232,P > 0.05,ns
+  Total Cycle Time: Yan,-0.0001509,0.0003285,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=2.4 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=2.4,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.4720,0.6209,0.1488,-1.709 to 2.006
+  Burst Duration: Yan,0.6454,0.9662,0.3208,-1.537 to 2.178
+  Interburst Interval: TB,3.256,3.106,-0.1499,-2.019 to 1.719
+  Interburst Interval: Yan,3.080,2.755,-0.3250,-2.194 to 1.544
+  Intraburst Frequency: TB,78.03,100.9,22.88,21.02 to 24.73
+  Intraburst Frequency: Yan,58.91,70.30,11.39,9.534 to 13.25
+  Peaks per Burst: TB,36.84,62.67,25.83,23.97 to 27.68
+  Peaks per Burst: Yan,37.95,67.79,29.84,27.98 to 31.70
+  Total Cycle Time: TB,3.728,3.727,-0.001072,-1.870 to 1.868
+  Total Cycle Time: Yan,3.726,3.721,-0.004295,-1.873 to 1.865
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1488,0.3260,P > 0.05,ns
+  Burst Duration: Yan,0.3208,0.7026,P > 0.05,ns
+  Interburst Interval: TB,-0.1499,0.3263,P > 0.05,ns
+  Interburst Interval: Yan,-0.3250,0.7075,P > 0.05,ns
+  Intraburst Frequency: TB,22.88,50.11,P<0.001,***
+  Intraburst Frequency: Yan,11.39,24.95,P<0.001,***
+  Peaks per Burst: TB,25.83,56.57,P<0.001,***
+  Peaks per Burst: Yan,29.84,65.36,P<0.001,***
+  Total Cycle Time: TB,-0.001072,0.002333,P > 0.05,ns
+  Total Cycle Time: Yan,-0.004295,0.009349,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-60.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=3.0,eL=-60.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.8476,1.356,0.5088,-1.349 to 2.366
+  Burst Duration: Yan,1.269,1.776,0.5075,-1.350 to 2.365
+  Interburst Interval: TB,2.876,2.367,-0.5091,-2.378 to 1.360
+  Interburst Interval: Yan,2.451,1.944,-0.5070,-2.376 to 1.362
+  Intraburst Frequency: TB,58.91,42.76,-16.15,-18.01 to -14.29
+  Intraburst Frequency: Yan,37.26,30.44,-6.819,-8.677 to -4.962
+  Peaks per Burst: TB,49.81,57.93,8.111,6.254 to 9.969
+  Peaks per Burst: Yan,46.99,53.85,6.864,5.007 to 8.722
+  Total Cycle Time: TB,3.724,3.723,-0.0003071,-1.869 to 1.869
+  Total Cycle Time: Yan,3.720,3.720,0.0003462,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.5088,1.114,P > 0.05,ns
+  Burst Duration: Yan,0.5075,1.112,P > 0.05,ns
+  Interburst Interval: TB,-0.5091,1.108,P > 0.05,ns
+  Interburst Interval: Yan,-0.5070,1.104,P > 0.05,ns
+  Intraburst Frequency: TB,-16.15,35.37,P<0.001,***
+  Intraburst Frequency: Yan,-6.819,14.94,P<0.001,***
+  Peaks per Burst: TB,8.111,17.77,P<0.001,***
+  Peaks per Burst: Yan,6.864,15.03,P<0.001,***
+  Total Cycle Time: TB,-0.0003071,0.0006684,P > 0.05,ns
+  Total Cycle Time: Yan,0.0003462,0.0007535,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=3.0,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.8476,0.5957,-0.2518,-1.862 to 1.358
+  Burst Duration: Yan,1.269,2.089,0.8200,-1.038 to 2.678
+  Interburst Interval: TB,2.876,1.274,-1.602,-3.221 to 0.01669
+  Interburst Interval: Yan,2.451,1.632,-0.8186,-2.688 to 1.051
+  Intraburst Frequency: TB,58.91,55.65,-3.263,-4.874 to -1.653
+  Intraburst Frequency: Yan,37.26,28.91,-8.354,-10.21 to -6.496
+  Peaks per Burst: TB,49.81,32.20,-17.62,-19.23 to -16.01
+  Peaks per Burst: Yan,46.99,60.23,13.25,11.39 to 15.10
+  Total Cycle Time: TB,3.724,1.870,-1.853,-3.472 to -0.2348
+  Total Cycle Time: Yan,3.720,3.721,0.001430,-1.868 to 1.871
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.2518,0.6363,P > 0.05,ns
+  Burst Duration: Yan,0.8200,1.796,P > 0.05,ns
+  Interburst Interval: TB,-1.602,4.027,P<0.001,***
+  Interburst Interval: Yan,-0.8186,1.782,P > 0.05,ns
+  Intraburst Frequency: TB,-3.263,8.245,P<0.001,***
+  Intraburst Frequency: Yan,-8.354,18.30,P<0.001,***
+  Peaks per Burst: TB,-17.62,44.51,P<0.001,***
+  Peaks per Burst: Yan,13.25,29.01,P<0.001,***
+  Total Cycle Time: TB,-1.853,4.659,P<0.001,***
+  Total Cycle Time: Yan,0.001430,0.003113,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,0.8476,0.3226,-0.5250,-2.383 to 1.333
+  Burst Duration: Yan,1.269,0.3442,-0.9245,-2.782 to 0.9330
+  Interburst Interval: TB,2.876,3.406,0.5300,-1.339 to 2.399
+  Interburst Interval: Yan,2.451,3.384,0.9336,-0.9355 to 2.803
+  Intraburst Frequency: TB,58.91,76.47,17.56,15.70 to 19.42
+  Intraburst Frequency: Yan,37.26,74.72,37.46,35.60 to 39.32
+  Peaks per Burst: TB,49.81,24.73,-25.09,-26.94 to -23.23
+  Peaks per Burst: Yan,46.99,25.77,-21.22,-23.08 to -19.36
+  Total Cycle Time: TB,3.724,3.729,0.005006,-1.864 to 1.874
+  Total Cycle Time: Yan,3.720,3.729,0.009160,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.5250,1.150,P > 0.05,ns
+  Burst Duration: Yan,-0.9245,2.025,P > 0.05,ns
+  Interburst Interval: TB,0.5300,1.154,P > 0.05,ns
+  Interburst Interval: Yan,0.9336,2.032,P > 0.05,ns
+  Intraburst Frequency: TB,17.56,38.46,P<0.001,***
+  Intraburst Frequency: Yan,37.46,82.04,P<0.001,***
+  Peaks per Burst: TB,-25.09,54.95,P<0.001,***
+  Peaks per Burst: Yan,-21.22,46.48,P<0.001,***
+  Total Cycle Time: TB,0.005006,0.01090,P > 0.05,ns
+  Total Cycle Time: Yan,0.009160,0.01994,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.8476,0.3720,-0.4756,-2.333 to 1.382
+  Burst Duration: Yan,1.269,0.3965,-0.8722,-2.730 to 0.9853
+  Interburst Interval: TB,2.876,3.357,0.4806,-1.389 to 2.350
+  Interburst Interval: Yan,2.451,3.332,0.8813,-0.9878 to 2.750
+  Intraburst Frequency: TB,58.91,90.60,31.69,29.83 to 33.55
+  Intraburst Frequency: Yan,37.26,85.15,47.88,46.03 to 49.74
+  Peaks per Burst: TB,49.81,33.74,-16.07,-17.93 to -14.22
+  Peaks per Burst: Yan,46.99,33.79,-13.20,-15.06 to -11.34
+  Total Cycle Time: TB,3.724,3.729,0.005086,-1.864 to 1.874
+  Total Cycle Time: Yan,3.720,3.729,0.009156,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.4756,1.042,P > 0.05,ns
+  Burst Duration: Yan,-0.8722,1.910,P > 0.05,ns
+  Interburst Interval: TB,0.4806,1.046,P > 0.05,ns
+  Interburst Interval: Yan,0.8813,1.918,P > 0.05,ns
+  Intraburst Frequency: TB,31.69,69.41,P<0.001,***
+  Intraburst Frequency: Yan,47.88,104.9,P<0.001,***
+  Peaks per Burst: TB,-16.07,35.21,P<0.001,***
+  Peaks per Burst: Yan,-13.20,28.91,P<0.001,***
+  Total Cycle Time: TB,0.005086,0.01107,P > 0.05,ns
+  Total Cycle Time: Yan,0.009156,0.01993,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.8476,0.4263,-0.4213,-2.279 to 1.436
+  Burst Duration: Yan,1.269,0.4546,-0.8142,-2.672 to 1.043
+  Interburst Interval: TB,2.876,3.302,0.4263,-1.443 to 2.295
+  Interburst Interval: Yan,2.451,3.274,0.8227,-1.046 to 2.692
+  Intraburst Frequency: TB,58.91,97.89,38.97,37.12 to 40.83
+  Intraburst Frequency: Yan,37.26,91.92,54.66,52.80 to 56.51
+  Peaks per Burst: TB,49.81,41.75,-8.062,-9.919 to -6.204
+  Peaks per Burst: Yan,46.99,41.80,-5.185,-7.043 to -3.328
+  Total Cycle Time: TB,3.724,3.729,0.005042,-1.864 to 1.874
+  Total Cycle Time: Yan,3.720,3.728,0.008535,-1.861 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.4213,0.9227,P > 0.05,ns
+  Burst Duration: Yan,-0.8142,1.783,P > 0.05,ns
+  Interburst Interval: TB,0.4263,0.9279,P > 0.05,ns
+  Interburst Interval: Yan,0.8227,1.791,P > 0.05,ns
+  Intraburst Frequency: TB,38.97,85.36,P<0.001,***
+  Intraburst Frequency: Yan,54.66,119.7,P<0.001,***
+  Peaks per Burst: TB,-8.062,17.66,P<0.001,***
+  Peaks per Burst: Yan,-5.185,11.36,P<0.001,***
+  Total Cycle Time: TB,0.005042,0.01097,P > 0.05,ns
+  Total Cycle Time: Yan,0.008535,0.01858,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.8476,0.5028,-0.3448,-2.202 to 1.513
+  Burst Duration: Yan,1.269,0.6621,-0.6067,-2.464 to 1.251
+  Interburst Interval: TB,2.876,3.226,0.3495,-1.520 to 2.219
+  Interburst Interval: Yan,2.451,3.064,0.6128,-1.256 to 2.482
+  Intraburst Frequency: TB,58.91,99.97,41.06,39.20 to 42.92
+  Intraburst Frequency: Yan,37.26,83.34,46.08,44.22 to 47.94
+  Peaks per Burst: TB,49.81,50.23,0.4198,-1.438 to 2.277
+  Peaks per Burst: Yan,46.99,55.12,8.136,6.278 to 9.993
+  Total Cycle Time: TB,3.724,3.728,0.004641,-1.864 to 1.874
+  Total Cycle Time: Yan,3.720,3.725,0.005935,-1.863 to 1.875
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.3448,0.7552,P > 0.05,ns
+  Burst Duration: Yan,-0.6067,1.329,P > 0.05,ns
+  Interburst Interval: TB,0.3495,0.7608,P > 0.05,ns
+  Interburst Interval: Yan,0.6128,1.334,P > 0.05,ns
+  Intraburst Frequency: TB,41.06,89.93,P<0.001,***
+  Intraburst Frequency: Yan,46.08,100.9,P<0.001,***
+  Peaks per Burst: TB,0.4198,0.9194,P > 0.05,ns
+  Peaks per Burst: Yan,8.136,17.82,P<0.001,***
+  Total Cycle Time: TB,0.004641,0.01010,P > 0.05,ns
+  Total Cycle Time: Yan,0.005935,0.01292,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.0 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=3.0,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.8476,0.6209,-0.2267,-2.084 to 1.631
+  Burst Duration: Yan,1.269,0.9662,-0.3025,-2.160 to 1.555
+  Interburst Interval: TB,2.876,3.106,0.2297,-1.639 to 2.099
+  Interburst Interval: Yan,2.451,2.755,0.3043,-1.565 to 2.173
+  Intraburst Frequency: TB,58.91,100.9,41.99,40.13 to 43.85
+  Intraburst Frequency: Yan,37.26,70.30,33.04,31.18 to 34.89
+  Peaks per Burst: TB,49.81,62.67,12.85,10.99 to 14.71
+  Peaks per Burst: Yan,46.99,67.79,20.80,18.94 to 22.66
+  Total Cycle Time: TB,3.724,3.727,0.003003,-1.866 to 1.872
+  Total Cycle Time: Yan,3.720,3.721,0.001791,-1.867 to 1.871
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.2267,0.4966,P > 0.05,ns
+  Burst Duration: Yan,-0.3025,0.6626,P > 0.05,ns
+  Interburst Interval: TB,0.2297,0.5000,P > 0.05,ns
+  Interburst Interval: Yan,0.3043,0.6624,P > 0.05,ns
+  Intraburst Frequency: TB,41.99,91.97,P<0.001,***
+  Intraburst Frequency: Yan,33.04,72.36,P<0.001,***
+  Peaks per Burst: TB,12.85,28.15,P<0.001,***
+  Peaks per Burst: Yan,20.80,45.56,P<0.001,***
+  Total Cycle Time: TB,0.003003,0.006536,P > 0.05,ns
+  Total Cycle Time: Yan,0.001791,0.003898,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-60.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=3.6,eL=-60.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.356,0.5957,-0.7607,-2.371 to 0.8497
+  Burst Duration: Yan,1.776,2.089,0.3125,-1.545 to 2.170
+  Interburst Interval: TB,2.367,1.274,-1.093,-2.712 to 0.5258
+  Interburst Interval: Yan,1.944,1.632,-0.3116,-2.181 to 1.558
+  Intraburst Frequency: TB,42.76,55.65,12.89,11.28 to 14.50
+  Intraburst Frequency: Yan,30.44,28.91,-1.534,-3.392 to 0.3233
+  Peaks per Burst: TB,57.93,32.20,-25.73,-27.34 to -24.12
+  Peaks per Burst: Yan,53.85,60.23,6.383,4.525 to 8.240
+  Total Cycle Time: TB,3.723,1.870,-1.853,-3.472 to -0.2345
+  Total Cycle Time: Yan,3.720,3.721,0.001084,-1.868 to 1.870
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.7607,1.922,P > 0.05,ns
+  Burst Duration: Yan,0.3125,0.6844,P > 0.05,ns
+  Interburst Interval: TB,-1.093,2.747,P > 0.05,ns
+  Interburst Interval: Yan,-0.3116,0.6782,P > 0.05,ns
+  Intraburst Frequency: TB,12.89,32.55,P<0.001,***
+  Intraburst Frequency: Yan,-1.534,3.360,P<0.01,**
+  Peaks per Burst: TB,-25.73,65.00,P<0.001,***
+  Peaks per Burst: Yan,6.383,13.98,P<0.001,***
+  Total Cycle Time: TB,-1.853,4.658,P<0.001,***
+  Total Cycle Time: Yan,0.001084,0.002359,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,1.356,0.3226,-1.034,-2.891 to 0.8237
+  Burst Duration: Yan,1.776,0.3442,-1.432,-3.290 to 0.4255
+  Interburst Interval: TB,2.367,3.406,1.039,-0.8300 to 2.908
+  Interburst Interval: Yan,1.944,3.384,1.441,-0.4285 to 3.310
+  Intraburst Frequency: TB,42.76,76.47,33.71,31.85 to 35.56
+  Intraburst Frequency: Yan,30.44,74.72,44.28,42.42 to 46.14
+  Peaks per Burst: TB,57.93,24.73,-33.20,-35.06 to -31.34
+  Peaks per Burst: Yan,53.85,25.77,-28.09,-29.94 to -26.23
+  Total Cycle Time: TB,3.723,3.729,0.005313,-1.864 to 1.874
+  Total Cycle Time: Yan,3.720,3.729,0.008814,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-1.034,2.264,P > 0.05,ns
+  Burst Duration: Yan,-1.432,3.137,P < 0.05,*
+  Interburst Interval: TB,1.039,2.262,P > 0.05,ns
+  Interburst Interval: Yan,1.441,3.136,P < 0.05,*
+  Intraburst Frequency: TB,33.71,73.83,P<0.001,***
+  Intraburst Frequency: Yan,44.28,96.98,P<0.001,***
+  Peaks per Burst: TB,-33.20,72.71,P<0.001,***
+  Peaks per Burst: Yan,-28.09,61.52,P<0.001,***
+  Total Cycle Time: TB,0.005313,0.01156,P > 0.05,ns
+  Total Cycle Time: Yan,0.008814,0.01919,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,1.356,0.3720,-0.9844,-2.842 to 0.8731
+  Burst Duration: Yan,1.776,0.3965,-1.380,-3.237 to 0.4778
+  Interburst Interval: TB,2.367,3.357,0.9897,-0.8794 to 2.859
+  Interburst Interval: Yan,1.944,3.332,1.388,-0.4808 to 3.257
+  Intraburst Frequency: TB,42.76,90.60,47.84,45.98 to 49.70
+  Intraburst Frequency: Yan,30.44,85.15,54.70,52.84 to 56.56
+  Peaks per Burst: TB,57.93,33.74,-24.19,-26.04 to -22.33
+  Peaks per Burst: Yan,53.85,33.79,-20.06,-21.92 to -18.20
+  Total Cycle Time: TB,3.723,3.729,0.005393,-1.864 to 1.875
+  Total Cycle Time: Yan,3.720,3.729,0.008810,-1.860 to 1.878
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.9844,2.156,P > 0.05,ns
+  Burst Duration: Yan,-1.380,3.022,P < 0.05,*
+  Interburst Interval: TB,0.9897,2.154,P > 0.05,ns
+  Interburst Interval: Yan,1.388,3.022,P < 0.05,*
+  Intraburst Frequency: TB,47.84,104.8,P<0.001,***
+  Intraburst Frequency: Yan,54.70,119.8,P<0.001,***
+  Peaks per Burst: TB,-24.19,52.97,P<0.001,***
+  Peaks per Burst: Yan,-20.06,43.94,P<0.001,***
+  Total Cycle Time: TB,0.005393,0.01174,P > 0.05,ns
+  Total Cycle Time: Yan,0.008810,0.01918,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,1.356,0.4263,-0.9301,-2.788 to 0.9274
+  Burst Duration: Yan,1.776,0.4546,-1.322,-3.179 to 0.5358
+  Interburst Interval: TB,2.367,3.302,0.9354,-0.9337 to 2.805
+  Interburst Interval: Yan,1.944,3.274,1.330,-0.5394 to 3.199
+  Intraburst Frequency: TB,42.76,97.89,55.12,53.27 to 56.98
+  Intraburst Frequency: Yan,30.44,91.92,61.47,59.62 to 63.33
+  Peaks per Burst: TB,57.93,41.75,-16.17,-18.03 to -14.32
+  Peaks per Burst: Yan,53.85,41.80,-12.05,-13.91 to -10.19
+  Total Cycle Time: TB,3.723,3.729,0.005349,-1.864 to 1.874
+  Total Cycle Time: Yan,3.720,3.728,0.008189,-1.861 to 1.877
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.9301,2.037,P > 0.05,ns
+  Burst Duration: Yan,-1.322,2.895,P < 0.05,*
+  Interburst Interval: TB,0.9354,2.036,P > 0.05,ns
+  Interburst Interval: Yan,1.330,2.894,P < 0.05,*
+  Intraburst Frequency: TB,55.12,120.7,P<0.001,***
+  Intraburst Frequency: Yan,61.47,134.6,P<0.001,***
+  Peaks per Burst: TB,-16.17,35.42,P<0.001,***
+  Peaks per Burst: Yan,-12.05,26.39,P<0.001,***
+  Total Cycle Time: TB,0.005349,0.01164,P > 0.05,ns
+  Total Cycle Time: Yan,0.008189,0.01782,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,1.356,0.5028,-0.8536,-2.711 to 1.004
+  Burst Duration: Yan,1.776,0.6621,-1.114,-2.972 to 0.7433
+  Interburst Interval: TB,2.367,3.226,0.8587,-1.010 to 2.728
+  Interburst Interval: Yan,1.944,3.064,1.120,-0.7493 to 2.989
+  Intraburst Frequency: TB,42.76,99.97,57.21,55.35 to 59.07
+  Intraburst Frequency: Yan,30.44,83.34,52.90,51.04 to 54.76
+  Peaks per Burst: TB,57.93,50.23,-7.691,-9.549 to -5.834
+  Peaks per Burst: Yan,53.85,55.12,1.272,-0.5859 to 3.129
+  Total Cycle Time: TB,3.723,3.728,0.004948,-1.864 to 1.874
+  Total Cycle Time: Yan,3.720,3.725,0.005589,-1.864 to 1.875
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.8536,1.870,P > 0.05,ns
+  Burst Duration: Yan,-1.114,2.440,P > 0.05,ns
+  Interburst Interval: TB,0.8587,1.869,P > 0.05,ns
+  Interburst Interval: Yan,1.120,2.438,P > 0.05,ns
+  Intraburst Frequency: TB,57.21,125.3,P<0.001,***
+  Intraburst Frequency: Yan,52.90,115.9,P<0.001,***
+  Peaks per Burst: TB,-7.691,16.85,P<0.001,***
+  Peaks per Burst: Yan,1.272,2.785,P > 0.05,ns
+  Total Cycle Time: TB,0.004948,0.01077,P > 0.05,ns
+  Total Cycle Time: Yan,0.005589,0.01217,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=3.6 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=3.6,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,1.356,0.6209,-0.7356,-2.593 to 1.122
+  Burst Duration: Yan,1.776,0.9662,-0.8101,-2.668 to 1.047
+  Interburst Interval: TB,2.367,3.106,0.7388,-1.130 to 2.608
+  Interburst Interval: Yan,1.944,2.755,0.8113,-1.058 to 2.680
+  Intraburst Frequency: TB,42.76,100.9,58.14,56.28 to 60.00
+  Intraburst Frequency: Yan,30.44,70.30,39.86,38.00 to 41.71
+  Peaks per Burst: TB,57.93,62.67,4.741,2.883 to 6.598
+  Peaks per Burst: Yan,53.85,67.79,13.94,12.08 to 15.80
+  Total Cycle Time: TB,3.723,3.727,0.003310,-1.866 to 1.872
+  Total Cycle Time: Yan,3.720,3.721,0.001445,-1.868 to 1.871
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.7356,1.611,P > 0.05,ns
+  Burst Duration: Yan,-0.8101,1.774,P > 0.05,ns
+  Interburst Interval: TB,0.7388,1.608,P > 0.05,ns
+  Interburst Interval: Yan,0.8113,1.766,P > 0.05,ns
+  Intraburst Frequency: TB,58.14,127.3,P<0.001,***
+  Intraburst Frequency: Yan,39.86,87.30,P<0.001,***
+  Peaks per Burst: TB,4.741,10.38,P<0.001,***
+  Peaks per Burst: Yan,13.94,30.53,P<0.001,***
+  Total Cycle Time: TB,0.003310,0.007205,P > 0.05,ns
+  Total Cycle Time: Yan,0.001445,0.003145,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=1.8,,,,
+model/measure,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=1.8,Difference,95% CI of diff.
+  Burst Duration: TB,0.5957,0.3226,-0.2731,-1.883 to 1.337
+  Burst Duration: Yan,2.089,0.3442,-1.745,-3.602 to 0.1130
+  Interburst Interval: TB,1.274,3.406,2.132,0.5133 to 3.751
+  Interburst Interval: Yan,1.632,3.384,1.752,-0.1169 to 3.621
+  Intraburst Frequency: TB,55.65,76.47,20.82,19.21 to 22.43
+  Intraburst Frequency: Yan,28.91,74.72,45.81,43.95 to 47.67
+  Peaks per Burst: TB,32.20,24.73,-7.470,-9.081 to -5.860
+  Peaks per Burst: Yan,60.23,25.77,-34.47,-36.33 to -32.61
+  Total Cycle Time: TB,1.870,3.729,1.858,0.2398 to 3.477
+  Total Cycle Time: Yan,3.721,3.729,0.007730,-1.861 to 1.877
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.2731,0.6901,P > 0.05,ns
+  Burst Duration: Yan,-1.745,3.821,P<0.01,**
+  Interburst Interval: TB,2.132,5.359,P<0.001,***
+  Interburst Interval: Yan,1.752,3.814,P<0.01,**
+  Intraburst Frequency: TB,20.82,52.61,P<0.001,***
+  Intraburst Frequency: Yan,45.81,100.3,P<0.001,***
+  Peaks per Burst: TB,-7.470,18.87,P<0.001,***
+  Peaks per Burst: Yan,-34.47,75.50,P<0.001,***
+  Total Cycle Time: TB,1.858,4.671,P<0.001,***
+  Total Cycle Time: Yan,0.007730,0.01683,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.5957,0.3720,-0.2237,-1.834 to 1.387
+  Burst Duration: Yan,2.089,0.3965,-1.692,-3.550 to 0.1653
+  Interburst Interval: TB,1.274,3.357,2.083,0.4639 to 3.701
+  Interburst Interval: Yan,1.632,3.332,1.700,-0.1692 to 3.569
+  Intraburst Frequency: TB,55.65,90.60,34.95,33.34 to 36.56
+  Intraburst Frequency: Yan,28.91,85.15,56.24,54.38 to 58.09
+  Peaks per Burst: TB,32.20,33.74,1.542,-0.06836 to 3.152
+  Peaks per Burst: Yan,60.23,33.79,-26.44,-28.30 to -24.59
+  Total Cycle Time: TB,1.870,3.729,1.859,0.2399 to 3.477
+  Total Cycle Time: Yan,3.721,3.729,0.007726,-1.861 to 1.877
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.2237,0.5652,P > 0.05,ns
+  Burst Duration: Yan,-1.692,3.706,P<0.01,**
+  Interburst Interval: TB,2.083,5.235,P<0.001,***
+  Interburst Interval: Yan,1.700,3.700,P<0.01,**
+  Intraburst Frequency: TB,34.95,88.31,P<0.001,***
+  Intraburst Frequency: Yan,56.24,123.2,P<0.001,***
+  Peaks per Burst: TB,1.542,3.896,P<0.001,***
+  Peaks per Burst: Yan,-26.44,57.92,P<0.001,***
+  Total Cycle Time: TB,1.859,4.671,P<0.001,***
+  Total Cycle Time: Yan,0.007726,0.01682,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.5957,0.4263,-0.1694,-1.780 to 1.441
+  Burst Duration: Yan,2.089,0.4546,-1.634,-3.492 to 0.2233
+  Interburst Interval: TB,1.274,3.302,2.028,0.4096 to 3.647
+  Interburst Interval: Yan,1.632,3.274,1.641,-0.2279 to 3.510
+  Intraburst Frequency: TB,55.65,97.89,42.24,40.63 to 43.85
+  Intraburst Frequency: Yan,28.91,91.92,63.01,61.15 to 64.87
+  Peaks per Burst: TB,32.20,41.75,9.554,7.944 to 11.16
+  Peaks per Burst: Yan,60.23,41.80,-18.43,-20.29 to -16.57
+  Total Cycle Time: TB,1.870,3.729,1.859,0.2398 to 3.477
+  Total Cycle Time: Yan,3.721,3.728,0.007105,-1.862 to 1.876
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.1694,0.4281,P > 0.05,ns
+  Burst Duration: Yan,-1.634,3.579,P<0.01,**
+  Interburst Interval: TB,2.028,5.098,P<0.001,***
+  Interburst Interval: Yan,1.641,3.573,P<0.01,**
+  Intraburst Frequency: TB,42.24,106.7,P<0.001,***
+  Intraburst Frequency: Yan,63.01,138.0,P<0.001,***
+  Peaks per Burst: TB,9.554,24.14,P<0.001,***
+  Peaks per Burst: Yan,-18.43,40.37,P<0.001,***
+  Total Cycle Time: TB,1.859,4.671,P<0.001,***
+  Total Cycle Time: Yan,0.007105,0.01547,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.5957,0.5028,-0.09294,-1.703 to 1.517
+  Burst Duration: Yan,2.089,0.6621,-1.427,-3.284 to 0.4308
+  Interburst Interval: TB,1.274,3.226,1.952,0.3329 to 3.570
+  Interburst Interval: Yan,1.632,3.064,1.431,-0.4377 to 3.301
+  Intraburst Frequency: TB,55.65,99.97,44.32,42.71 to 45.93
+  Intraburst Frequency: Yan,28.91,83.34,54.43,52.58 to 56.29
+  Peaks per Burst: TB,32.20,50.23,18.04,16.43 to 19.65
+  Peaks per Burst: Yan,60.23,55.12,-5.111,-6.969 to -3.254
+  Total Cycle Time: TB,1.870,3.728,1.858,0.2394 to 3.477
+  Total Cycle Time: Yan,3.721,3.725,0.004505,-1.865 to 1.874
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,-0.09294,0.2348,P > 0.05,ns
+  Burst Duration: Yan,-1.427,3.125,P < 0.05,*
+  Interburst Interval: TB,1.952,4.905,P<0.001,***
+  Interburst Interval: Yan,1.431,3.116,P < 0.05,*
+  Intraburst Frequency: TB,44.32,112.0,P<0.001,***
+  Intraburst Frequency: Yan,54.43,119.2,P<0.001,***
+  Peaks per Burst: TB,18.04,45.57,P<0.001,***
+  Peaks per Burst: Yan,-5.111,11.19,P<0.001,***
+  Total Cycle Time: TB,1.858,4.670,P<0.001,***
+  Total Cycle Time: Yan,0.004505,0.009806,P > 0.05,ns
+,,,,
+eL=-60.0 gnaps=4.2 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-60.0 gnaps=4.2,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.5957,0.6209,0.02513,-1.585 to 1.635
+  Burst Duration: Yan,2.089,0.9662,-1.123,-2.980 to 0.7350
+  Interburst Interval: TB,1.274,3.106,1.832,0.2130 to 3.450
+  Interburst Interval: Yan,1.632,2.755,1.123,-0.7462 to 2.992
+  Intraburst Frequency: TB,55.65,100.9,45.26,43.65 to 46.87
+  Intraburst Frequency: Yan,28.91,70.30,41.39,39.53 to 43.25
+  Peaks per Burst: TB,32.20,62.67,30.47,28.86 to 32.08
+  Peaks per Burst: Yan,60.23,67.79,7.556,5.698 to 9.413
+  Total Cycle Time: TB,1.870,3.727,1.856,0.2378 to 3.475
+  Total Cycle Time: Yan,3.721,3.721,0.0003610,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.02513,0.06350,P > 0.05,ns
+  Burst Duration: Yan,-1.123,2.459,P > 0.05,ns
+  Interburst Interval: TB,1.832,4.604,P<0.001,***
+  Interburst Interval: Yan,1.123,2.444,P > 0.05,ns
+  Intraburst Frequency: TB,45.26,114.3,P<0.001,***
+  Intraburst Frequency: Yan,41.39,90.66,P<0.001,***
+  Peaks per Burst: TB,30.47,76.98,P<0.001,***
+  Peaks per Burst: Yan,7.556,16.55,P<0.001,***
+  Total Cycle Time: TB,1.856,4.666,P<0.001,***
+  Total Cycle Time: Yan,0.0003610,0.0007857,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=2.4,,,,
+model/measure,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=2.4,Difference,95% CI of diff.
+  Burst Duration: TB,0.3226,0.3720,0.04942,-1.808 to 1.907
+  Burst Duration: Yan,0.3442,0.3965,0.05230,-1.805 to 1.910
+  Interburst Interval: TB,3.406,3.357,-0.04935,-1.918 to 1.820
+  Interburst Interval: Yan,3.384,3.332,-0.05229,-1.921 to 1.817
+  Intraburst Frequency: TB,76.47,90.60,14.13,12.27 to 15.99
+  Intraburst Frequency: Yan,74.72,85.15,10.42,8.567 to 12.28
+  Peaks per Burst: TB,24.73,33.74,9.012,7.155 to 10.87
+  Peaks per Burst: Yan,25.77,33.79,8.025,6.167 to 9.882
+  Total Cycle Time: TB,3.729,3.729,0.00008011,-1.869 to 1.869
+  Total Cycle Time: Yan,3.729,3.729,-0.000004053,-1.869 to 1.869
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.04942,0.1082,P > 0.05,ns
+  Burst Duration: Yan,0.05230,0.1145,P > 0.05,ns
+  Interburst Interval: TB,-0.04935,0.1074,P > 0.05,ns
+  Interburst Interval: Yan,-0.05229,0.1138,P > 0.05,ns
+  Intraburst Frequency: TB,14.13,30.95,P<0.001,***
+  Intraburst Frequency: Yan,10.42,22.83,P<0.001,***
+  Peaks per Burst: TB,9.012,19.74,P<0.001,***
+  Peaks per Burst: Yan,8.025,17.58,P<0.001,***
+  Total Cycle Time: TB,0.00008011,0.0001744,P > 0.05,ns
+  Total Cycle Time: Yan,-0.000004053,0.000008822,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.3226,0.4263,0.1037,-1.754 to 1.961
+  Burst Duration: Yan,0.3442,0.4546,0.1103,-1.747 to 1.968
+  Interburst Interval: TB,3.406,3.302,-0.1037,-1.973 to 1.765
+  Interburst Interval: Yan,3.384,3.274,-0.1109,-1.980 to 1.758
+  Intraburst Frequency: TB,76.47,97.89,21.42,19.56 to 23.27
+  Intraburst Frequency: Yan,74.72,91.92,17.20,15.34 to 19.05
+  Peaks per Burst: TB,24.73,41.75,17.02,15.17 to 18.88
+  Peaks per Burst: Yan,25.77,41.80,16.04,14.18 to 17.89
+  Total Cycle Time: TB,3.729,3.729,0.00003600,-1.869 to 1.869
+  Total Cycle Time: Yan,3.729,3.728,-0.0006249,-1.870 to 1.868
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1037,0.2271,P > 0.05,ns
+  Burst Duration: Yan,0.1103,0.2416,P > 0.05,ns
+  Interburst Interval: TB,-0.1037,0.2257,P > 0.05,ns
+  Interburst Interval: Yan,-0.1109,0.2415,P > 0.05,ns
+  Intraburst Frequency: TB,21.42,46.91,P<0.001,***
+  Intraburst Frequency: Yan,17.20,37.67,P<0.001,***
+  Peaks per Burst: TB,17.02,37.29,P<0.001,***
+  Peaks per Burst: Yan,16.04,35.13,P<0.001,***
+  Total Cycle Time: TB,0.00003600,0.00007836,P > 0.05,ns
+  Total Cycle Time: Yan,-0.0006249,0.001360,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.3226,0.5028,0.1802,-1.677 to 2.038
+  Burst Duration: Yan,0.3442,0.6621,0.3178,-1.540 to 2.175
+  Interburst Interval: TB,3.406,3.226,-0.1804,-2.050 to 1.689
+  Interburst Interval: Yan,3.384,3.064,-0.3208,-2.190 to 1.548
+  Intraburst Frequency: TB,76.47,99.97,23.50,21.64 to 25.36
+  Intraburst Frequency: Yan,74.72,83.34,8.623,6.765 to 10.48
+  Peaks per Burst: TB,24.73,50.23,25.51,23.65 to 27.36
+  Peaks per Burst: Yan,25.77,55.12,29.36,27.50 to 31.22
+  Total Cycle Time: TB,3.729,3.728,-0.0003650,-1.869 to 1.869
+  Total Cycle Time: Yan,3.729,3.725,-0.003225,-1.872 to 1.866
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1802,0.3947,P > 0.05,ns
+  Burst Duration: Yan,0.3178,0.6961,P > 0.05,ns
+  Interburst Interval: TB,-0.1804,0.3927,P > 0.05,ns
+  Interburst Interval: Yan,-0.3208,0.6982,P > 0.05,ns
+  Intraburst Frequency: TB,23.50,51.48,P<0.001,***
+  Intraburst Frequency: Yan,8.623,18.89,P<0.001,***
+  Peaks per Burst: TB,25.51,55.87,P<0.001,***
+  Peaks per Burst: Yan,29.36,64.30,P<0.001,***
+  Total Cycle Time: TB,-0.0003650,0.0007945,P > 0.05,ns
+  Total Cycle Time: Yan,-0.003225,0.007020,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=1.8 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-65.0 gnaps=1.8,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.3226,0.6209,0.2983,-1.559 to 2.156
+  Burst Duration: Yan,0.3442,0.9662,0.6220,-1.236 to 2.480
+  Interburst Interval: TB,3.406,3.106,-0.3003,-2.169 to 1.569
+  Interburst Interval: Yan,3.384,2.755,-0.6293,-2.498 to 1.240
+  Intraburst Frequency: TB,76.47,100.9,24.43,22.58 to 26.29
+  Intraburst Frequency: Yan,74.72,70.30,-4.421,-6.279 to -2.564
+  Peaks per Burst: TB,24.73,62.67,37.94,36.08 to 39.80
+  Peaks per Burst: Yan,25.77,67.79,42.02,40.17 to 43.88
+  Total Cycle Time: TB,3.729,3.727,-0.002003,-1.871 to 1.867
+  Total Cycle Time: Yan,3.729,3.721,-0.007369,-1.876 to 1.862
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.2983,0.6533,P > 0.05,ns
+  Burst Duration: Yan,0.6220,1.362,P > 0.05,ns
+  Interburst Interval: TB,-0.3003,0.6536,P > 0.05,ns
+  Interburst Interval: Yan,-0.6293,1.370,P > 0.05,ns
+  Intraburst Frequency: TB,24.43,53.52,P<0.001,***
+  Intraburst Frequency: Yan,-4.421,9.684,P<0.001,***
+  Peaks per Burst: TB,37.94,83.09,P<0.001,***
+  Peaks per Burst: Yan,42.02,92.05,P<0.001,***
+  Total Cycle Time: TB,-0.002003,0.004360,P > 0.05,ns
+  Total Cycle Time: Yan,-0.007369,0.01604,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=2.4 vs eL=-65.0 gnaps=3.0,,,,
+model/measure,eL=-65.0 gnaps=2.4,eL=-65.0 gnaps=3.0,Difference,95% CI of diff.
+  Burst Duration: TB,0.3720,0.4263,0.05427,-1.803 to 1.912
+  Burst Duration: Yan,0.3965,0.4546,0.05802,-1.800 to 1.916
+  Interburst Interval: TB,3.357,3.302,-0.05432,-1.923 to 1.815
+  Interburst Interval: Yan,3.332,3.274,-0.05864,-1.928 to 1.810
+  Intraburst Frequency: TB,90.60,97.89,7.286,5.428 to 9.143
+  Intraburst Frequency: Yan,85.15,91.92,6.773,4.915 to 8.630
+  Peaks per Burst: TB,33.74,41.75,8.012,6.155 to 9.870
+  Peaks per Burst: Yan,33.79,41.80,8.012,6.155 to 9.870
+  Total Cycle Time: TB,3.729,3.729,-0.00004411,-1.869 to 1.869
+  Total Cycle Time: Yan,3.729,3.728,-0.0006208,-1.870 to 1.868
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.05427,0.1189,P > 0.05,ns
+  Burst Duration: Yan,0.05802,0.1271,P > 0.05,ns
+  Interburst Interval: TB,-0.05432,0.1182,P > 0.05,ns
+  Interburst Interval: Yan,-0.05864,0.1276,P > 0.05,ns
+  Intraburst Frequency: TB,7.286,15.96,P<0.001,***
+  Intraburst Frequency: Yan,6.773,14.83,P<0.001,***
+  Peaks per Burst: TB,8.012,17.55,P<0.001,***
+  Peaks per Burst: Yan,8.012,17.55,P<0.001,***
+  Total Cycle Time: TB,-0.00004411,0.00009601,P > 0.05,ns
+  Total Cycle Time: Yan,-0.0006208,0.001351,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=2.4 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-65.0 gnaps=2.4,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.3720,0.5028,0.1308,-1.727 to 1.988
+  Burst Duration: Yan,0.3965,0.6621,0.2655,-1.592 to 2.123
+  Interburst Interval: TB,3.357,3.226,-0.1311,-2.000 to 1.738
+  Interburst Interval: Yan,3.332,3.064,-0.2685,-2.138 to 1.601
+  Intraburst Frequency: TB,90.60,99.97,9.372,7.514 to 11.23
+  Intraburst Frequency: Yan,85.15,83.34,-1.802,-3.659 to 0.05572
+  Peaks per Burst: TB,33.74,50.23,16.49,14.64 to 18.35
+  Peaks per Burst: Yan,33.79,55.12,21.33,19.48 to 23.19
+  Total Cycle Time: TB,3.729,3.728,-0.0004451,-1.870 to 1.869
+  Total Cycle Time: Yan,3.729,3.725,-0.003221,-1.872 to 1.866
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1308,0.2864,P > 0.05,ns
+  Burst Duration: Yan,0.2655,0.5816,P > 0.05,ns
+  Interburst Interval: TB,-0.1311,0.2853,P > 0.05,ns
+  Interburst Interval: Yan,-0.2685,0.5844,P > 0.05,ns
+  Intraburst Frequency: TB,9.372,20.53,P<0.001,***
+  Intraburst Frequency: Yan,-1.802,3.946,P<0.001,***
+  Peaks per Burst: TB,16.49,36.13,P<0.001,***
+  Peaks per Burst: Yan,21.33,46.73,P<0.001,***
+  Total Cycle Time: TB,-0.0004451,0.0009689,P > 0.05,ns
+  Total Cycle Time: Yan,-0.003221,0.007011,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=2.4 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-65.0 gnaps=2.4,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.3720,0.6209,0.2489,-1.609 to 2.106
+  Burst Duration: Yan,0.3965,0.9662,0.5697,-1.288 to 2.427
+  Interburst Interval: TB,3.357,3.106,-0.2509,-2.120 to 1.618
+  Interburst Interval: Yan,3.332,2.755,-0.5770,-2.446 to 1.292
+  Intraburst Frequency: TB,90.60,100.9,10.30,8.446 to 12.16
+  Intraburst Frequency: Yan,85.15,70.30,-14.85,-16.70 to -12.99
+  Peaks per Burst: TB,33.74,62.67,28.93,27.07 to 30.78
+  Peaks per Burst: Yan,33.79,67.79,34.00,32.14 to 35.86
+  Total Cycle Time: TB,3.729,3.727,-0.002083,-1.871 to 1.867
+  Total Cycle Time: Yan,3.729,3.721,-0.007365,-1.876 to 1.862
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.2489,0.5450,P > 0.05,ns
+  Burst Duration: Yan,0.5697,1.248,P > 0.05,ns
+  Interburst Interval: TB,-0.2509,0.5461,P > 0.05,ns
+  Interburst Interval: Yan,-0.5770,1.256,P > 0.05,ns
+  Intraburst Frequency: TB,10.30,22.57,P<0.001,***
+  Intraburst Frequency: Yan,-14.85,32.52,P<0.001,***
+  Peaks per Burst: TB,28.93,63.36,P<0.001,***
+  Peaks per Burst: Yan,34.00,74.47,P<0.001,***
+  Total Cycle Time: TB,-0.002083,0.004534,P > 0.05,ns
+  Total Cycle Time: Yan,-0.007365,0.01603,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=3.0 vs eL=-65.0 gnaps=3.6,,,,
+model/measure,eL=-65.0 gnaps=3.0,eL=-65.0 gnaps=3.6,Difference,95% CI of diff.
+  Burst Duration: TB,0.4263,0.5028,0.07650,-1.781 to 1.934
+  Burst Duration: Yan,0.4546,0.6621,0.2075,-1.650 to 2.065
+  Interburst Interval: TB,3.302,3.226,-0.07675,-1.946 to 1.792
+  Interburst Interval: Yan,3.274,3.064,-0.2098,-2.079 to 1.659
+  Intraburst Frequency: TB,97.89,99.97,2.086,0.2284 to 3.943
+  Intraburst Frequency: Yan,91.92,83.34,-8.574,-10.43 to -6.717
+  Peaks per Burst: TB,41.75,50.23,8.481,6.624 to 10.34
+  Peaks per Burst: Yan,41.80,55.12,13.32,11.46 to 15.18
+  Total Cycle Time: TB,3.729,3.728,-0.0004010,-1.870 to 1.869
+  Total Cycle Time: Yan,3.728,3.725,-0.002600,-1.872 to 1.867
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.07650,0.1676,P > 0.05,ns
+  Burst Duration: Yan,0.2075,0.4545,P > 0.05,ns
+  Interburst Interval: TB,-0.07675,0.1671,P > 0.05,ns
+  Interburst Interval: Yan,-0.2098,0.4568,P > 0.05,ns
+  Intraburst Frequency: TB,2.086,4.569,P<0.001,***
+  Intraburst Frequency: Yan,-8.574,18.78,P<0.001,***
+  Peaks per Burst: TB,8.481,18.58,P<0.001,***
+  Peaks per Burst: Yan,13.32,29.18,P<0.001,***
+  Total Cycle Time: TB,-0.0004010,0.0008729,P > 0.05,ns
+  Total Cycle Time: Yan,-0.002600,0.005659,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=3.0 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-65.0 gnaps=3.0,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.4263,0.6209,0.1946,-1.663 to 2.052
+  Burst Duration: Yan,0.4546,0.9662,0.5117,-1.346 to 2.369
+  Interburst Interval: TB,3.302,3.106,-0.1966,-2.066 to 1.673
+  Interburst Interval: Yan,3.274,2.755,-0.5183,-2.387 to 1.351
+  Intraburst Frequency: TB,97.89,100.9,3.018,1.160 to 4.875
+  Intraburst Frequency: Yan,91.92,70.30,-21.62,-23.48 to -19.76
+  Peaks per Burst: TB,41.75,62.67,20.91,19.06 to 22.77
+  Peaks per Burst: Yan,41.80,67.79,25.99,24.13 to 27.85
+  Total Cycle Time: TB,3.729,3.727,-0.002039,-1.871 to 1.867
+  Total Cycle Time: Yan,3.728,3.721,-0.006744,-1.876 to 1.862
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1946,0.4262,P > 0.05,ns
+  Burst Duration: Yan,0.5117,1.121,P > 0.05,ns
+  Interburst Interval: TB,-0.1966,0.4279,P > 0.05,ns
+  Interburst Interval: Yan,-0.5183,1.128,P > 0.05,ns
+  Intraburst Frequency: TB,3.018,6.609,P<0.001,***
+  Intraburst Frequency: Yan,-21.62,47.35,P<0.001,***
+  Peaks per Burst: TB,20.91,45.81,P<0.001,***
+  Peaks per Burst: Yan,25.99,56.92,P<0.001,***
+  Total Cycle Time: TB,-0.002039,0.004438,P > 0.05,ns
+  Total Cycle Time: Yan,-0.006744,0.01468,P > 0.05,ns
+,,,,
+eL=-65.0 gnaps=3.6 vs eL=-65.0 gnaps=4.2,,,,
+model/measure,eL=-65.0 gnaps=3.6,eL=-65.0 gnaps=4.2,Difference,95% CI of diff.
+  Burst Duration: TB,0.5028,0.6209,0.1181,-1.739 to 1.976
+  Burst Duration: Yan,0.6621,0.9662,0.3042,-1.553 to 2.162
+  Interburst Interval: TB,3.226,3.106,-0.1198,-1.989 to 1.749
+  Interburst Interval: Yan,3.064,2.755,-0.3085,-2.178 to 1.561
+  Intraburst Frequency: TB,99.97,100.9,0.9317,-0.9259 to 2.789
+  Intraburst Frequency: Yan,83.34,70.30,-13.04,-14.90 to -11.19
+  Peaks per Burst: TB,50.23,62.67,12.43,10.57 to 14.29
+  Peaks per Burst: Yan,55.12,67.79,12.67,10.81 to 14.52
+  Total Cycle Time: TB,3.728,3.727,-0.001638,-1.871 to 1.867
+  Total Cycle Time: Yan,3.725,3.721,-0.004144,-1.873 to 1.865
+,,,,
+model/measure,Difference,t,P value,Summary
+  Burst Duration: TB,0.1181,0.2586,P > 0.05,ns
+  Burst Duration: Yan,0.3042,0.6662,P > 0.05,ns
+  Interburst Interval: TB,-0.1198,0.2608,P > 0.05,ns
+  Interburst Interval: Yan,-0.3085,0.6715,P > 0.05,ns
+  Intraburst Frequency: TB,0.9317,2.041,P > 0.05,ns
+  Intraburst Frequency: Yan,-13.04,28.57,P<0.001,***
+  Peaks per Burst: TB,12.43,27.23,P<0.001,***
+  Peaks per Burst: Yan,12.67,27.74,P<0.001,***
+  Total Cycle Time: TB,-0.001638,0.003565,P > 0.05,ns
+  Total Cycle Time: Yan,-0.004144,0.009021,P > 0.05,ns

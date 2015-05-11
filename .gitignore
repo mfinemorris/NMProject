@@ -55,4 +55,4 @@ Thumbs.db
 
 # misc files
 ############
-
+*/.ipynb_checkpoints/*

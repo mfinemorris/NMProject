@@ -1,3 +1,9 @@
+'''
+Note to self:
+For example of how to handle the annotation_function issue see
+http://pandas.pydata.org/pandas-docs/dev/generated/pandas.DataFrame.apply.html#pandas.DataFrame.apply
+'''
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -24,6 +30,7 @@ def show_values(pc, fmt="%.2f", **kw):
     from itertools import izip
     pc.update_scalarmappable()
     ax = pc.get_axes()
+    print pc.get_array()
     for p, color, value in izip(pc.get_paths(), pc.get_facecolors(), pc.get_array()):
         x, y = p.vertices[:-2, :].mean(0)
         if np.all(color[:3] > 0.5):
@@ -33,9 +40,11 @@ def show_values(pc, fmt="%.2f", **kw):
         ax.text(x, y, fmt % value, ha="center", va="center", color=color, **kw)
 
 
-def heatmap_from_array(data, colors = plt.cm.Blues, x_labels=[], y_labels=[], colorbar_label='', annotate_function=lambda pcolorplot,fmt='': '', vmin_vmax=None):
+def heatmap_from_array(data, colors = plt.cm.Blues, x_labels=[], y_labels=[], colorbar_label='', annotate_function=show_values, vmin_vmax=None):
     '''
     The annotate function should have defaults for all args but the pcolorplot arg set to desired values. (how should I change this to make it better?)
+    To remove annotation pass annotate_function=lambda pcolorplot,fmt='': ''
+    
     '''
     
     fig, ax = plt.subplots()
@@ -45,12 +54,13 @@ def heatmap_from_array(data, colors = plt.cm.Blues, x_labels=[], y_labels=[], co
         cax = ax.pcolor(data, cmap=colors, vmin=v_min, vmax=v_max)
     else:
         cax = ax.pcolor(data, cmap=colors)
-    
+    annotate_function(cax)
+    '''
     try:
         annotate_function(cax)
     except:
         print """The annotate function should have defaults for all args but the pcolorplot arg set to desired values."""
-    
+    '''
     # put the major ticks at the middle of each cell
     w = 0.5
     ax.set_xticks(np.arange(data.shape[1])+w, minor=False)
@@ -67,7 +77,11 @@ def heatmap_from_array(data, colors = plt.cm.Blues, x_labels=[], y_labels=[], co
     return plt.gca(), cbar
 
 
-def heatmap_from_dataframe(dataframe, colors = plt.cm.Blues, colorbar_label = '', annotate_function = lambda pcolorplot, fmt='': '', vmin_vmax = None):
+def heatmap_from_dataframe(dataframe, colors = plt.cm.Blues, colorbar_label = '', annotate_function = show_values, vmin_vmax = None):
+    '''
+    To remove annotation pass annotate_function=lambda pcolorplot,fmt='': ''
+
+    '''
     
     label1, label2 = dataframe.columns.values, dataframe.index.values
     data = np.array(dataframe.values)

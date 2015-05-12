@@ -99,38 +99,42 @@ def heatmap_from_dataframe(dataframe, ax=None, colors = plt.cm.Blues, colorbar_l
     return heatmap_from_array(data, ax, colors, label1, label2, colorbar_label,  annotate_function, vmin_vmax)
 
 
+def main():
+
+
+
 
 if __name__ == '__main__':
+    def main():
+        #main function
     
-    measure = 'Intraburst Interval'
-    
-    test_data = [[ 3.38444863,  3.34091236,  2.71575965],
-     [ 3.33215736,  3.08020728,  1.87674438],
-     [ 3.27351859,  2.45086207,  1.38714046],
-     [ 3.06368102,  1.94385315,  1.04590535],
-     [ 2.75519466,  1.63226804,  0.82575777]]
-     
-    test_index = [1.8, 2.4, 3.0, 3.6, 4.2]
-    test_columns = [u'-65.0', u'-60.0', u'-55.0']
-    
-    fig = plt.figure()
-    ax1 = fig.add_subplot(121)
-    
-    ax1_2, colorbar1 = heatmap_from_array(np.array(test_data), ax1, x_labels = test_columns, y_labels = test_index, colorbar_label = measure+' (s)', annotate_function = show_values, vmin_vmax=(0,4.))
+        measure = 'Intraburst Interval'
+        
+        test_data = [[ 3.38444863,  3.34091236,  2.71575965],
+         [ 3.33215736,  3.08020728,  1.87674438],
+         [ 3.27351859,  2.45086207,  1.38714046],
+         [ 3.06368102,  1.94385315,  1.04590535],
+         [ 2.75519466,  1.63226804,  0.82575777]]
+         
+        test_index = [1.8, 2.4, 3.0, 3.6, 4.2]
+        test_columns = [u'-65.0', u'-60.0', u'-55.0']
+        
+        fig0 = plt.figure(0)
+        ax1 = fig0.add_subplot()
+        
+        ax1, colorbar1 = heatmap_from_array(np.array(test_data), ax1, x_labels = test_columns, y_labels = test_index, colorbar_label = measure+' (s)', annotate_function = show_values, vmin_vmax=(0,4.))
 
-    colorbar1.remove()
+        ax1.set_title(measure)
+        ax1.set_xlabel(r'eL (mV)')
+        ax1.set_ylabel(r'$g_{nap}$ (nS)')
 
-    ax1.set_title(measure)
-    ax1.set_xlabel(r'eL (mV)')
-    ax1.set_ylabel(r'$g_{nap}$ (nS)')
-    #plt.show()
-    #sys.exit(0)
+        fig1 = plt.figure(1)
+        ax2 = fig1.add_subplot()
 
-    ax2 = fig.add_subplot(121)
-
-    df = pd.DataFrame(data = test_data, index = test_index, columns = test_columns)
-    ax2_2, colorbar2 = heatmap_from_dataframe(df, ax=ax2, colorbar_label = measure+' (s)', annotate_function = show_values)
+        df = pd.DataFrame(data = test_data, index = test_index, columns = test_columns)
+        ax2, colorbar2 = heatmap_from_dataframe(df, ax=ax2, colorbar_label = measure+' (s)', annotate_function = show_values)
+        
+        plt.show()
     
-    plt.tight_layout()
-    plt.show()
+    main()
 

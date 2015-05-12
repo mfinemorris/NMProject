@@ -76,10 +76,6 @@ def heatmap_from_array(data, ax = None, colors = plt.cm.Blues, x_labels=[], y_la
     ax.set_yticklabels(y_labels, minor=False)
 
     #set colorbar labels based on plot min and max values
-    #print dmin, dmax, (dmax-dmin)
-    #print
-    #cbar_tick_label = np.linspace(dmin,dmax,10)#int(dmin),int(dmax))#[dmin, dmin+(dmax-dmin)/2, dmax]
-    #print cbar_tick_label
     cbar = plt.colorbar(cax, ticks=cbar_tick_label)
     cbar.set_label(colorbar_label)
     cbar.set_ticklabels([round(i,2) for i in cbar_tick_label])
@@ -99,15 +95,11 @@ def heatmap_from_dataframe(dataframe, ax=None, colors = plt.cm.Blues, colorbar_l
     return heatmap_from_array(data, ax, colors, label1, label2, colorbar_label,  annotate_function, vmin_vmax)
 
 
-def main():
-
-
-
 
 if __name__ == '__main__':
     def main():
         #main function
-    
+
         measure = 'Intraburst Interval'
         
         test_data = [[ 3.38444863,  3.34091236,  2.71575965],
@@ -135,6 +127,6 @@ if __name__ == '__main__':
         ax2, colorbar2 = heatmap_from_dataframe(df, ax=ax2, colorbar_label = measure+' (s)', annotate_function = show_values)
         
         plt.show()
-    
+
     main()
 

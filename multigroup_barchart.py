@@ -38,7 +38,7 @@ def bar_chart(mean_lists, std_lists, group_labels, tick_labels, colors_list=None
         # attach some text labels
         for rect in rects:
             height = rect.get_height()
-            ax.text(rect.get_x()+rect.get_width()/2., 1.05*height, '%d'%int(height),
+            ax.text(rect.get_x()+rect.get_width()/2., 1.02*height, '%d'%int(height),
                     ha='center', va='bottom')
     
     N = max([len(i) for i in mean_lists]) #number of values in each group
@@ -87,7 +87,7 @@ if __name__ == '__main__':
     colors = ['r','purple','g']
     means = [menMeans, womenMeans, intersexMeans]
     stds = [menStd, womenStd, intersexStd]
-    
+
     # 3 group bar chart
     ax = bar_chart(means,stds,('Men','Women','Intersex'),('G1', 'G2', 'G3', 'G4', 'G5'), colors)
     ax.legend(loc=8)
@@ -95,5 +95,15 @@ if __name__ == '__main__':
     # 2 group bar chart
     ax = bar_chart(means[:2],stds[:2],('Men','Women'),('G1', 'G2', 'G3', 'G4', 'G5'), colors[:2])
     ax.legend(loc=8)
+    
+    
+    #### other way
+    means = zip(menMeans,womenMeans)
+    stds = zip(menStd,womenStd)
+    colors = ['r','b','g','m','c']
+    ax = bar_chart(means,stds,('G1', 'G2', 'G3', 'G4', 'G5'),('Men','Women'),colors)
+    ax.legend(loc=8)
+
+    
     
     plt.show()

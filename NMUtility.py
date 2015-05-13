@@ -13,6 +13,52 @@ def mkdir_p(path):
             pass #do nothing if the error occurs because the path already exists
         else: raise #re-raises the error
 
+
+
+
+##############################################################################
+########### reorganize  ###########################
+def make_frame(measurement):
+    '''
+    measurement is a series with data of just one measurement type (burst duration) for a single model
+    Its rows should be in format:
+    <param_1_val><param_1_name> <param_2_val><param_2_name>
+    or 
+    <param_1_name><param_1_val> <param_2_name><param_2_val>
+    '''
+    
+    import re
+    r1 = re.compile("([\-][\d+.\d+]+|[\d+.\d+]+)([a-zA-Z]+)")
+    r2 = re.compile("([a-zA-Z]+)([\-][\d+.\d+]+|[\d+.\d+]+)")
+    
+    temp ={}
+    
+    for k,v in measurement.iteritems():
+        
+        p1KEY, p2KEY = k.split(" ")
+        try:
+            p1_val, name1 = r1.match(p1KEY).groups()
+            p2_val, name2 = r1.match(p2KEY).groups()
+        except AttributeError:
+            try:
+                name1, p1_val = r2.match(p1KEY).groups()
+                name2, p2_val = r2.match(p2KEY).groups()
+            except AttributeError:
+                raise Exception('row labels in an unexpected format. Valid formats are <param 1 name><param 1 value> <param 2 name><param 2 value>')
+
+        try:
+            temp[float(p1_val)][float(p2_val)] = v
+        except:
+            temp[float(p1_val)] = {}
+            temp[float(p1_val)][float(p2_val)] = v
+
+    return pd.DataFrame.from_dict(temp)
+
+
+
+
+
+
 ##############################################################################
 ########### extract stats from BASS analysis files ###########################
 

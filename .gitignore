@@ -50,8 +50,8 @@ Thumbs.db
 
 # plot files #
 ##############
-*.pdf
-*.png
+#*.pdf
+#*.png
 
 # misc files
 ############

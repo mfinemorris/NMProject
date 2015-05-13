@@ -1,0 +1,19 @@
+,eL-50.0 gnaps1.8,eL-50.0 gnaps2.4,eL-55.0 gnaps1.8,eL-55.0 gnaps2.4,eL-55.0 gnaps3.0,eL-55.0 gnaps3.6,eL-55.0 gnaps4.2,eL-60.0 gnaps1.8,eL-60.0 gnaps2.4,eL-60.0 gnaps3.0,eL-60.0 gnaps3.6,eL-60.0 gnaps4.2,eL-65.0 gnaps1.8,eL-65.0 gnaps2.4,eL-65.0 gnaps3.0,eL-65.0 gnaps3.6,eL-65.0 gnaps4.2
+eL-50.0 gnaps1.8,+,ns, , , , , , , , , , , , , , , ,TB
+eL-50.0 gnaps2.4, ,+, , , , , , , , , , , , , , , 
+eL-55.0 gnaps1.8, , ,+, , , , , , , , , , , , , ,ns
+eL-55.0 gnaps2.4, , , ,+, , , , , , ,ns, , , , , , 
+eL-55.0 gnaps3.0, , , , ,+, , , , , , , , , , , , 
+eL-55.0 gnaps3.6, , , , , ,+, , , , , , , , , , , 
+eL-55.0 gnaps4.2,ns, , , , , ,+, , , , , , , , , , 
+eL-60.0 gnaps1.8, , , , , , , ,+, , , , ,ns,ns,ns, , 
+eL-60.0 gnaps2.4, , , , , , , , ,+, , , , , , ,ns, 
+eL-60.0 gnaps3.0, , , , , , , , , ,+, , , , , , , 
+eL-60.0 gnaps3.6, , , ,ns, , , , , , ,+, , , , , , 
+eL-60.0 gnaps4.2, , , , , , , , , , , ,+, , , , , 
+eL-65.0 gnaps1.8, , , , , , , ,ns, , , , ,+,ns, , , 
+eL-65.0 gnaps2.4, , , , , , , ,ns, , , , ,ns,+,ns, , 
+eL-65.0 gnaps3.0, , , , , , , ,ns,ns, , , , ,ns,+, , 
+eL-65.0 gnaps3.6, , , , , , , , ,ns, , , , , ,ns,+, 
+eL-65.0 gnaps4.2, , ,ns, , , , , , , , , , , , , ,+
+,Yan,,,,,,,,,,,,,,,,,

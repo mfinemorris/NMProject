@@ -95,7 +95,8 @@ if __name__ == '__main__':
     # 2 group bar chart
     ax = bar_chart(means[:2],stds[:2],('Men','Women'),('G1', 'G2', 'G3', 'G4', 'G5'), colors[:2])
     ax.legend(loc=8)
-    
+    plt.show()
+
     
     #### other way
     means = zip(menMeans,womenMeans)
@@ -103,7 +104,11 @@ if __name__ == '__main__':
     colors = ['r','b','g','m','c']
     ax = bar_chart(means,stds,('G1', 'G2', 'G3', 'G4', 'G5'),('Men','Women'),colors)
     ax.legend(loc=8)
-
     
+    means = zip(menMeans,womenMeans,intersexMeans)
+    stds = zip(menStd,womenStd,intersexStd)
+    colors = ['r','b','g','m','c']
+    ax = bar_chart(means,stds,('G1', 'G2', 'G3', 'G4', 'G5'),('Men','Women','Intersex'),colors)
+    ax.legend(loc=8)
     
     plt.show()

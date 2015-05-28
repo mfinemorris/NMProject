@@ -10,6 +10,9 @@
 \usepackage{subcaption}
 \usepackage{placeins}
 
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
 % \usepackage{palatino}
 
 %%formatting
@@ -40,16 +43,15 @@
 
 \FloatBarrier
 \section{Results}
-talk about time series - what features characterize each model?
--Compare models by comparing features of their time series: Burst Duration, Interburst Interval, etc. 
-
-Comparing time series Figures ~\ref{fig:ts18} and ~\ref{fig:ts42}, we see that at the low end of the tested $g_{NaP}$ range (1.8 nS)...
+The Yan model clearly shows a bias towards greater excitement with shorter interburst intervals, longer burst duration
+Comparing time series Figures ~\ref{fig:ts18} and ~\ref{fig:ts42}, we see that at the low end of the tested $g_{NaP}$ range (1.8 nS) the Yan model is clearly biased towards greater excitement.
 and at the end of the range, when $g_{NaP}$ = 4.2 nS, we see ...
 
 Yan model characterized by longer burst duration and more spiking along the leading edge of each burst. Notice that the gaping present in TB model at eL=-60 and $gnap$ = 4.2 is not present in the Yan model, 
 
 because the space between the pairs of bursts are joined by intermediate less-dense of spikes.
 Bursts that are separated in the TB time series are often connected by a less-dense series of spikes, which is why tonic spiking takes the place of bursting in Yan for the eL=-50 datasets, and why the Yan time series for eL=-60, $g_{NaP}$=4.2 does not show the dual-modes of bursting that TB does for the same parameter set.
+
 
 
 \begin{figure}[h]
@@ -75,6 +77,16 @@ Bursts that are separated in the TB time series are often connected by a less-de
 	\includegraphics[scale=0.4]{tb_heatmap_Burst_Duration.pdf}
 \end{figure}
 
+\begin{figure}[h]
+\includegraphics[scale=.4]{bar_chart_model_comp_Burst Duration.pdf}
+\includegraphics[scale=.4]{bar_chart_model_comp_Interburst Interval.pdf}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=.4]{bar_chart_model_comp_Peaks per Burst.pdf}
+\includegraphics[scale=.4]{bar_chart_model_comp_Intraburst Frequency.pdf}
+\end{figure}
+
 Average total cycle time, the time from the start of one burst to the start of another, was very uniform between models for all parameter sets that exhibited bursting (Fig [~\ref{fig:hm_tct}]). The only point of significant difference was at $eL=-60 g_{nap} = 4.2$ where the value for the TB model was half that of the Yan model, due to the two modes of interburst interval present in for the TB model but not for the Yan model (Fig [~\ref{fig:ts_6042}]).
 
 \begin{figure}[h]
@@ -96,7 +108,7 @@ Average total cycle time, the time from the start of one burst to the start of a
 Where bursting occurs in the Yan model, burst duration for Yan increases more rapidly than TB as $eL$ increases. For $eL=-55 mV$, burst duration is different at all tested $g_{NaP}$ values.
 Differences in burst duration between the two models does not change significantly with change in $g_{NaP}$. For Yan, bursting does not occur while $eL = -50 mV$, while bursting occurs at $eL=-50,\  g_{NaP}=1.8, 2.4$. 
 
-With one exception, interburst interval and burst duration display the same inter-model pattern of significance. The exception, at $eL=-50.0,\ g_{NaP} = 2.4$ where interburst interval is 0.62 seconds for the TB model and 0 (due to an absence of bursting) for the Yan model. 
+With one exception, interburst interval and burst duration display the same inter-model pattern of significance, but with inverted changes (i.e. as ). The exception, at $eL=-50.0,\ g_{NaP} = 2.4$ where interburst interval is 0.62 seconds for the TB model and 0 (due to an absence of bursting) for the Yan model. 
 The pattern change in their values 
 the patterns in their values are flipped.
 
@@ -129,6 +141,7 @@ Average peak amplitude was showed strong model-dependent significant differences
 	\label{fig:hmPA}
 
 \end{figure}
+
 
 
 

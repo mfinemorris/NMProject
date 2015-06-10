@@ -44,21 +44,33 @@
 \FloatBarrier
 \section{Results}
 The Yan model clearly shows a bias towards greater excitement with shorter interburst intervals, longer burst duration
-Comparing time series Figures ~\ref{fig:ts18} and ~\ref{fig:ts42}, we can see that generally, the yan model exhibits longer bursts with more leading edge spikes and that around eL=-50, bursting becomes tonic spiking in the Yan model, while the TB model continues to exhibit bursting. The most interesting feature visible in the time series occurs at $gnap$ = 4.2, $eL$=-55. In the Yan model, spike frequency at the start and end of a burst is visibly higher than spike frequency at the burst center, while in the TB model we see bi-modal bursting behavior: these single bursts become two separate bursts, each with a different duration and followed by a different interburst interval. Additionally, while the TB model exhibits bursting at $eL$=-50 when $g_{NaP}$=1.8 or 2.4, the Yan model exhibits only tonic spiking when  $eL$=-50. Note, however, that spike density does increase and decrease periodically, an effect more noticeable when $g_{NaP}$ is small. Notice also, that in terms of spike density, the time series produced by the TB model at $eL$=-50 and $gnap$=4.2 appears to be somewhere between the time series produced by the Yan model when $eL=-50$ and $g_{NaP}$=1.8 and when $eL=-50$ and $g_{NaP}$=4.2.
+Comparing time series Figures~\ref{fig:ts18} and~\ref{fig:ts42}, we can see that generally, the Yan model exhibits longer bursts with more leading-edge spikes and that around $eL$=-50, bursting becomes tonic spiking, while the TB model has shorter, tighter bursts and continues to exhibit bursting even into $eL$=-50. 
 
+Additionally, while the TB model exhibits bursting at $eL$=-50 when $g_{NaP}$=1.8 or 2.4, the Yan model exhibits only tonic spiking when  $eL$=-50. Note, however, that even in time series containing only tonic spiking, spike density does increase and decrease periodically and the effect is more noticeable when $g_{NaP}$ is small. 
+
+The most interesting feature visible in the time series occurs at $gnap$ = 4.2, $eL$=-55. In the Yan model, spike frequency at the start and end of a burst is visibly higher than spike frequency at the burst center, while in the TB model we see bi-modal bursting behavior: the single bursts in he Yan model become two separate bursts in the TB model, each with a different duration and followed by a different interburst interval. 
+
+%Time series
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=\tsscale]{Comparative TS Yan/ts_gnaps1p8_eLall.pdf}
 	\includegraphics[scale=\tsscale]{Comparative TS TB/ts_gnaps1p8_eLall.pdf}
-	%\caption{Time series generated from Yan and TB models at all values of $eL$ for $g_{NaP}$ = 1.8 nS.}
-	%\label{fig:ts18}
+	\caption{Time series generated from Yan and TB models at all values of $eL$ for $g_{NaP}$ = 1.8 nS.}
+	\label{fig:ts18}
+
 	\includegraphics[scale=\tsscale]{Comparative TS Yan/ts_gnaps4p2_eLall.pdf}
 	\includegraphics[scale=\tsscale]{Comparative TS TB/ts_gnaps4p2_eLall.pdf}
-	%\caption{Time series generated from Yan and TB models at all values of $eL$ for $g_{NaP}$ = 4.2 nS.}
+	\caption{Time series generated from Yan and TB models at all values of $eL$ for $g_{NaP}$ = 4.2 nS.}
 	\label{fig:ts42}
 \end{figure}
 
+
+
 \subsection{Total Cycle Time, Burst Duration, Interburst Interval}
+
+
+Average total cycle time, the time from the start of one burst to the start of another, was uniform between models and parameters sets for all time series that exhibited bursting (not pictured). The only point of significant difference was at $eL=-60 g_{nap} = 4.2$ where the value for the TB model was half that of all other TCTs measured, due to bi-modal bursting exhibited by the TB model at that parameter set (Fig [~\ref{fig:ts42}]). 
+
 
 \begin{figure}[h]
 	\centering
@@ -67,6 +79,7 @@ Comparing time series Figures ~\ref{fig:ts18} and ~\ref{fig:ts42}, we can see th
 	\includegraphics[scale=0.4]{yan_heatmap_Burst_Duration.pdf}
 	\includegraphics[scale=0.4]{tb_heatmap_Burst_Duration.pdf}
 	\caption{Heat map showing variations in burst duration and interburst interval with changes in $eL$, $g_{NaP}$, and the model. Zeroes indicate no bursting (i.e. tonic spiking).}
+	\label{fig:hm_bd_ibi}
 \end{figure}
 
 \begin{figure}[h]
@@ -78,8 +91,6 @@ Comparing time series Figures ~\ref{fig:ts18} and ~\ref{fig:ts42}, we can see th
 \includegraphics[scale=.4]{bar_chart_model_comp_Peaks per Burst.pdf}
 \includegraphics[scale=.4]{bar_chart_model_comp_Intraburst Frequency.pdf}
 \end{figure}
-
-Average total cycle time, the time from the start of one burst to the start of another, was uniform between models and parameters sets for all time series that exhibited bursting (Fig [~\ref{fig:hm_tct}]). The only point of significant difference was at $eL=-60 g_{nap} = 4.2$ where the value for the TB model was half that of all other TCTs measured, due to bi-modal bursting exhibited by the TB model at that parameter set (Fig [~\ref{fig:ts_6042}]). 
 
 By contrast, BD and IBI were both model and parameter sensitive. BD increased with increasing $g_{nap}$ and decrease with decreasing $eL$, while IBI did the opposite. Sensitivity to changes in $eL$ and $g_{NaP}$ decreased at the lower edge of the test ranges, so that when eL was -65, BD was not sensitive to small changes in $g_{NaP}$ at the smaller end of the $g_{NaP}$ range. This effect was most apparent for the TB model than it was for the Yan model. Similarly for IBI,  as $eL$ decreased IBI became less sensitive to $g_{NaP}$, and the trend was more noticeable in the TB model. Burst duration for Yan increases with $eL$ more rapidly than does TB. Differences in burst duration between the two models does not change significantly with change in $g_{NaP}$*. For Yan, bursting does not occur while $eL = -50 mV$, while bursting occurs at $eL=-50,\  g_{NaP}=1.8, 2.4$. 
 *dbl check this
@@ -108,10 +119,13 @@ By contrast, BD and IBI were both model and parameter sensitive. BD increased wi
 \subsection{Peak Variation}
 Peak variations can be described by several measures, peaks per burst, intraburst frequency (the frequency of peaks within a burst), interpeak interval, and peak amplitude.
 
+Peaks per burst demonstrates model sensitivity that increases with increasing $eL$ and $g_{NaP}$. The Yan model consistently shows higher Peaks per Burst, except for $eL$=-60, where the TB model is significantly larger at $g_{NaP}$=3.0 and 3.6. Peaks per Burst were probably parameter dependent within a model, as comparisons indicated significant difference for the majority of parameter-based comparisons. Generally,  PpB increased with $eL$ and $g_{NaP}$, but for TB at $g_{NaP}$ = 4.2  and for Yan at $g_{NaP}$=3.6 and 4.2, PpB dropped at $eL$=-60.
 
-As $eL$ and $g_{NaP}$ increase, so does the model sensitivity of peaks per burst. The Yan model shows higher Peaks per Burst, except for $eL$=-60.
 
 For smaller values of $eL$ (-65, -60) with higher value of $gnap$ (3.0, 3.6, and 4.2), TB had a significantly larger intraburst frequency than did Yan. The same occurred for small values of $gNaP$ (1.8, 2.4) at higher values of $eL$ (-55). Interestingly at $eL$ = -65 mV, the difference between the TB and Yan values decrease with decreasing $g_{NaP}$, but at $eL$=-60 the difference increased with decreasing $gnap$. No significant difference occurred between the models for low values of $eL$ at low values of $gnap$ or at high values of $eL$ with high values of $gnap$.
+
+
+Intraburst frequency is significantly larger for the TB model at lower values of $eL$ and 
 
 Average peak amplitude was showed strong model-dependent significant differences(Figure~\ref{fig:hmPA}). However, no clear and consistent pattern of increase or decrease occurred, making it difficult to tell if peak amplitude was model-dependent in a meaningful way. Interpeak interval (not pictured) was not model dependent, as no statistically significant difference appeared between time series generated by different models with the same $eL$ and $g_{NaP}$ parameters.
 
@@ -137,6 +151,8 @@ Average peak amplitude was showed strong model-dependent significant differences
 \section{Discussion}
 
 The uniformity of TCT suggests model and parameter insensitivity. It may be a characteristic of the TB model, for which burst duration and interburst interval appeared to asymptotically approach a value when eL and nap were [unpublished results]. It is interesting to note that the addition of the P2X7 component doesn't significantly effect this trend. Determining if this uniformity is due to the TB model could be tested by adding the P2X7 component to BRS model.
+
+
 
 
 

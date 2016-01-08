@@ -14,14 +14,19 @@ debug = True
 element_sep = "-"
 #period_sub = "o" #may use in future
 
-
-
-
+"""
+Note:
+Some of the following functions are written or provided by Abby Dobyns, and
+some by myself. I've tried to note which functions were provided to me by Abby, but
+there may be inaccuracies.
+"""
 
 
 
 def delta_tuner(dataframe, epsilon, rate): #choose which data to use to tune. can be either selected list or full ist. AD reccoments full list.
     '''
+    Author Abby Dobyns
+    
     this function takes a dataframe of time series data and runs peak detection iteritvely. 
     since peak detection always has the the range of delta values of 0 to the max of stack,
     epsiolon is used to be the number of divisions of that range to test. 1 being the minimum for epsilon, which is the exact middle of the range.
@@ -52,7 +57,10 @@ def delta_tuner(dataframe, epsilon, rate): #choose which data to use to tune. ca
     return results_average, results_num
 
 def savitzky_golay(y, window_size, order, deriv=0, rate=1):
-    r"""Smooth (and optionally differentiate) data with a Savitzky-Golay filter.
+    r"""
+    Author Abby Dobyns
+    
+    Smooth (and optionally differentiate) data with a Savitzky-Golay filter.
     The Savitzky-Golay filter removes high frequency noise from data.
     It has the advantage of preserving the original shape and
     features of the signal better than other types of filtering
@@ -126,6 +134,7 @@ def savitzky_golay(y, window_size, order, deriv=0, rate=1):
 def peakdet(v, delta, x = None):
     """
     Converted from MATLAB script at http://billauer.co.il/peakdet.html
+    by Abby Dobyns
     
     Returns two arrays
     
@@ -196,6 +205,8 @@ def peakdet(v, delta, x = None):
 
 def event_detection(data, delta, rate):
     '''
+    Author Abby Dobyns
+    
     Do peak detect on a dataframe. Takes a delta value and the rate.
     A point is considered a maximum peak if it has the maximal value, and was preceded (to the left) by a value lower by DELTA.
     Returns a DataFrame of statistics on the peak amplitudes, and two dictionaries, one for the time and one for amplitude of each peak.
@@ -239,6 +250,8 @@ def event_detection(data, delta, rate):
 
 def rrinterval(maxptime): 
     """
+    Author Abby Dobyns
+    
     find time from r peak to r peak, called the R-R interval. Input array must be a list of numbers (float).
     """
     
@@ -255,6 +268,8 @@ def rrinterval(maxptime):
 
 def sliding_freq(dictionary, data_raw, window, key_word):
     '''
+    Author Abby Dobyns
+    
     takes a window size in ms and does non-overlapping count
     (which is freq, since the windows are all the same size) and average ibi.
     key_word is the key used to access the section in each dictionary value
@@ -289,6 +304,8 @@ def sliding_freq(dictionary, data_raw, window, key_word):
 
 def histent(data_list):
     '''
+    Author Abby Dobyns
+    
     Input must be a list. returns the entropy score and binarray. 
     '''
     NumBin = int(2 * (math.log(len(data_list), 2)))
@@ -314,6 +331,7 @@ def histent(data_list):
 
 
 def peak_amplitude_interval(peak_sets_temp_x, peak_sets_temp_y):
+    """Author Abby Dobyns"""
     #all events detected
     peaks = {}
     temp = []
@@ -358,7 +376,7 @@ def peak_amplitude_interval(peak_sets_temp_x, peak_sets_temp_y):
 #File Name Functions
 
 def preprocess_params(parameters):
-    parameters = sorted(parameters.items(), key=operator.itemgetter(1)) #sort dictionary so that items with None will appear first
+    parameters = sorted(parameters.items(), key=operator.itemgetter(1)) #items with None should appear first
     params = element_sep.join([key+str(val) if val else key for key,val in parameters]).replace('.','_') #process params
     return params
 
